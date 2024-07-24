@@ -1,0 +1,61 @@
+:root {
+    --cards: 3;
+    --cardHeight: 554px;
+    --cardTopPadding: 1em;
+    --cardMargin: 0vw;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.scroll-cards {
+    counter-reset: card;
+    position: relative;
+    display: block;
+}
+
+
+.scroll-cards__item {
+    --offset: 4em;
+    color: #000;
+    position: sticky;
+    top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .scroll-cards__item {
+        top: 3.6rem;
+        --offset: 0;
+    }
+}
+
+
+.scroll-cards__item:nth-of-type(0) {
+    transform: translate(0, calc((0 - 1) * var(--offset)));
+}
+
+.scroll-cards__item:nth-of-type(1) {
+    transform: translate(0, calc((1 - 1) * var(--offset)));
+}
+
+.scroll-cards__item:nth-of-type(2) {
+    transform: translate(0, calc((2 - 1) * var(--offset)));
+}
+
+.scroll-cards__item:nth-of-type(3) {
+    transform: translate(0, calc((3 - 1) * var(--offset)));
+}
+
+.scroll-cards__item:nth-of-type(4) {
+    transform: translate(0, calc((4 - 1) * var(--offset)));
+}
+
+.scroll-cards__item:nth-of-type(5) {
+    transform: translate(0, calc((5 - 1) * var(--offset)));
+}
