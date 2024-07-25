@@ -21,7 +21,7 @@ export const Header = () => {
       </div>
 
       <div className="flex gap-6 items-center">
-        <button className="flex gap-[10px] bg-[#9841FF] text-white border-4 rounded-lg border-solid border-[#9841FF] border-opacity-25 " 
+        <button className="flex gap-[10px] py-[15px] bg-[#9841FF] text-white border-4 rounded-lg border-solid border-[#9841FF] border-opacity-25 " 
         style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
           <img src={emails} className="size-6"/>
           Join the whitelist
