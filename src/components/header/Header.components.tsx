@@ -23,15 +23,14 @@ export const Header = () => {
       </div>
 
       <div className="flex gap-6 items-center">
-        <button
-        className="hidden md:flex gap-[10px] py-4 bg-[#9841FF]  border-4 rounded-lg border-solid border-[#9841FF] border-opacity-25 group hover:border-white animate-button " 
-        style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
-          <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 "/>
-          <p className="text-white group-hover:text-black z-10">
-            Join the whitelist
-          </p>
-          
-        </button>
+      <button
+      className="hidden md:flex gap-[10px] py-4 bg-[#9841FF]  border-4 rounded-lg border-solid border-[#9841FF40] group  animate-button " 
+      style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
+        <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 "/>
+        <p className="text-white group-hover:text-black z-10">
+          Join the whitelist
+        </p>
+      </button>
         <LuMenu className="text-white size-6"/>
       </div>
     </div>

@@ -10,7 +10,6 @@ export const Home = () => {
   return (
     <div className="w-full relative ">
       <Header />
-      <div className="h-[78px]" />
       <Session1 />
       <Session2 />
       <Session4 />
