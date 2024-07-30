@@ -1,12 +1,13 @@
 // import Header from "../../components/header/Header.components";
 import { Footer } from "~/components/footer/Footer.component";
 import { Header } from "~/components/header/Header.components";
-import { Blog, Community, JoinWaitlist, Session2 } from "./components";
+import {  JoinWaitlist, Session2 } from "./components";
 import { CommonQuestions } from "./components/CommonQuestions.component";
 import { Session1 } from "./components/Session1.components";
-import { Session4 } from "./components/Session4.components";
+import { JoinWaitlist01 } from "./components/JoinWaitlist01.components";
 import { StayConnected } from "./components/StayConnected.component";
 import { UnlockExclusiveBenefits } from "./components/UnlockExclusiveBenefits.component";
+import { TheNortechEcosystem } from "./components/TheNortechEcosysten.components";
 
 
 export const Home = () => {
@@ -15,9 +16,8 @@ export const Home = () => {
       <Header />
       <Session1 />
       <Session2 />
-      <Session4 />
-      <Community />
-      <Blog />
+      <JoinWaitlist01 />
+      <TheNortechEcosystem />
       <UnlockExclusiveBenefits />
       <StayConnected />
       <JoinWaitlist />
