@@ -13,7 +13,6 @@ import { TheNortechEcosystem } from "./components/TheNortechEcosysten.components
 export const Home = () => {
   return (
     <div className="w-full relative ">
-      <Header />
       <Session1 />
       <Session2 />
       <JoinWaitlist01 />
