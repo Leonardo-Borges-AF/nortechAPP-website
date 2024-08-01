@@ -5,7 +5,7 @@ import NortechIcon from '/images/icons/Nortech.svg';
 
 export const UnlockExclusiveBenefits = () => {
     return (
-        <div id="blog-session" className="bg-[#f9f9f3] text-black px-4 py-16 md:p-20 relative">
+        <div id="blog-session" className="bg-[#ffff] text-black px-4 py-16 md:p-20 relative">
             <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8 justify-center items-center">
                 <div className='flex items-center gap-2'>
                     <img src={BenefitsIcon} className='w-7 h-7' />
