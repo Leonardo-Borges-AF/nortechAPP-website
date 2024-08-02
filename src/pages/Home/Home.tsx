@@ -1,6 +1,5 @@
-// import Header from "../../components/header/Header.components";
 import { Footer } from "~/components/footer/Footer.component";
-import { Header } from "~/components/header/Header.components";
+
 import { JoinWaitlist, Session2 } from "./components";
 import { CommonQuestions } from "./components/CommonQuestions.component";
 import { JoinWaitlist01 } from "./components/JoinWaitlist01.components";
