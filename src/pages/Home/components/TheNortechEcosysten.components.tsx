@@ -10,6 +10,7 @@ import web from "/images/icons/web.png";
 import chip from "/images/icons/ai-artificial-intelligence-chip.png";
 import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 import { LuMenu } from "react-icons/lu";
+import { BsArrowRight } from "react-icons/bs";
 // import grade from "/images/littleGrade.png";
 
 
@@ -346,9 +347,14 @@ export const TheNortechEcosystem = () => {
 
                 </div>
             </div>
-
-            
-
+            <div className="flex gap-2 items-center">
+              <p className="text-2xl font-normal text-[#6001D1]">
+                Read the whitepaper
+              </p>
+              <div className="items-center rounded-full p-3 bg-[#6001D1]">
+                <BsArrowRight className="size-5 text-white"/>
+              </div>
+            </div>
         </div>
     )
 }
