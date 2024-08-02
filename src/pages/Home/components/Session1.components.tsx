@@ -1,17 +1,18 @@
 
 import emails from "/images/icons/emails.png";
 import star from "/images/icons/star.png";
+import stars from "/images/icons/Stars.png";
 import add from "/images/icons/add.png";
 import house from "/images/icons/house.png";
 import settings from "/images/icons/Settings.png";
 import searchInterface from "/images/icons/searchInterface.png";
 import coin from "/images/icons/coin.png";
-// import hero from "/images/heroImage.png";
 import arrow from "/images/arrow right.png";
 import imageInterface from "/images/imageInterface.png";
 import pay from "/images/pay to learn.png";
 import logoInterface from "/images/logoInterface.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Background from "/images/background-1.png";
 import "./Session1.css";
 import { Header } from "~/components/header/Header.components";
 
@@ -20,6 +21,7 @@ import { Header } from "~/components/header/Header.components";
 export const Session1 = () => {
   return(
     <div className="bg-[#120D17] relative h-[924px] w-full overflow-hidden">
+      <img src={Background} className="absolute opacity-10 w-[2471px] h-[2340px] top-[-500px] rotate-45"/>
       <Header />
       <div className="pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px]">
         <div className=" h-[720px] flex gap-8 items-center">
@@ -31,7 +33,7 @@ export const Session1 = () => {
                    Learn to Earn
                  </p>
             </div>
-            <h2 className="text-white font-black text-5xl leading-[60px] font-sans">
+            <h2 className="text-white font-black text-5xl leading-[60px] font-sans z-10">
                 Revolutionize Your <br /> Experience with the <br /> Nortech App
             </h2>
             <p className="text-lg leading-7 text-white opacity-65">
@@ -113,6 +115,13 @@ export const Session1 = () => {
               <img src={star} alt="" className="absolute size-[9.39px] top-[25.4px] left-[-291px] z-10"/>
               <img src={star} alt="" className="absolute size-[9.39px] top-[-138px] left-[-85px] z-10"/>
               <img src={star} alt="" className="absolute size-[9.39px] top-[493px] left-[123px] z-10"/>
+
+              <img src={stars} alt="" className="absolute size-6 top-[442px] left-[354px] z-10"/>
+              <img src={stars} alt="" className="absolute size-[18px] top-[565px] left-[484px] z-10 opacity-60"/>
+              <img src={stars} alt="" className="absolute size-[16px] top-[442px] left-[30px] z-10 opacity-60"/>
+              <img src={stars} alt="" className="absolute size-[18px] top-[-28px] left-[-110px] z-10 opacity-100"/>
+
+
               
               <div className="opacity-10 size-[739px] absolute top-[-170px] left-[-46px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] bg-opacity-30 rounded-full z-0"/>
               <div className="opacity-10 size-[903px] absolute top-[-258px] left-[-128px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] bg-opacity-30 rounded-full z-0"/>
@@ -152,7 +161,7 @@ export const Session1 = () => {
                     <div className="h-[22.62px] w-full py-[5.22px] px-[10.44px] gap-[7px] opacity-50 bg-white bg-opacity-5 rounded-lg"/>
                     <div className="h-[22.62px] w-full py-[5.22px] px-[10.44px] gap-[7px] opacity-50 bg-white bg-opacity-5 rounded-lg"/>
                   </div>
-                  <div className="p-[20.88px] flex flex-col gap-[20.86px]">
+                  <div className="p-[20.88px] flex flex-col gap-[20.86px] w-[644px]">
                     <div className="flex gap-[6.96px]">
                       <img src={settings}  className="size-[20.88px]"/>
                       <h6 className="text-xs leading-[17.4px] text-white opacity-80">
