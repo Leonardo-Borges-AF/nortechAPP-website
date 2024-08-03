@@ -5,6 +5,7 @@ import { CommonQuestions } from "./components/CommonQuestions.component";
 import { JoinWaitlist01 } from "./components/JoinWaitlist01.components";
 import { JoinWaitlist02 } from "./components/JoinWaitlist02.components";
 import { Session1 } from "./components/Session1.components";
+import { Blog } from "./components/Blog.component";
 import { StayConnected } from "./components/StayConnected.component";
 import { TheNortechEcosystem } from "./components/TheNortechEcosysten.components";
 import { UnlockExclusiveBenefits } from "./components/UnlockExclusiveBenefits.component";
@@ -22,6 +23,7 @@ export const Home = () => {
       <JoinWaitlist02 />
       <UnlockExclusiveBenefits />
       <StayConnected />
+      <Blog/>
       <JoinWaitlist />
       <CommonQuestions />
       <Footer />

@@ -1,127 +1,98 @@
-import { useEffect, useState } from "react";
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import { useQuery } from "@tanstack/react-query";
-import { formatTimestamp } from "~/utils/helpers";
-import { getNortechPosts } from "~/apis/beehiiv";
-import { TPost } from "~/types/beehiiv";
+import solar from "/images/icons/solar-system.png";
+import { FaArrowLeft } from "react-icons/fa6";
 
 export const Blog = () => {
-  const widthScreen = window.innerWidth;
 
-  const { data } = useQuery({
-    queryKey: ["getNortechPosts"],
-    queryFn: () => getNortechPosts(),
-  });
+  return(
+    <div className="bg-white relative w-full items-center justify-center flex">
+      <div className="max-w-[1440px] py-[100px] px-8 gap-[20px] flex flex-col ">
+        <div className="flex flex-col gap-[53px]">
+          <div className="w-full">
+            <div className="w-[32px] h-[1.5px] bg-[#07090C] "/>
+          </div> 
+          <div className="justify-between w-full flex">
+            <div className="flex flex-col gap-8 w-full ">
+              <div className="flex gap-2 rounded-[40px] items-center pl-2">
+                <img src={solar} className="size-6" />
+                <h5 className="text-[#6001D1] text-lg">
+                  Esclareça suas dúvidas
+                </h5>
+              </div>
+              <h4 className="font-semibold text-4xl leading-[44px] text-[#0B0D12] w-[672px]">
+                Futuro da Educação e Tecnologia com o Blog da NortechApp
+              </h4>
+            </div>
 
-  return (
-    <div id="blog-session" className="bg-background-primary px-4 py-16 md:p-20">
-      <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8">
-        <h2 className="md:text-4xl  text-[28px] font-bold text-white leading-tight">
-          News and Insights
-        </h2>
-        <Swiper
-          slidesPerView={widthScreen > 1024 ? 3 : widthScreen > 768 ? 2 : 1}
-          spaceBetween={30}
-          modules={[Navigation]}
-        >
-          <div className="absolute top-0 w-full justify-between items-center flex z-50">
-            <p className="text-colorText text-base md:w-[550px]">
-              Read about the latest trends, educational discoveries and success
-              stories from the Nortech community.
+            <p className="text-right items-end font-main text-lg leading-[32px] text-[#9195A6] w-[358px] tracking-[-0.1em] flex">
+              Leia sobre as últimas tendências, descobertas educacionais e histórias  de sucesso da comunidade Nortech.
             </p>
-            <div className="hidden md:flex gap-2 ">
-              <ButtonsSlide />
+
+            
+          </div>
+          <div className="flex gap-8">
+            <Card
+              text1="Descubra o Futuro da Educação e Tecnologia com o Blog da Nortech ..."
+              text2="Fique por dentro das últimas tendências, insights e i..."
+              text3="23 de feveiro de 2024"
+            />
+            
+            <Card
+              text1="Descubra o Futuro da Educação e Tecnologia com o Blog da Nortech ..."
+              text2="Fique por dentro das últimas tendências, insights e i..."
+              text3="23 de feveiro de 2024"
+            />
+            <Card
+              text1="Descubra o Futuro da Educação e Tecnologia com o Blog da Nortech ..."
+              text2="Fique por dentro das últimas tendências, insights e i..."
+              text3="23 de feveiro de 2024"
+            />
+          </div>
+          <div className="flex gap-3">
+            <div className="bg-[#07090C] rounded-lg p-3 ">
+              <FaArrowLeft className="text-white size-6"/>
+            </div>
+            <div className="rounded-lg p-3 ">
+              <FaArrowLeft className="text-black size-6 rotate-180"/>
             </div>
           </div>
-
-          {data?.data.map((card, index) => (
-            <SwiperSlide key={index} className="mt-20">
-              <Card data={card} />
-            </SwiperSlide>
-          ))}
-          <div className="flex md:hidden gap-2 mt-8">
-            <ButtonsSlide />
-          </div>
-        </Swiper>
+        </div>
+        
       </div>
     </div>
-  );
+  )
+
+
 };
 
-type TCardProps = {
-  data: TPost;
-};
+type TCard={
+  text1: string
+  text2: string
+  text3: string
+}
 
-const Card = ({ data }: TCardProps) => {
-  return (
-    <a
-      href={data?.web_url}
-      target="_blank"
-      className="group rounded-md bg-secondary p-6 border-[1px] gap-4 flex flex-col z-20 h-[350px] hover:bg-[#131317] duration-300"
-      style={{
-        borderColor: "#222222",
-      }}
-    >
-      <img
-        src={data.thumbnail_url}
-        alt={data.title}
-        className="rounded-lg w-full h-[200px] object-cover border-[1px] group-hover:brightness-75 duration-300"
-        style={{
-          borderColor: "#222222",
-        }}
-      />
-      <h3 className="text-xl font-bold text-white pr-2">{data.title}</h3>
-      <span className="text-xs text-success bg-success-background px-2 py-1 uppercase rounded-xl border-success-outlined border w-fit mt-auto">
-        {formatTimestamp(data.publish_date)}
-      </span>
-    </a>
-  );
-};
-
-const ButtonsSlide = () => {
-  const swiper = useSwiper();
-  const [hasPrevious, setHasPrevious] = useState(false);
-  const [hasNext, setHasNext] = useState(true);
-
-  const goToPreviousCard = () => {
-    console.log(swiper);
-    swiper.slidePrev();
-  };
-
-  const goToNextCard = () => {
-    console.log(swiper);
-    swiper.slideNext();
-  };
-
-  useEffect(() => {
-    if (swiper) {
-      swiper.on("slideChange", () => {
-        setHasPrevious(swiper?.activeIndex > 0 ? true : false);
-        swiper.isEnd ? setHasNext(false) : setHasNext(true);
-      });
-    }
-  }, [swiper]);
-
-  return (
-    <>
-      <button
-        onClick={goToPreviousCard}
-        style={{
-          backgroundColor: hasPrevious ? "#313137" : "#1d1d22",
-        }}
-      >
-        <RiArrowLeftLine size={24} color={hasPrevious ? "#fff" : "#808083"} />
-      </button>
-      <button
-        onClick={goToNextCard}
-        style={{
-          backgroundColor: hasNext ? "#313137" : "#1d1d22",
-        }}
-      >
-        <RiArrowRightLine size={24} color={hasNext ? "#fff" : "#808083"} />
-      </button>
-    </>
-  );
-};
+const Card = ({
+  text1,
+  text2,
+  text3
+}: TCard) => {
+  return(
+      <div className="rounded-[4px] p-6 flex flex-col gap-8 w-[392.66px] bg-[#FDFDFD]">
+        <div className="w[342px] h-[202px] rounded-[4px] bg-gray-400"/>
+        <div className="pb-4 flex flex-col gap-[18px]">
+          <div className="flex flex-col gap-[10xp]">
+            <h6 className="font-semibold text-xl text-[#07090C] ">
+              {text1}
+            </h6>
+            <p className="opacity-60 text-[#FFFFFF] text-sm">
+              {text2}
+            </p>
+          </div>
+          <div className="rounded-lg py-[6px] px-2 border border-white bg-[#F1F1F1] w-fit">
+            <p className="font-medium font-main text-xs text-[#07090C]">
+              {text3}
+            </p>
+          </div>
+        </div>
+      </div>
+  )
+}
