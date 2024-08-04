@@ -534,7 +534,7 @@ h1 {
     background: linear-gradient(to bottom, #AE6BFF 50%, #fff 50%);
     background-size: 100% 200%;
     background-position: bottom;
-    transition: all .35s ease-out;
+    transition: all .4s ease-out;
     opacity: 50%;
 }
 
@@ -550,4 +550,31 @@ h1 {
 
 .border__top-bottom-active {
     border: 1px solid rgba(174, 107, 255, 0.5);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Aplicação da animação aos elementos desejados */
+.floating {
+    animation: float 4s ease-in-out infinite;
+}
+
+.selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }

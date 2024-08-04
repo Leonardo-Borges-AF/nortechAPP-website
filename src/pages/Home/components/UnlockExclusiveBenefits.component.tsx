@@ -1,9 +1,13 @@
 import { IoMdCheckboxOutline } from "react-icons/io";
+import { CardFloating } from "~/components/CardFloating.componen";
 import BenefitsIcon from '/images/icons/Benefits.svg';
 import Check from '/images/icons/Check.svg';
 import NortechIcon from '/images/icons/Nortech.svg';
+import CertificateIcon from '/images/icons/certificate.svg';
+import CryptoCircleIcon from '/images/icons/crypto-circle.svg';
 
 export const UnlockExclusiveBenefits = () => {
+
     return (
         <div id="blog-session" className="bg-[#ffff] text-black px-4 py-16 md:p-20 relative">
             <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8 justify-center items-center">
@@ -17,7 +21,7 @@ export const UnlockExclusiveBenefits = () => {
                     Unlock Exclusive Benefits
                 </h2>
                 <div className='flex items-center gap-8 justify-start relative w-full bg-[#FBFAFC] p-6 rounded-xl overflow-hidden'>
-                    <div className='flex flex-col gap-4 max-w-[400px]'>
+                    <div className='flex flex-col gap-4 max-w-[400px] pb-8'>
                         <div className='flex items-center gap-2'>
                             <img src={NortechIcon} />
                             <h6 className='font-bold'>Bonus on NTH Tokens</h6>
@@ -28,7 +32,7 @@ export const UnlockExclusiveBenefits = () => {
                         </p>
                     </div>
                     <div className='w-full relative h-full'>
-                        <div className='flex flex-col bg-white p-6 rounded-2xl h-[318px] absolute -top-[80px] -right-[80px] gap-4 border-[10px] border-opacity-15 border-gray-400'
+                        <div className='flex flex-col bg-white p-6 rounded-2xl h-[318px] absolute -top-[110px] -right-[80px] gap-4 border-[10px] border-opacity-15 border-gray-400'
                             style={{
                                 width: 'calc(100% + 80px)',
                             }}>
@@ -37,6 +41,30 @@ export const UnlockExclusiveBenefits = () => {
                                 <h6 className='text-[#6001D1]'>Registered on the waiting list</h6>
                             </div>
                             <p className='text-[#505358] text-xs font-semibold'>Email received</p>
+                            <CardFloating
+                                text="+200 NTH Tokens"
+                                position={{
+                                    left: 'calc(50% - 60px)',
+                                    top: 'calc(50% - 90px)',
+                                }}
+                                icon={NortechIcon}
+                            />
+                            <CardFloating
+                                text="Congratulations on signing up"
+                                position={{
+                                    left: 'calc(50% - 300px)',
+                                    top: 'calc(50% + 20px)',
+                                }}
+                                icon={CryptoCircleIcon}
+                            />
+                            <CardFloating
+                                text="Certificate received"
+                                position={{
+                                    left: 'calc(50% + 125px)',
+                                    top: 'calc(50% + 10px)',
+                                }}
+                                icon={CertificateIcon}
+                            />
                             <div className='bg-[#F2E8FF] w-full h-[196px] rounded-lg'></div>
                         </div>
                     </div>
@@ -94,3 +122,5 @@ export const UnlockExclusiveBenefits = () => {
         </div>
     )
 }
+
+

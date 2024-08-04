@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import Background from "/images/background-1.png";
 import BenefitsIcon from '/images/icons/Benefits.svg';
 import CertificateIcon from '/images/icons/certificate-light.svg';
@@ -8,6 +9,36 @@ import StudyListIcon from '/images/icons/study-list-light.svg';
 import UserIcon from '/images/icons/user-light.svg';
 
 export const UnlockRewardsProofStudy = () => {
+    const elementsToActivate = [
+        'column00', 'line0', 'column0', 'card1',
+        'line1', 'column1', 'card2',
+        'line2', 'column2', 'card3', 'line3', 'column3', 'card4',
+        'line4', 'column4',
+        'card5'
+    ];
+
+
+    const activateElements = (elements) => {
+        elements.forEach((elementId, index) => {
+            setTimeout(() => {
+                document.getElementById(elementId)?.classList.add('background__top-bottom-active', 'border__top-bottom-active');
+            }, index * 100);
+        });
+    };
+
+    const handleActive = () => {
+        activateElements(elementsToActivate);
+    };
+
+
+    const { ref } = useInView({
+        onChange(inView) {
+            if (inView) {
+                handleActive();
+            }
+        },
+    });
+
     return (
         <div id="blog-session" className="bg-[#120d17] text-black px-4 py-16 md:p-20 relative">
             <img
@@ -27,46 +58,6 @@ export const UnlockRewardsProofStudy = () => {
                 <h5 className="text-[18px] leading-tight text-white opacity-70">
                     Earn NTH tokens as you learn, completing courses and achieving educational milestones on NortechApp.
                 </h5>
-                <div className="outer__button background__top-bottom" onClick={() => {
-                    document.getElementById('line0')?.classList.add('background__top-bottom-active');
-                    document.getElementById('column0')?.classList.add('background__top-bottom-active');
-                    document.getElementById('column00')?.classList.add('background__top-bottom-active');
-                    document.getElementById('line1')?.classList.add('background__top-bottom-active');
-                    document.getElementById('column1')?.classList.add('background__top-bottom-active');
-                    document.getElementById('line2')?.classList.add('background__top-bottom-active');
-                    document.getElementById('column2')?.classList.add('background__top-bottom-active');
-                    document.getElementById('line3')?.classList.add('background__top-bottom-active');
-                    document.getElementById('column3')?.classList.add('background__top-bottom-active');
-                    document.getElementById('line4')?.classList.add('background__top-bottom-active');
-                    document.getElementById('column4')?.classList.add('background__top-bottom-active');
-                    document.getElementById('card1')?.classList.add('border__top-bottom-active');
-                    document.getElementById('card2')?.classList.add('border__top-bottom-active');
-                    document.getElementById('card3')?.classList.add('border__top-bottom-active');
-                    document.getElementById('card4')?.classList.add('border__top-bottom-active');
-                    document.getElementById('card5')?.classList.add('border__top-bottom-active');
-                }}>
-                    <div className="text">Ativa</div>
-                </div>
-                <div className="outer__button background__top-bottom" onClick={() => {
-                    document.getElementById('line0')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('column0')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('column00')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('line1')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('column1')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('line2')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('column2')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('line3')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('column3')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('line4')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('column4')?.classList.remove('background__top-bottom-active');
-                    document.getElementById('card1')?.classList.remove('border__top-bottom-active');
-                    document.getElementById('card2')?.classList.remove('border__top-bottom-active');
-                    document.getElementById('card3')?.classList.remove('border__top-bottom-active');
-                    document.getElementById('card4')?.classList.remove('border__top-bottom-active');
-                    document.getElementById('card5')?.classList.remove('border__top-bottom-active');
-                }}>
-                    <div className="text">Desativa</div>
-                </div>
                 <div className="flex flex-col gap-4 relative h-[965px] w-full">
                     <div className="relative h-[47px]">
                         <div>
@@ -107,7 +98,7 @@ export const UnlockRewardsProofStudy = () => {
                         <div id={'line4'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] right-[380px] absolute top-[55px]"></div>
                         <div id={'column4'} className="background__top-bottom h-[80px] w-[1px] left-[190px] absolute top-[56px]"></div>
                     </div>
-                    <div className="relative h-[120px]">
+                    <div ref={ref} className="relative h-[120px]">
                         <div className="absolute lef-0">
                             <Card id={'card5'} title="Learn to invest" description="Use your NTH Tokens to explore investments and expand your financial knowledge." icon={<img src={DatabaseIcon} />} />
                         </div>
