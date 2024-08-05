@@ -45,112 +45,113 @@ export const Session2 = () => {
   const aboutStyle = selected === 1 ? 'text-[#6001D1]' : selected === 2 ? 'text-[#6001D1]' : 'text-[#fff]'
 
   return (
-    <div id="session-about-nortech" className="bg-white pt-20 pl-[64px] pb-32 flex gap-3 transition-all duration-300 relative">
-      <div id="background-image" className="absolute z-0 top-[200px] left-[-800px] w-full h-full bg-cover bg-center transition-all duration-700 selectDisable" style={{ transform: `rotate(${rotation}deg)` }}>
-        <img id="background-image" src={Background} className='absolute opacity-20 top-[-900px] left-[-200px] rotate-10 w-[3322px] h-[3147px] selectDisable' />
-      </div>
-      <div className="flex flex-col">
-        <div className="flex flex-col gap-6 py-8 w-[594px]">
-          <div className="flex flex-col gap-2 ">
-            <div className="flex gap-1 items-center">
-              <img src={solar} alt="" className="size-6" />
-              <h4 className={`font-normal text-lg leading-7 ${aboutStyle}`}>
-                ABOUT NORTECH
-              </h4>
+    <div id="session-about-nortech" className='bg-white relative overflow-hidden'>
+      <div className="pt-20 pb-32 flex gap-3 transition-all duration-300 relative max-w-[1184px] mx-auto ">
+        <div id="background-image" className="absolute top-[200px] left-[-800px] w-full h-full bg-cover bg-center transition-all duration-700 selectDisable" style={{ transform: `rotate(${rotation}deg)` }}>
+          <img id="background-image" src={Background} className='absolute opacity-15 top-[-900px] left-[-200px] rotate-10 w-[3322px] h-[3147px] selectDisable -z-50' />
+        </div>
+        <div className="flex flex-col relative z-10">
+          <div className="flex flex-col gap-6 py-8 w-[594px]">
+            <div className="flex flex-col gap-2 ">
+              <div className="flex gap-1 items-center">
+                <img src={solar} alt="" className="size-6" />
+                <h4 className={`font-normal text-lg leading-7 ${aboutStyle}`}>
+                  ABOUT NORTECH
+                </h4>
+              </div>
+              <p className={`font-sans font-semibold leading-[44px] text-4xl ${titleStyle}`}>
+                See how Nortech can <br /> benefit you
+              </p>
             </div>
-            <p className={`font-sans font-semibold leading-[44px] text-4xl ${titleStyle}`}>
-              See how Nortech can <br /> benefit you
+            <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
+              Nortech is more than an educational platform; it s a gamified
+              learning experience that encourages your growth. Explore a vast
+              library of high-quality courses and connect with a network of
+              professionals through the Nortech App.
+            </p>
+            <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
+              Every step you take is rewarded with NTH tokens, which you can
+              use to access exclusive resources and participate in the
+              evolution.
             </p>
           </div>
-          <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
-            Nortech is more than an educational platform; it s a gamified
-            learning experience that encourages your growth. Explore a vast
-            library of high-quality courses and connect with a network of
-            professionals through the Nortech App.
-          </p>
-          <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
-            Every step you take is rewarded with NTH tokens, which you can
-            use to access exclusive resources and participate in the
-            evolution.
-          </p>
-        </div>
 
-        <div className="flex flex-col py-8 pr-8 gap-[54px] ">
-          <div className="flex flex-col gap-[27.5px] ">
-            <div className="flex flex-col gap-8 ">
-              <div className="flex gap-4 hover:cursor-pointer" onClick={handleEstudante}>
-                <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle1}`}>
-                  01
+          <div className="flex flex-col py-8 pr-8 gap-[54px] ">
+            <div className="flex flex-col gap-[27.5px] ">
+              <div className="flex flex-col gap-8 ">
+                <div className="flex gap-4 hover:cursor-pointer" onClick={handleEstudante}>
+                  <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle1}`}>
+                    01
+                  </h3>
+                  <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle1}`}>
+                    Estudante
+                  </h3>
+                </div>
+                {selected === 1 && <ProgresiveBar onComplete={() => handleComplete(2)} selected={selected} />}
+
+              </div>
+              <div className="flex gap-4 hover:cursor-pointer" onClick={handleProfessor}>
+                <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle2}`}>
+                  02
                 </h3>
-                <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle1}`}>
-                  Estudante
+                <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle2}`}>
+                  Professor
                 </h3>
               </div>
-              {selected === 1 && <ProgresiveBar onComplete={() => handleComplete(2)} selected={selected} />}
+              {selected === 2 && <ProgresiveBar onComplete={() => handleComplete(3)} selected={selected} />}
 
+              <div className="flex gap-4 hover:cursor-pointer" onClick={handleAfiliado}>
+                <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle3}`}>
+                  03
+                </h3>
+                <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle3}`}>
+                  Afiliado
+                </h3>
+              </div>
+              {selected === 3 && <ProgresiveBar onComplete={() => handleComplete(1)} selected={selected} />}
             </div>
-            <div className="flex gap-4 hover:cursor-pointer" onClick={handleProfessor}>
-              <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle2}`}>
-                02
-              </h3>
-              <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle2}`}>
-                Professor
-              </h3>
-            </div>
-            {selected === 2 && <ProgresiveBar onComplete={() => handleComplete(3)} selected={selected} />}
-
-            <div className="flex gap-4 hover:cursor-pointer" onClick={handleAfiliado}>
-              <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle3}`}>
-                03
-              </h3>
-              <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle3}`}>
-                Afiliado
-              </h3>
-            </div>
-            {selected === 3 && <ProgresiveBar onComplete={() => handleComplete(1)} selected={selected} />}
           </div>
         </div>
-      </div>
-      <div className="relative flex-1">
-
-        <AnimatePresence mode="wait">
-          {selected === 1 && (
-            <motion.div
-              key="component1"
-              initial={{ y: 100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -100, opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="absolute w-full"
-            >
-              <Component1 />
-            </motion.div>
-          )}
-          {selected === 2 && (
-            <motion.div
-              key="component2"
-              initial={{ y: 100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -100, opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="absolute w-full"
-            >
-              <Component2 />
-            </motion.div>
-          )}
-          {selected === 3 && (
-            <motion.div
-              key="component3"
-              initial={{ y: 100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -100, opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="absolute w-full"
-            >
-              <Component3 />
-            </motion.div>
-          )}
-        </AnimatePresence>
+        <div className="flex-1 relative z-10 mt-8">
+          <AnimatePresence mode="wait">
+            {selected === 1 && (
+              <motion.div
+                key="component1"
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: -100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+                className="absolute w-full"
+              >
+                <Component1 />
+              </motion.div>
+            )}
+            {selected === 2 && (
+              <motion.div
+                key="component2"
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: -100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+                className="absolute w-full"
+              >
+                <Component2 />
+              </motion.div>
+            )}
+            {selected === 3 && (
+              <motion.div
+                key="component3"
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: -100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+                className="absolute w-full"
+              >
+                <Component3 />
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
       </div>
     </div>
   );

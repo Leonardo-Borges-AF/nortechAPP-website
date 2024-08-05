@@ -43,7 +43,7 @@ export const UnlockRewardsProofStudy = () => {
         <div id="blog-session" className="bg-[#120d17] text-black px-4 py-16 md:p-20 relative">
             <img
                 src={Background}
-                className="absolute w-[200%] h-[200%] right-0 -top-52 opacity-10"
+                className="absolute w-[200%] h-[200%] right-0 -top-52 opacity-10 -z-50"
             />
             <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8 justify-center items-center">
                 <div className='flex items-center gap-2'>
