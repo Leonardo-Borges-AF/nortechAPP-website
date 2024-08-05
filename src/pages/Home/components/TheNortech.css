@@ -1,0 +1,143 @@
+.progress-43{
+    width: 12px;
+    height: 30px;
+    background-color: #6001D1;
+    position: absolute;
+    left: 0;
+}
+.progress {
+    width: 12px;
+    height: 30px;
+    background-color: #6001D1;
+    position: absolute;
+    left: 0; 
+}
+.white-ball {
+    box-shadow: 0px 8px 32.7px rgba(15, 19, 26, 0.12);
+}
+  
+.progress-text {
+    font-weight: 600; 
+    position: absolute;
+    font-size: 0.75rem; 
+    color: #FFFFFF; 
+    padding-top: 0.25rem; 
+    padding-bottom: 0.25rem; 
+    left: 50%; 
+    opacity: 0;
+}
+.trigger{
+    display: flex;
+    gap: 8px;
+}
+.bar-10{
+    background-color: #6001D1;
+    height: 5px;
+    width: 9px;
+    top: 67px;
+    left: 31px;
+    position: absolute;
+}
+.bar-11{
+    background-color: #6001D1;
+    height: 9px;
+    width: 9px;
+    top: 63px;
+    left: 49px;
+    position: absolute;
+}
+.bar-12{
+    background-color: #6001D1;
+    height: 5px;
+    width: 9px;
+    top: 67px;
+    left: 67px;
+    position: absolute;
+}
+.bar-13{
+    background-color: #6001D1;
+    height: 16px;
+    width: 9px;
+    top: 56px;
+    left: 85px;
+    position: absolute;
+}
+.bar-14{
+    background-color: #6001D1;
+    height: 5px;
+    width: 9px;
+    top: 67px;
+    left: 103px;
+    position: absolute;
+}
+.bar-16 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 15px;
+    top: 56px;
+    right: 20px;
+    position: absolute;
+  }
+  
+  .bar-17 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 12px;
+    top: 59px;
+    right: 38px;
+    position: absolute;
+  }
+  
+  .bar-18 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 13px;
+    top: 58px;
+    right: 56px;
+    position: absolute;
+  }
+  
+  .bar-19 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 7px;
+    top: 64px;
+    right: 74px;
+    position: absolute;
+  }
+  
+  .bar-20 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 17px;
+    top: 54px;
+    right: 92px;
+    position: absolute;
+  }
+  
+  .bar-21 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 9px;
+    top: 62px;
+    right: 110px;
+    position: absolute;
+  }
+  
+  .bar-22 {
+    background-color: #160c22;
+    width: 9px;
+    height: 12px;
+    top: 59px;
+    right: 138px;
+    position: absolute;
+  }
+  
+  .bar-23 {
+    background-color: #6001D1;
+    width: 9px;
+    height: 5px;
+    top: 66px;
+    right: 156px;
+    position: absolute;
+  }

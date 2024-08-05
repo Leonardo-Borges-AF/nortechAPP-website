@@ -12,13 +12,151 @@ import video from "/images/icons/video.png";
 import web from "/images/icons/web.png";
 import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 // import grade from "/images/littleGrade.png";
+import loading from "/images/icons/shield-loading.png";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { CardFloating } from "~/components/CardFloating.componen";
 import CertificateIcon from '/images/icons/certificate.svg';
+import { useLayoutEffect } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import "./TheNortech.css";
 import NortechIcon from '/images/icons/Nortech.svg';
+import hat from '/images/icons/graduate-hat-loading.png';
 
 
 export const TheNortechEcosystem = () => {
+    useLayoutEffect(() => { 
+        
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.to(".progress-43", {
+        width: 110,
+        duration: 3,
+        ease: 'power2.inOut',
+        scrollTrigger: {
+            trigger: ".trigger",
+        },
+        });
+        gsap.to(".bar-10", {
+            height: 40,
+            top: 32,
+            left: 31,
+            duration: 1.5,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-11", {
+            height: 22,
+            duration: 1.5,
+            top: 50,
+            left: 48,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-12", {
+            height: 33,
+            duration: 1.5,
+            top: 39,
+            left: 67,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-13", {
+            height: 48,
+            duration: 1.5,
+            top: 24,
+            left: 85,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-14", {
+            height: 11,
+            duration: 1.5,
+            top: 61,
+            left: 103,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-16", {
+            height: 35,
+            duration: 1.5,
+            top: 36,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-17", {
+            height: 28,
+            duration: 1.5,
+            top: 43,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-18", {
+            height: 31,
+            duration: 1.5,
+            top: 40,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-19", {
+            height: 17,
+            duration: 1.5,
+            top: 54,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-20", {
+            height: 40,
+            duration: 1.5,
+            top: 31,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".bar-21", {
+            height: 22,
+            duration: 1.5,
+            top: 49,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".progress", {
+            width: 443,
+            duration: 4,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+        gsap.to(".progress-text", {
+            opacity: 100,
+            ease: 'power2.inOut',
+            scrollTrigger: {
+                trigger: ".trigger",
+            },
+        });
+      }, []);
+      
     return (
         <div className="px-28 py-[82px] flex flex-col gap-12 bg-white items-center ">
             <div className="flex flex-col gap-12 justify-center items-center max-w-[1184px]">
@@ -36,7 +174,7 @@ export const TheNortechEcosystem = () => {
 
                 <div className="flex flex-col gap-8 ">
 
-                    <div className="flex gap-8 ">
+                    <div className="trigger">
 
                         {/* card 1 */}
                         <div className="flex flex-col gap-4 p-6 rounded-xl bg-gradient-to-b from-[rgba(251,250,252,0)] to-[#FBFAFC] w-[384px]">
@@ -161,7 +299,7 @@ export const TheNortechEcosystem = () => {
                                             <p className="font-semibold absolute text-xs text-[#505358] py-1 left-1/2 ">
                                                 43%
                                             </p>
-                                            <div className="w-[12px] h-[30px] bg-[#6001D1] absolute left" />
+                                            <div className="progress-43" />
                                         </div>
                                     </div>
                                 </div>
@@ -222,11 +360,11 @@ export const TheNortechEcosystem = () => {
                                                 <p className="absolute text-[#505358] text-[8px] leading-[18px] top-[72px] left-[103px]">
                                                     14
                                                 </p>
-                                                <div className="bg-[#6001D1] h-[5px] w-[9px] top-[67px] left-[31px] absolute" />
-                                                <div className="bg-[#6001D1] h-[9px] w-[9px] top-[63px] left-[49px] absolute" />
-                                                <div className="bg-[#6001D1] h-[5px] w-[9px] top-[67px] left-[67px] absolute" />
-                                                <div className="bg-[#6001D1] h-[16px] w-[9px] top-[56px] left-[85px] absolute" />
-                                                <div className="bg-[#6001D1] h-[5px] w-[9px] top-[67px] left-[103px] absolute" />
+                                                <div className="bar-10" />
+                                                <div className="bar-11" />
+                                                <div className="bar-12" />
+                                                <div className="bar-13" />
+                                                <div className="bar-14" />
                                             </div>
                                         </div>
                                     </div>
@@ -246,14 +384,15 @@ export const TheNortechEcosystem = () => {
                                     </p>
                                     <div className="flex w-full h-100px ">
                                         <div className="relative rounded-lg border border-[#F5F6F6] bg-[#FDFDFD] w-full h-[100px]">
-                                            <div className="bg-[#6001D1] w-[9px] h-[15px] top-[56px] right-[20px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[12px] top-[59px] right-[38px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[13px] top-[58px] right-[56px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[7px] top-[64px] right-[74px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[17px] top-[54px] right-[92px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[9px] top-[62px] right-[110px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[12px] top-[59px] right-[138px] absolute" />
-                                            <div className="bg-[#6001D1] w-[9px] h-[5px] top-[66px] right-[156px] absolute" />
+                                            <div className="bar-16" />
+                                            <div className="bar-17" />
+                                            <div className="bar-18" />
+                                            <div className="bar-19" />
+                                            <div className="bar-20" />
+                                            <div className="bar-21" />
+                                            <div className="bar-22" />
+                                            <div className="bar-23" />
+                                            
                                             <p className="absolute top-[71px] right-[20px] text-[#505358] text-[8px] leading-[18px] ">
                                                 21
                                             </p>
@@ -341,7 +480,10 @@ export const TheNortechEcosystem = () => {
                                                     Progress course
                                                 </p>
                                                 <div className="w-full border border-[#F1F1F1] rounded-full relative h-[26px] overflow-hidden">
-                                                    <div className="w-[12px] h-[30px] bg-[#6001D1] absolute left" />
+                                                    <div className="progress" />
+                                                    <p className="progress-text">
+                                                        100%
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div className="bg-[#F2E8FF] w-[454px] h-[100px] rounded-lg " />
@@ -359,14 +501,22 @@ export const TheNortechEcosystem = () => {
                                 O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
                             </p>
                         </div>
-                        <div className="w-[592px] h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-white"
+                        <div className="w-[592px] h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-[#FBFAFC]"
                             style={{
                                 backgroundImage: `url(${"grade"})`,
                             }}
                         >
                             <div className="flex w-full h-[236px]">
                                 <div className="relative w-full h-[236px] overflow-hidden">
-
+                                    <div className="white-ball rounded-full bg-white size-[56px] top-[7px] left-[338px] absolute"/>
+                                    <div className="white-ball rounded-full bg-white size-[56px] top-[141px] left-[128px] absolute"/>
+                                    <div className="absolute top-[26px] left-[77px] p-4 white-ball rounded-full bg-[#6001D1]">
+                                        <img src={loading} className="size-6" />
+                                    </div>
+                                    <div className="absolute top-[150px] left-[426px] p-4 white-ball rounded-full bg-[#6001D1]">
+                                        <img src={hat} className="size-6" />
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div className="flex gap-2 w-full ">
