@@ -1,8 +1,10 @@
 type TCard = {
     text: string
     position: {
-        left: string;
-        top: string;
+        left?: string;
+        top?: string;
+        right?: string;
+        bottom?: string;
     };
     icon: string | React.ReactNode;
     iconPosition?: 'left' | 'right';
@@ -22,6 +24,8 @@ export const CardFloating = ({
                 position: 'absolute',
                 left: position.left,
                 top: position.top,
+                right: position.right,
+                bottom: position.bottom,
             }}>
             {iconPosition === 'left' && typeof icon === 'string' && (
                 <img src={icon} alt="" className="size-6 text-[#3A3D43] " />

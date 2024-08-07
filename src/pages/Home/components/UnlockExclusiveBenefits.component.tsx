@@ -1,10 +1,11 @@
 import { IoMdCheckboxOutline } from "react-icons/io";
 import { CardFloating } from "~/components/CardFloating.componen";
 import BenefitsIcon from '/images/icons/Benefits.svg';
-import Check from '/images/icons/Check.svg';
-import NortechIcon from '/images/icons/Nortech.svg';
 import CertificateIcon from '/images/icons/certificate.svg';
+import { default as Check, default as CheckIcon } from '/images/icons/Check.svg';
 import CryptoCircleIcon from '/images/icons/crypto-circle.svg';
+import NortechIcon from '/images/icons/Nortech.svg';
+import Nnortech from '/images/N.png';
 
 export const UnlockExclusiveBenefits = () => {
 
@@ -70,16 +71,60 @@ export const UnlockExclusiveBenefits = () => {
                     </div>
                 </div>
                 <div className='flex items-center w-full gap-6'>
-                    <div className='flex items-start gap-8 justify-start relative w-full bg-[#FBFAFC] p-6 rounded-xl overflow-hidden min-h-[400px] '>
-                        <div className='flex flex-col gap-4 max-w-[400px]'>
-                            <div className='flex items-center gap-2'>
-                                <img src={NortechIcon} />
-                                <h6 className='font-bold'>Early Access</h6>
-                            </div>
-                            <p className='opacity-60 text-[#33363C]'>
-                                Have early access to new courses and <br /> platform features.
-                            </p>
+                    <div className='flex flex-col items-start gap-8 justify-start w-full bg-[#FBFAFC] p-6 rounded-xl overflow-hidden min-h-[400px] relative'>
+                        <div className='flex items-center gap-2'>
+                            <img src={NortechIcon} />
+                            <h6 className='font-bold'>Early Access</h6>
                         </div>
+                        <p className='opacity-60 text-[#33363C]'>
+                            Have early access to new courses and <br /> platform features.
+                        </p>
+                        <div className="flex items-center justify-center h-full w-full absolute left-0 bottom-0 overflow-hidden">
+                            <div className="flex items-center justify-center bg-[#6001D1] rounded-full w-12 h-12 absolute top-[58%]">
+                                <img src={Nnortech} />
+                            </div>
+                            <div className="relative top-[14%] h-full max-h-[230px] w-full overflow-hidden">
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[80px] h-[80px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[140px] h-[140px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[200px] h-[200px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[260px] h-[260px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[320px] h-[320px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[380px] h-[380px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                            </div>
+                            <CardFloating
+                                text="Participation in Feedback and Development"
+                                position={{
+                                    left: '15%',
+                                    top: '40%',
+                                }}
+                                icon={CheckIcon}
+                            />
+                            <CardFloating
+                                text="Bonus on NTH Tokens"
+                                position={{
+                                    right: '0',
+                                    top: '57%',
+                                }}
+                                icon={NortechIcon}
+                            />
+                            <CardFloating
+                                text="Achievements and Special Rewards"
+                                position={{
+                                    left: '20%',
+                                    bottom: '15%',
+                                }}
+                                icon={BenefitsIcon}
+                            />
+                            <CardFloating
+                                text="First to Test New Features"
+                                position={{
+                                    left: '0',
+                                    top: '57%',
+                                }}
+                                icon={CryptoCircleIcon}
+                            />
+                        </div>
+
                     </div>
                     <div className='flex gap-8 justify-start relative w-full bg-[#FBFAFC] p-6 rounded-xl overflow-hidden min-h-[400px] items-start'>
                         <div className='flex flex-col gap-4 w-full'>
