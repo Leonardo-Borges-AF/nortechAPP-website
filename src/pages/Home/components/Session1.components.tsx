@@ -14,6 +14,7 @@ import star from "/images/icons/star.png";
 import stars from "/images/icons/Stars.png";
 import imageInterface from "/images/imageInterface.png";
 import logoInterface from "/images/logoInterface.png";
+import nortechBadge from "/images/nortech-badge.png";
 import pay from "/images/pay to learn.png";
 import login from "/images/login.png";
 
@@ -25,7 +26,7 @@ export const Session1 = () => {
       <div className="bg-[#120D17] relative h-[924px] w-full overflow-hidden z-10 md:block sm:hidden xs:hidden">
         <img src={Background} className="absolute opacity-10 w-[2471px] h-[2340px] top-[-500px] rotate-45" />
         <Header />
-        <div className="pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px]">
+        <div className="relative pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px]">
           <div className=" h-[720px] flex gap-8 items-center">
             <div className="pl-28 flex flex-col gap-6 w-[578px]">
               <div className="flex gap-3 items-center">
@@ -125,10 +126,10 @@ export const Session1 = () => {
 
 
 
-                <div className="opacity-10 size-[739px] absolute top-[-170px] left-[-46px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] bg-opacity-30 rounded-full z-0" />
-                <div className="opacity-10 size-[903px] absolute top-[-258px] left-[-128px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] bg-opacity-30 rounded-full z-0" />
-                <div className="opacity-10 size-[1148px] absolute top-[-380px] left-[-250px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] bg-opacity-30 rounded-full z-0" />
-                <div className="opacity-5 size-[1357px] absolute top-[-485px] left-[-355px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] bg-opacity-30 rounded-full z-0" />
+              <div className="opacity-10 size-[739px] absolute top-[-170px] left-[-46px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+              <div className="opacity-10 size-[903px] absolute top-[-258px] left-[-128px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+              <div className="opacity-10 size-[1148px] absolute top-[-380px] left-[-250px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+              <div className="opacity-5 size-[1357px] absolute top-[-485px] left-[-355px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
 
 
                 <div className="h-[588.32px] w-[791.5px] absolute top-[-100px] left-[-93px] rounded-2xl border border-[#FFFFFF1F] bg-[#19191E]">
@@ -199,6 +200,9 @@ export const Session1 = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-10 bg-white bg-opacity-10 rounded-full w-[120px] h-[120px] p-2">
+          <img src={nortechBadge} className="rotate" />
         </div>
       </div>
       <div className="sm:block md:hidden lg:hidden xl:hidden flex flex-col w-full bg-[#120D17] ">
