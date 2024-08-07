@@ -84,12 +84,12 @@ export const UnlockExclusiveBenefits = () => {
                                 <img src={Nnortech} />
                             </div>
                             <div className="relative top-[14%] h-full max-h-[230px] w-full overflow-hidden">
-                                <div className="rounded-full border border-black opacity-5 border-solid w-[80px] h-[80px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
-                                <div className="rounded-full border border-black opacity-5 border-solid w-[140px] h-[140px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
-                                <div className="rounded-full border border-black opacity-5 border-solid w-[200px] h-[200px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
-                                <div className="rounded-full border border-black opacity-5 border-solid w-[260px] h-[260px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
-                                <div className="rounded-full border border-black opacity-5 border-solid w-[320px] h-[320px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
-                                <div className="rounded-full border border-black opacity-5 border-solid w-[380px] h-[380px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[80px] h-[80px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse-center" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[140px] h-[140px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse-center" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[200px] h-[200px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse-center" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[260px] h-[260px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse-center" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[320px] h-[320px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse-center" />
+                                <div className="rounded-full border border-black opacity-5 border-solid w-[380px] h-[380px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse-center" />
                             </div>
                             <CardFloating
                                 text="Participation in Feedback and Development"

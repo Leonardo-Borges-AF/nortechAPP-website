@@ -579,7 +579,7 @@ h1 {
     user-select: none;
 }
 
-@keyframes pulse {
+@keyframes pulse-center {
 
     0%,
     100% {
@@ -591,6 +591,36 @@ h1 {
     }
 }
 
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.animate-pulse-center {
+    animation: pulse-center 4s infinite ease-in-out;
+}
+
 .animate-pulse {
-    animation: pulse 4s infinite ease-in-out;
+    animation: pulse 8s infinite ease-in-out;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotation 4s infinite linear;
 }
