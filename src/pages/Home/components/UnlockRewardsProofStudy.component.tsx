@@ -84,7 +84,7 @@ export const UnlockRewardsProofStudy = () => {
                         <div id={'line2'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] right-[380px] absolute top-[55px]"></div>
                         <div id={'column2'} className="background__top-bottom h-[80px] w-[1px] left-[190px] absolute top-[56px]"></div>
                     </div>
-                    <div className="relative h-[120px]">
+                    <div ref={ref} className="relative h-[120px]">
                         <div className="absolute left-0">
                             <Card id={'card3'} title="Earn NTH Tokens" description="Earn NTH Tokens for completing free courses, rewarding your progress." icon={<img src={CertificateIcon} />} />
                         </div>
@@ -98,7 +98,7 @@ export const UnlockRewardsProofStudy = () => {
                         <div id={'line4'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] right-[380px] absolute top-[55px]"></div>
                         <div id={'column4'} className="background__top-bottom h-[80px] w-[1px] left-[190px] absolute top-[56px]"></div>
                     </div>
-                    <div ref={ref} className="relative h-[120px]">
+                    <div className="relative h-[120px]">
                         <div className="absolute lef-0">
                             <Card id={'card5'} title="Learn to invest" description="Use your NTH Tokens to explore investments and expand your financial knowledge." icon={<img src={DatabaseIcon} />} />
                         </div>
