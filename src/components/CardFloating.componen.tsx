@@ -8,13 +8,15 @@ type TCard = {
     };
     icon: string | React.ReactNode;
     iconPosition?: 'left' | 'right';
+    fontSize?: string;
 };
 
 export const CardFloating = ({
     text,
     position,
     icon,
-    iconPosition = 'left'
+    iconPosition = 'left',
+    fontSize = 'font-medium'
 }: TCard) => {
     return (
         <div
@@ -31,7 +33,7 @@ export const CardFloating = ({
                 <img src={icon} alt="" className="size-6 text-[#3A3D43] " />
             )}
             {iconPosition === 'left' && typeof icon === 'object' && icon}
-            <p className="leading-6 font-main font-medium text-sm">{text}</p>
+            <p className={`leading-6  font-main font-medium text-sm ${fontSize}`}>{text}</p>
             {iconPosition === 'right' && typeof icon === 'string' && (
                 <img src={icon} alt="" className="size-6 text-[#3A3D43] " />
             )}
