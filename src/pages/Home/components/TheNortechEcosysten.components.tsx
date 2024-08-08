@@ -3,6 +3,7 @@ import { LuMenu } from "react-icons/lu";
 import chip from "/images/icons/ai-artificial-intelligence-chip.png";
 import arrow from "/images/icons/Arrow.png";
 import carrinho from "/images/icons/Basket.png";
+import mao from "/images/icons/Group.png";
 import cent from "/images/icons/cent.png";
 import more from "/images/icons/more.png";
 import pacote from "/images/icons/package.png";
@@ -10,6 +11,7 @@ import shield from "/images/icons/shield.png";
 import solar from "/images/icons/solar-system.png";
 import video from "/images/icons/video.png";
 import web from "/images/icons/web.png";
+import N from "/images/icons/N.png";
 import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 // import grade from "/images/littleGrade.png";
 import loading from "/images/icons/shield-loading.png";
@@ -567,7 +569,7 @@ export const TheNortechEcosystem = () => {
                             {/* relative */}
                             <div className="flex h-[262px] w-full overflow-hidden">
                                 <div className="relative h-[262px] w-[263px]">
-                                    <div className="flex flex-col w-full absolute gap-4 p-6 rounded-2xl bg-white top-[4px] left-2 items-center">
+                                    <div className="flex flex-col w-[250px] absolute gap-4 p-6  bg-white top-[4px] left-2 items-center z-10 border-spacing-2 border-[#F6F5F7] rounded-3xl">
                                         <div className="w-full flex justify-between items-center">
                                             <p className="text-[#6001D1] text-sm font-semibold ">
                                                 All Course
@@ -638,11 +640,252 @@ export const TheNortechEcosystem = () => {
                                         />
                                     </div>
                                 </div>
+                                
                             </div>
 
+                            <div className="flex gap-2 ">
+                                    <img src={pacote} className="size-6 "/>
+                                    <p className="text-base leading-[20.16px] text-[#0B0D12] font-bold">
+                                        Edu-Marketplace
+                                    </p>
+                                </div>
+                                <p className="text-[#33363C] opacity-60 ">
+                                    O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                                </p>
+                            </div>
+                        </div>
+                        {/* relative */}
+                        <div className="h-[462px] w-full gap-4 p-6 rounded-xl bg-[#FBFAFC] items-center">
+                            <div className="size-[263px] relative overflow-hidden">
+                                <div className="absolute border-[#F6F5F7] border-[8px] flex flex-col w-[316px] h-[312px] top-[10px] left-[10px] rounded-2xl p-6 gap-4 bg-white">
+                                    <div className="flex gap-1 ">
+                                        <img src={arrow} alt="" className="size-6" />
+                                        <h4 className="text-[#6001D1] text-sm font-semibold">
+                                            IA Learning
+                                        </h4>
+                                    </div>
+                                    <div className="w-full border border-[#F1F1F1]"/>
+                                    <div className="flex gap-4 ">
+                                        <Course
+                                            text1="Course 01"
+                                            text2="Course Python"
+                                        />
+                                        <div className="relative w-[73px] flex flex-col rounded-lg border border-[#DCBEFF] bg-[#F2E8FF] gap-[10px] p-2 items-center">
+                                            <div className="rounded-full p-[6px] gap-[10px] bg-[#F2E8FF] bg-opacity-35">
+                                                <img src={video} alt="" className="size-[18px]" />
+                                            </div>
+                                            <div className="flex flex-col items-center">
+                                                <h6 className="text-xs leading-[18px] font-semibold text-[#9841FF]">Course 02</h6>
+                                                <h6 className="text-[8px] leading-[18px] font-medium text-[#AE6BFF]">Course Java</h6>
+                                            </div>
+                                            <img src={mao} className="absolute top-[80px] left-[60px] w-[14.4px] h-[20px]"/>
+                                        </div>
+                                        <Course
+                                            text1="Course 01"
+                                            text2="Course Python"
+                                        />
+                                    </div>
+                                    <div className="flex flex-col gap-[10px] border border-[#F5F6F6] p-2 w-full rounded-lg bg-[#FDFDFD]">
+                                        <p className="text-[#505358] text-xs font-semibold">
+                                            Progress
+                                        </p>
+                                        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-full">
+                                            <p className="text-[#505358] text-xs font-semibold">
+                                                43%
+                                            </p>
+                                            <div className="absolute w-[100px] h-[100px] left-0 bg-[#6001D1]"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex gap-2 ">
+                                <img src={chip} alt="" className="size-6" />
+                                <h4 className="font-bold text-[#0B0D12] ">
+                                    AI-Driven Learning
+                                </h4>
+                            </div>
+                            <p className="text-[#33363C] opacity-60">
+                                As aulas são melhoradas utilizando inteligência artificial para uma experiência de aprendizado mais personalizada.
+                            </p>
+                        </div>
+                        
+                        {/* relative */}
+                        <div className="h-[462px] w-full rounded-xl bg-[#FBFAFC] flex flex-col gap-4 p-6 items-center">
+                            <div className="size-[263px] relative overflow-hidden">
+                                <div className="absolute w-[140px] h-[268px] top-[66px] left-[25px] rounded-2xl p-2 gap-4 border-[5px] border-[#F6F5F7] bg-white z-10">
+                                    <div className="bg-[#F9F5FD] rounded-lg gap-6 flex px-2 py-[9px] mb-4">
+                                        <img src={LogoNortechApp} className="w-[66px] h-full" />
+                                        <LuMenu className="text-black size-[18px]" />
+                                    </div>
+                                    <div className="flex flex-col gap-[3px] w-full">
+                                        <p className="text-[#505358] text-xs font-semibold">
+                                            Dashboard
+                                        </p>
+                                        <div className="relative w-full h-[100px] rounded-lg border border-[#F5F6F6] bg-[#FDFDFD]">
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[12px] left-[13px]">
+                                                04
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[32px] left-[13px]">
+                                                03
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[52px] left-[13px]">
+                                                02
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[72px] left-[13px]">
+                                                01
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[72px] left-[31px]">
+                                                10
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[72px] left-[49px]">
+                                                11
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[72px] left-[67px]">
+                                                12
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[72px] left-[85px]">
+                                                13
+                                            </p>
+                                            <p className="text-[8px] leading-[18px] text-[#505358] absolute top-[72px] left-[103px]">
+                                                14
+                                            </p>
+                                            <div className="absolute w-[9px] h-[40px] top-[32px] left-[31px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[22px] top-[50px] left-[48px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[33px] top-[39px] left-[67px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[48px] top-[24px] left-[85px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[11px] top-[61px] left-[102px] bg-[#6001D1]"/>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="absolute flex flex-col w-[275px] h-[286px] top-[15px] left-[52px] rounded-2xl p-2 gap-4 border-[9px] border-[#F6F5F7] z-0">
+                                    <div className="rounded-lg bg-[#F9F5FD] flex px-3 py-[15.38] items-center gap-2 mb-4">
+                                        <img src={LogoNortechApp} className="w-[68px] h-full mr-[20px]" />
+                                        <div className="bg-[#AE6BFF] w-[36px] h-4 rounded-full"/>
+                                        <div className="bg-[#AE6BFF] w-[36px] h-4 rounded-full"/>
+                                    </div>
+                                    <div className="w-full flex flex-col gap-[3px]">
+                                        <p className="text-xs text-[#505358] font-semibold">
+                                            Dashboard
+                                        </p>
+                                        <div className="relative w-full h-[100px] mb-[37px]">
+                                            <div className="absolute w-[9px] h-[31px] top-[50px] left-[187px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[17px] top-[64px] left-[169px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[40px] top-[41px] left-[151px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[22px] top-[59px] left-[133px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[28px] top-[53px] left-[115px] bg-[#6001D1]"/>
+                                            <div className="absolute w-[9px] h-[11px] top-[70px] left-[97px] bg-[#6001D1]"/>
+                                            <p className="text-[#505358] text-[8px] leading-[18px] absolute top-[81px] left-[187px]">
+                                                19
+                                            </p>
+                                            <p className="text-[#505358] text-[8px] leading-[18px] absolute top-[81px] left-[169px]">
+                                                18
+                                            </p>
+                                            <p className="text-[#505358] text-[8px] leading-[18px] absolute top-[81px] left-[151px]">
+                                                17
+                                            </p>
+                                            <p className="text-[#505358] text-[8px] leading-[18px] absolute top-[81px] left-[133px]">
+                                                16
+                                            </p>
+                                            <p className="text-[#505358] text-[8px] leading-[18px] absolute top-[81px] left-[115px]">
+                                                15
+                                            </p>
+                                            <p className="text-[#505358] text-[8px] leading-[18px] absolute top-[81px] left-[97px]">
+                                                14
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="bg-[#AE6BFF] w-[259px] h-[100px] rounded-lg "/>
+
+                                </div>
+                            </div>
+                            <div className="flex gap-2 w-full">
+                                <img src={web} alt="" className="size-6" />
+                                <h5 className="font-bold">
+                                    User-Friendly Interface
+                                </h5>
+                            </div>
+                            <p className="w-full opacity-60 text-[#33363C] ">
+                                O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                            </p>
+                        </div>
+                        {/* relative */}
+                        <div className="h-[412px] w-full flex flex-col gap-4 p-6 rounded-xl bg-[#FBFAFC] items-center">
+                            <div className="relative h-[212px] w-[263px] overflow-hidden">
+                                <div className="flex flex-col gap-4 p-6 absolute top-[25px] left-[26px] w-[502px] h-[312px] rounded-2xl  border-[#F6F5F7] border-spacing-4">
+                                    <div className="flex gap-1 items-center">
+                                        <img src={arrow} className="size-6" />
+                                        <p className=" text-[#6001D1] text-sm font-semibold">
+                                            Course X
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-col border border-[#F5F6F6] bg[#FDFDFD] p-2 gap-[10px] rounded-lg ">
+                                        <p className="text-[#505358] font-semibold text-xs">
+                                            Progress course
+                                        </p>
+                                        <div className="rounded-full justify-center items-center w-[175px] p-1 gap-[10px] border border-[#F1F1F1] flex bg-[#6001D1]">
+                                            <p className="text-white text-xs font-semibold">
+                                                100%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="bg-[#F2E8FF] w-[454px] h-[100px] rounded-lg"/>
+                                </div>
+                                <div className="absolute top-[55px] left-[90px] rounded-full py-2 px-3 bg-white flex gap-1 drop-shadow-md">
+                                    <img src={cent} className="size-6"/>
+                                    <p className="text-[#3A3D43] text-sm ">
+                                        +200 NTH Tokens
+                                    </p>
+                                </div>
+                                <div className="absolute top-[150px] left-[40px] rounded-full py-2 px-3 bg-white flex gap-1 drop-shadow-md">
+                                    <img src={CertificateIcon} className="size-6"/>
+                                    <p className="text-[#3A3D43] text-sm ">
+                                        Certificate received                                    
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="flex gap-2 w-full ">
+                                <img src={cent} alt="" className="size-6 text-[#6001D1]" />
+                                <p className="text-[#0B0D12] font-bold ">
+                                    Proof Of Study
+                                </p>
+                            </div>
+                            <p className="opacity-60 text-[#33363C]">
+                                O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                            </p>
+                        </div>
+                        {/* relative */}
+                        <div className="w-full h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-[#FBFAFC] items-center ">
+                            <div className="w-[263px] h-[212px] relative overflow-hidden">
+                                <div className="absolute bg-white drop-shadow-md size-[56px] rounded-full top-[-3px] left-[188px]"></div>
+                                <div className="absolute bg-white drop-shadow-md size-[56px] rounded-full top-[141px] left-[18px]"></div>
+                                <div className="rounded-full absolute top-[6px] left-[57px] p-4 items-center bg-[#6001D1]">
+                                    <img src={loading} className="size-6" />
+                                </div>
+                                <div className="rounded-full absolute top-[78.82px] left-[104.6px] p-4 items-center bg-[#6001D1]">
+                                    <img src={N} className="size-6" />
+                                </div>
+                                <div className="rounded-full absolute top-[150px] left-[206px] p-4 items-center bg-[#6001D1]">
+                                    <img src={hat} className="size-6" />
+                                </div>
+                            </div>
+                            <div className="flex gap-2 w-full">
+                                <img src={shield} alt="" className="size-6 text-[#6001D1]" />
+                                <p className="text-[#0B0D12] font-semibold">
+                                    Web 3 Integration
+                                </p>
+                            </div>
+                            <p className="text-[#33363C] opacity-60">
+                                O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                            </p>
                         </div>
                     </div>
-                </div>
+                    <div className="flex items-center gap-2 mb-8">
+                        <p className="text-[#6001D1] text-2xl font-sans"> 
+                            Read the whitepaper
+                        </p>
+                        <div className="bg-[#6001D1] p-3 rounded-full"><BsArrowRight className="size-5 text-white" /></div>
+                    </div>
             </div>
         </div>
         
@@ -659,7 +902,7 @@ const Course = ({
 }: TCourse) => {
     return (
         <div className="border flex flex-col border-[#F5F6F6] p-2 gap-[10px] rounded-lg items-center bg-[#FDFDFD] ">
-            <div className="rounded-full p-[6px] bg-[#F2E8FF]">
+            <div className="rounded-full p-[6px] bg-[#F2E8FF] bg-opacity-40">
                 <img src={video} alt="" className="size-[18px]" />
             </div>
             <div className="flex flex-col items-center">
