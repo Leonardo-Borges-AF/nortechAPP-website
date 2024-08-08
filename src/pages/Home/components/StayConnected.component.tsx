@@ -40,8 +40,8 @@ export const StayConnected = () => {
             </div>
 
             {/* mobile */}
-            <div className='sm:block md:hidden lg:hidden xl:hidden w-full bg-[#f9f9f3] border-t border-opacity-20 border-black items-center'>
-                <div className='max-w-[375px] flex flex-col gap-8 p-8 '>
+            <div className='sm:block md:hidden lg:hidden xl:hidden w-full bg-[#f9f9f3] items-center relative justify-center flex flex-col border-t border-opacity-20 border-black'>
+                <div className='max-w-[375px] flex flex-col gap-8 p-8 mx-auto'>
                     <div className='flex flex-col gap-4 w-full '>
                         <div className='flex flex-col gap-2 items-center'>
                             <div className='flex gap-3  items-center'>

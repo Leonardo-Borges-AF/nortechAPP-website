@@ -110,7 +110,7 @@ export const UnlockRewardsProofStudy = () => {
             </div>
             {/* mobile */}
             <div className="md:hidden lg:hidden sm:block w-full items-center bg-[#120D17] relative">
-                <div className="flex flex-col py-[82px] px-8 gap-8  max-w-[375px]">
+                <div className="flex flex-col py-[82px] px-8 gap-8 mx-auto max-w-[375px]">
                     <div className="flex flex-col gap-4 items-center">
                         <div className="flex gap-1 items-center">
                             <img src={solar} className='size-6 mr-4' />

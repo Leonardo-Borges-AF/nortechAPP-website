@@ -548,8 +548,8 @@ export const TheNortechEcosystem = () => {
 
             {/* mobile/MOBILE */}
 
-            <div className="flex flex-col w-full bg-white items-center sm:block md:hidden lg:hidden xl:hidden">
-                <div className="flex flex-col max-w-[375px] items-center p-8 gap-12 ">
+            <div className="flex flex-col w-full bg-white justify-center items-center sm:block md:hidden lg:hidden xl:hidden">
+                <div className="flex flex-col max-w-[375px] mx-auto items-center p-8 gap-12 ">
                     <div className="flex flex-col gap-[14px] items-center">
                         <div className="flex gap-1 items-center">
                             <div className="flex gap-[10px] p-2 rounded-full">
@@ -879,14 +879,15 @@ export const TheNortechEcosystem = () => {
                                 O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
                             </p>
                         </div>
+                        <div className="flex items-center gap-2 mb-8 mx-auto">
+                            <p className="text-[#6001D1] text-2xl font-sans"> 
+                                Read the whitepaper
+                            </p>
+                            <div className="bg-[#6001D1] p-3 rounded-full"><BsArrowRight className="size-5 text-white" /></div>
+                        </div>
                     </div>
-                    <div className="flex items-center gap-2 mb-8">
-                        <p className="text-[#6001D1] text-2xl font-sans"> 
-                            Read the whitepaper
-                        </p>
-                        <div className="bg-[#6001D1] p-3 rounded-full"><BsArrowRight className="size-5 text-white" /></div>
-                    </div>
-            </div>
+                    
+                </div>
         </div>
         
     )

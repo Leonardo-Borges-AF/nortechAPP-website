@@ -86,7 +86,7 @@ export const Footer = () => {
 
       {/* mobile */}
       <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-white items-center">
-        <div className="flex flex-col gap-6 p-8 max-w-[350px] ">
+        <div className="flex flex-col gap-6 p-8 max-w-[350px] mx-auto">
           <div className="flex flex-col gap-6 ">
             <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 "/>
             <p className="text-[#212529] ">

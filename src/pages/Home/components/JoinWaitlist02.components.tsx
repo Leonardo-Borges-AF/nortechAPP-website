@@ -41,7 +41,7 @@ export const JoinWaitlist02 = () => {
               backgroundImage: `url(${GridImage})`,
             }}
           />
-          <div className="flex flex-col p-8 gap-6 max-w-[375px] items-center">
+          <div className="flex flex-col p-8 gap-6 max-w-[375px] mx-auto items-center">
             <div className="flex flex-col gap-3  items-center">
               <h3 className="font-sans font-semibold text-3xl leading-[44px] text-white text-center">
                 Join the Waitlist

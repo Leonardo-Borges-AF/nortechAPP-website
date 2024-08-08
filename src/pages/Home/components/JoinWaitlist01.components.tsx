@@ -34,14 +34,14 @@ export const JoinWaitlist01 = () => {
         </div>
       </div>
       {/* mobile */}
-      <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-[#6001D1] items-center relative">
+      <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-[#6001D1] items-center justify-center relative">
         <div
-            className="absolute w-full h-full right-0 top-0 opacity-60"
+            className="absolute w-full h-full  right-0 top-0 opacity-60"
             style={{
               backgroundImage: `url(${GridImage})`,
             }}
           />
-          <div className="flex flex-col p-8 gap-6 max-w-[375px] items-center">
+          <div className="flex flex-col p-8 gap-6 max-w-[375px] mx-auto items-center">
             <div className="flex flex-col gap-3  items-center">
               <h3 className="font-sans font-semibold text-3xl leading-[44px] text-white text-center">
                 Join the Waitlist
