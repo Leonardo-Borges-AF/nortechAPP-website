@@ -46,9 +46,9 @@ export const CommonQuestions = () => {
         </div>
       </div>
       {/* mobile */}
-      <div className="sm:block md:hidden lg:hidden xl:hidden w-full items-center bg-[#120D17] relative">
-        <div className="max-w-[375px] p-8 ">
-          <div className="w-full flex flex-col py-8 gap-6 ">
+      <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-[#120D17] items-center relative justify-center flex flex-col"> 
+        <div className="max-w-[375px] p-8 mx-auto">
+          <div className="w-full flex flex-col py-8 gap-6">
             <div className="w-full items-center flex flex-col gap-2">
               <p className="opacity-60 text-white font-medium">
                 ESCLAREÇA SUAS DUVIDAS
@@ -58,29 +58,21 @@ export const CommonQuestions = () => {
               </p>
             </div>
             <div className="w-full text-center">
-              <p className="text-white opacity-60 text-center font-main text-[19.22px] leading-8"> FAQ não te ajudou? <br />Envie um e-mail para contato </p>
-              <a href="" className="text-white text-center text-[19.22px] leading-8 underline font-semibold">nortech@gmail.com</a>
+              <p className="text-white opacity-60 font-main text-[19.22px] leading-8">
+                FAQ não te ajudou? <br />Envie um e-mail para contato
+              </p>
+              <a href="" className="text-white text-[19.22px] leading-8 underline font-semibold">
+                nortech@gmail.com
+              </a>
             </div>
           </div>
           <div className="py-8 w-full flex flex-col gap-6">
-            <CardM
-              title="O que posso fazer com os tokens NTH?"
-            />
-            <CardM
-              title="Como a integração com a blockchain torna a plataforma segura?"
-            />
-            <CardM
-              title="Quem pode usar a plataforma Nortech?"
-            />
-            <CardM
-              title="O que é o Marketplace Hub?"
-            />
-            <CardM
-              title="Como funciona o staking na Nortech?"
-            />
-            <CardM
-              title="Como faço para me tornar um Builder na Nortech?"
-            />
+            <CardM title="O que posso fazer com os tokens NTH?" />
+            <CardM title="Como a integração com a blockchain torna a plataforma segura?" />
+            <CardM title="Quem pode usar a plataforma Nortech?" />
+            <CardM title="O que é o Marketplace Hub?" />
+            <CardM title="Como funciona o staking na Nortech?" />
+            <CardM title="Como faço para me tornar um Builder na Nortech?" />
           </div>
         </div>
       </div>
