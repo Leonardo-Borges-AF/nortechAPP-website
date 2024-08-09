@@ -46,12 +46,12 @@ export const Session2 = () => {
 
   return (
     <div id="session-about-nortech" className='bg-white relative overflow-hidden'>
-      <div className="pt-20 pb-32 flex gap-3 transition-all duration-300 relative max-w-[1184px] mx-auto ">
+      <div className="pt-20 md:pb-32 flex gap-3 transition-all duration-300 relative max-w-[1184px] mx-auto flex-col md:flex-row">
         <div id="background-image" className="absolute top-[200px] left-[-800px] w-full h-full bg-cover bg-center transition-all duration-700 selectDisable" style={{ transform: `rotate(${rotation}deg)` }}>
           <img id="background-image" src={Background} className='absolute opacity-15 top-[-900px] left-[-200px] rotate-10 w-[3322px] h-[3147px] selectDisable -z-50' />
         </div>
-        <div className="flex flex-col relative z-10">
-          <div className="flex flex-col gap-6 py-8 w-[594px]">
+        <div className="flex flex-col relative z-10 px-8 md:px-0">
+          <div className="flex flex-col gap-6 py-8 w-full md:w-[594px]">
             <div className="flex flex-col gap-2 ">
               <div className="flex gap-1 items-center">
                 <img src={solar} alt="" className="size-6" />
@@ -121,7 +121,7 @@ export const Session2 = () => {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -100, opacity: 0 }}
                 transition={{ duration: 0.5 }}
-                className="absolute w-full"
+                className="relative md:absolute w-full"
               >
                 <Component1 />
               </motion.div>
@@ -133,7 +133,7 @@ export const Session2 = () => {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -100, opacity: 0 }}
                 transition={{ duration: 0.5 }}
-                className="absolute w-full"
+                className="relative md:absolute w-full"
               >
                 <Component2 />
               </motion.div>
@@ -145,7 +145,7 @@ export const Session2 = () => {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -100, opacity: 0 }}
                 transition={{ duration: 0.5 }}
-                className="absolute w-full"
+                className="relative md:absolute w-full"
               >
                 <Component3 />
               </motion.div>
@@ -194,24 +194,24 @@ const ProgresiveBar = ({ onComplete, selected }: TProgresiveBar) => {
 
 
 const Component1 = () => {
-  return <div className="relative h-[750px] w-[720px] m-auto">
+  return <div className="flex flex-col gap-6 relative h-[750px] w-full md:w-[720px] m-auto px-4 md:px-0">
     <Card
       icon={solar}
       title="Earn NTH Tokens:"
       description="Receive tangible rewards for completing courses and participating in educational activities."
-      className="bg-white top-[5%] left-[40%] z-30"
+      className="bg-white md:top-[5%] md:left-[40%] z-30"
     />
     <Card
       icon={solar}
       title="Gamified Experience:"
       description="Enjoy an interactive and engaging approach that keeps you motivated and engaged."
-      className="bg-white top-[30%] left-[17%] z-20"
+      className="bg-white md:top-[30%] md:left-[17%] z-20"
     />
     <Card
       icon={solar}
       title="Access to Exclusive Resources:"
       description="Use NTH tokens to unlock premium materials and advanced courses."
-      className="bg-white top-[55%] left-[35%] z-30"
+      className="bg-white md:top-[55%] md:left-[35%] z-30"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed opacity-50 bg-[#E1DCFD] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
     <div className="w-[659px] h-[659px] border border-[#6001D1] border-opacity-30 border-dotted rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-0"
@@ -222,14 +222,14 @@ const Component1 = () => {
 }
 
 const Component2 = () => {
-  return <div className="relative h-[750px] w-[720px] m-auto">
+  return <div className="flex flex-col gap-6 relative h-[750px] w-full md:w-[720px] m-auto px-4 md:px-0">
     <Card
       icon={solar}
       title="Earn NTH Tokens:"
       titleClassName="text-white"
       description="Receive tangible rewards for completing courses and participating in educational activities."
       descriptionClassName="text-white opacity-60"
-      className="top-[5%] left-[40%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
+      className="md:top-[5%] md:left-[40%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <Card
       icon={solar}
@@ -237,7 +237,7 @@ const Component2 = () => {
       titleClassName="text-white"
       description="Enjoy an interactive and engaging approach that keeps you motivated and engaged."
       descriptionClassName="text-white opacity-60"
-      className="top-[30%] left-[17%] z-20 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
+      className="md:top-[30%] md:left-[17%] z-20 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <Card
       icon={solar}
@@ -245,7 +245,7 @@ const Component2 = () => {
       titleClassName="text-white"
       description="Use NTH tokens to unlock premium materials and advanced courses."
       descriptionClassName="text-white opacity-60"
-      className="top-[55%] left-[35%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
+      className="md:top-[55%] md:left-[35%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed opacity-50 bg-[#161327] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
     <div className="w-[659px] h-[659px] border border-[#6001D1] border-opacity-30 border-dotted rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-0"
@@ -256,24 +256,24 @@ const Component2 = () => {
 }
 
 const Component3 = () => {
-  return <div className="relative h-[750px] w-[720px] m-auto">
+  return <div className="flex flex-col gap-6 relative h-[750px] w-full md:w-[720px] m-auto px-4 md:px-0">
     <Card
       icon={solar}
       title="Earn NTH Tokens:"
       description="Receive tangible rewards for completing courses and participating in educational activities."
-      className="bg-white top-[5%] left-[40%] z-30 bg-opacity-80"
+      className="bg-white md:top-[5%] md:left-[40%] z-30 bg-opacity-80"
     />
     <Card
       icon={solar}
       title="Gamified Experience:"
       description="Enjoy an interactive and engaging approach that keeps you motivated and engaged."
-      className="bg-white top-[30%] left-[17%] z-20 bg-opacity-80"
+      className="bg-white md:top-[30%] md:left-[17%] z-20 bg-opacity-80"
     />
     <Card
       icon={solar}
       title="Access to Exclusive Resources:"
       description="Use NTH tokens to unlock premium materials and advanced courses."
-      className="bg-white top-[55%] left-[35%] z-30 bg-opacity-80"
+      className="bg-white md:top-[55%] md:left-[35%] z-30 bg-opacity-80"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed bg-[#E1DCFD] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 opacity-20" />
     <div className="w-[659px] h-[659px] border border-[#6001D1] border-opacity-30 border-dotted rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-0 opacity-10"
@@ -294,7 +294,7 @@ type TCard = {
 
 const Card = ({ title, titleClassName, description, descriptionClassName, icon, className }: TCard) => {
   return <>
-    <div className={`flex flex-col border border-[#F1F1F1] border-solid p-[34.6px] gap-4 rounded-md w-[300px] h-fit absolute bg-opacity-50 backdrop-blur-md ${className}`}>
+    <div className={`flex flex-col border border-[#F1F1F1] border-solid p-[34.6px] gap-4 rounded-md w-[300px] h-fit absolute bg-opacity-50 backdrop-blur-md ${className} relative md:absolute w-full md:w-[300px]`}>
       <img src={icon} alt="icon" className="w-6 h-6" />
       <div className="flex flex-col gap-2">
         <h6 className={`text-[#212529] text-sm font-semibold leading-5 ${titleClassName}`}>{title}</h6>

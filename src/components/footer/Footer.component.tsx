@@ -1,5 +1,5 @@
-import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 import { PiLinkedinLogoThin } from "react-icons/pi";
+import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 
 
 export const Footer = () => {
@@ -11,17 +11,17 @@ export const Footer = () => {
           <div className="flex gap-28">
             <div className="flex flex-col gap-10">
               <div className="flex flex-col gap-6">
-                <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 "/>
+                <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 " />
                 <p className="text-[#212529]">
                   Your best crypto partner.
                 </p>
               </div>
 
               <div className="flex gap-6">
-                <PiLinkedinLogoThin className="size-[35px] "/>
-                <PiLinkedinLogoThin className="size-[35px] "/>
-                <PiLinkedinLogoThin className="size-[35px] "/>
-                <PiLinkedinLogoThin className="size-[35px] "/>
+                <PiLinkedinLogoThin className="size-[35px] " />
+                <PiLinkedinLogoThin className="size-[35px] " />
+                <PiLinkedinLogoThin className="size-[35px] " />
+                <PiLinkedinLogoThin className="size-[35px] " />
               </div>
 
             </div>
@@ -56,7 +56,7 @@ export const Footer = () => {
                 <div className="flex gap-[13px] ">
                   <input
                     className="border border-[#DEE2E6] text-[#495057] placeholder-[#495057] text-sm flex gap-[10px] rounded-lg px-4 py-2"
-                    type="text" 
+                    type="text"
                     placeholder="Enter your email address"
                   />
                   <button className="px-4 py-3 rounded-lg bg-[#055EFA] text-white">
@@ -76,7 +76,7 @@ export const Footer = () => {
 
             <div className="flex gap-5 ">
               <a href="" className="text-[#212529]">Term of Service</a>
-              <div className="h-6 border border-[#DEE2E6]"/>
+              <div className="h-6 border border-[#DEE2E6]" />
               <a href="" className="text-[#212529]">Privacy Policy</a>
             </div>
           </div>
@@ -86,17 +86,17 @@ export const Footer = () => {
 
       {/* mobile */}
       <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-white items-center">
-        <div className="flex flex-col gap-6 p-8 max-w-[350px] mx-auto">
+        <div className="flex flex-col gap-6 p-4 md:p-8 max-w-[350px] mx-auto">
           <div className="flex flex-col gap-6 ">
-            <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 "/>
+            <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 " />
             <p className="text-[#212529] ">
               Your best crypto partner.
             </p>
             <div className="flex gap-6 ">
-              <PiLinkedinLogoThin className="size-[35px] "/>
-              <PiLinkedinLogoThin className="size-[35px] "/>
-              <PiLinkedinLogoThin className="size-[35px] "/>
-              <PiLinkedinLogoThin className="size-[35px] "/>
+              <PiLinkedinLogoThin className="size-[35px] " />
+              <PiLinkedinLogoThin className="size-[35px] " />
+              <PiLinkedinLogoThin className="size-[35px] " />
+              <PiLinkedinLogoThin className="size-[35px] " />
             </div>
           </div>
           <div className="flex flex-col gap-8 py-6">
@@ -119,13 +119,13 @@ export const Footer = () => {
                 Whitepaper Nortech
               </a>
               <a href="" className="font-main text-[#212529]">
-                Whitepaper NTH              
+                Whitepaper NTH
               </a>
               <a href="" className="font-main text-[#212529]">
-                Pitch Deck             
+                Pitch Deck
               </a>
               <a href="" className="font-main text-[#212529]">
-                Packs         
+                Packs
               </a>
             </div>
             <div className="flex flex-col gap-6">
@@ -136,10 +136,10 @@ export const Footer = () => {
                 Community
               </a>
               <a href="" className="font-main text-[#212529]">
-                Ecosystem Jobs            
+                Ecosystem Jobs
               </a>
               <a href="" className="font-main text-[#212529]">
-                Pricing            
+                Pricing
               </a>
             </div>
           </div>
@@ -154,7 +154,7 @@ export const Footer = () => {
             </div>
             <div className="w-full flex flex-col gap-[13px] ">
               <input
-                className="border w-full border-solid border-[#DEE2E6] py-[18px] px-4 rounded-lg"  
+                className="border w-full border-solid border-[#DEE2E6] py-[18px] px-4 rounded-lg"
                 type="email"
                 id="email"
                 placeholder="Enter Your email address"
@@ -179,15 +179,15 @@ export const Footer = () => {
             <a href="" className="text-[#212529] font-main">
               Term of Service
             </a>
-            <div className="h-6 border border-[#DEE2E6] "/>
+            <div className="h-6 border border-[#DEE2E6] " />
             <a href="" className="text-[#212529] font-main">
               Privacy Policy
             </a>
           </div>
         </div>
-        
+
       </div>
     </div>
-   
-  ); 
+
+  );
 };

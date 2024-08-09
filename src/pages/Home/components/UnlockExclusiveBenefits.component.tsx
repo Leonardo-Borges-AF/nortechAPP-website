@@ -3,12 +3,12 @@ import { CardFloating } from "~/components/CardFloating.componen";
 import BenefitsIcon from '/images/icons/Benefits.svg';
 import CertificateIcon from '/images/icons/certificate.svg';
 import { default as Check, default as CheckIcon } from '/images/icons/Check.svg';
-import CryptoCircleIcon from '/images/icons/crypto-circle.svg';
-import NortechIcon from '/images/icons/Nortech.svg';
-import list from '/images/icons/list.png';
-import shield from '/images/icons/shield.png';
-import documet from '/images/icons/documet.png';
 import cointGrowth from '/images/icons/coint-growth.png';
+import CryptoCircleIcon from '/images/icons/crypto-circle.svg';
+import documet from '/images/icons/documet.png';
+import list from '/images/icons/list.png';
+import NortechIcon from '/images/icons/Nortech.svg';
+import shield from '/images/icons/shield.png';
 import Nnortech from '/images/N.png';
 
 
@@ -192,19 +192,19 @@ export const UnlockExclusiveBenefits = () => {
                                 <p className="text-[#0B0D12] font-bold">
                                     Bonus on NTH Tokens
                                 </p>
-                                
+
                             </div>
                             <p className="opacity-60 text-[#33363C] ">
-                                When you sign up for the waitlist, you earn extra NTH tokens. This gives you a head start, letting you access premium features, enroll in exclusive courses, and participate in governance early. 
+                                When you sign up for the waitlist, you earn extra NTH tokens. This gives you a head start, letting you access premium features, enroll in exclusive courses, and participate in governance early.
                             </p>
                             <p className="opacity-60 text-[#33363C] ">
-                                By joining now, you not only secure your spot but also boost your learning experience with added benefits and early access to all our upcoming features.                            
+                                By joining now, you not only secure your spot but also boost your learning experience with added benefits and early access to all our upcoming features.
                             </p>
                         </div>
                         <div className="w-[1192px] h-[284px] relative">
                             <div className="absolute flex flex-col w-[378px] h-[318px] top-[13px] left-[16px] rounded-2xl p-6 gap-4 bg-white border-[9px] border-[#F6F5F7]">
                                 <div className="flex gap-1 items-center ">
-                                    <img src={Check} className="size-6"/>
+                                    <img src={Check} className="size-6" />
                                     <p className="text-[#6001D1] font-semibold text-sm">
                                         Registered on the waiting list
                                     </p>
@@ -212,7 +212,7 @@ export const UnlockExclusiveBenefits = () => {
                                 <p className="text-[#505358] text-xs font-semibold">
                                     Email received
                                 </p>
-                                <div className="w-[330px] h-[196px] rounded-lg bg-[#F2E8FF]"/>
+                                <div className="w-[330px] h-[196px] rounded-lg bg-[#F2E8FF]" />
                                 <div className="absolute rounded-full top-[105px] left-[15px] py-2 px-3 flex gap-1 bg-white drop-shadow-md">
                                     <img src={NortechIcon} />
                                     <p className="text-[#3A3D43] text-sm">
@@ -235,11 +235,11 @@ export const UnlockExclusiveBenefits = () => {
                         </div>
                     </div>
                     <div className="flex flex-col w-full gap-8 ">
-                        <div className="flex flex-col  gap-4 p-6 rounded-xl bg-[#FBFAFC] w-[592px] h-[412px] ">
+                        <div className="flex flex-col  gap-4 p-6 rounded-xl bg-[#FBFAFC] md:w-[592px] h-[412px] ">
                             <div className="flex gap-2">
-                                <img src={NortechIcon} className="size-6"/>
+                                <img src={NortechIcon} className="size-6" />
                                 <p className="text-[#0B0D12] font-bold">
-                                    Early Access 
+                                    Early Access
                                 </p>
                             </div>
                             <p className="text-[#33363C] opacity-60">
@@ -248,37 +248,37 @@ export const UnlockExclusiveBenefits = () => {
                             <div className="w-[544px] h-[260px] relative ">
                                 {/* relative ta aquiiiiiiiiiiiii */}
                                 <div className="bg-[#6001D1] rounded-full p-4 absolute top-[102.82px] left-[104.6px] drop-shadow h-fit w-fit z-10">
-                                    <img src={Nnortech} className="size-[22.2px]"/>
+                                    <img src={Nnortech} className="size-[22.2px]" />
                                 </div>
                                 <div className="absolute bg-white rounded-full top-2 left-[-29px] flex gap-1 py-2 px-3 drop-shadow-md items-center">
-                                    <img src={list} className="size-6"/>
+                                    <img src={list} className="size-6" />
                                     <p className="text-[#3A3D43] text-sm">
                                         Participation in Feedback and Development
                                     </p>
                                 </div>
                                 <div className="absolute bg-white rounded-full top-[67px] left-[-3px] flex gap-1 py-2 px-3 drop-shadow-md items-center z-0">
-                                    <img src={CryptoCircleIcon} className="size-6"/>
+                                    <img src={CryptoCircleIcon} className="size-6" />
                                     <p className="text-[#3A3D43] text-sm">
                                         First to Test New Features
                                     </p>
                                 </div>
                                 <div className="absolute bg-white rounded-full top-[151px] left-[77px] flex gap-1 py-2 px-3 drop-shadow-md items-center z-0">
-                                    <img src={NortechIcon} className="size-6"/>
+                                    <img src={NortechIcon} className="size-6" />
                                     <p className="text-[#3A3D43] text-sm">
                                         Bonus on NTH Tokens
                                     </p>
                                 </div>
                                 <div className="absolute bg-white rounded-full top-[211px] left-[-17px] flex gap-1 py-2 px-3 drop-shadow-md items-center z-0">
-                                    <img src={cointGrowth} className="size-6"/>
+                                    <img src={cointGrowth} className="size-6" />
                                     <p className="text-[#3A3D43] text-sm">
                                         Achievements and Special Rewards
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[592px] h-[412px] rounded-xl flex flex-col p-6 gap-4 bg-[#FBFAFC] ">
+                        <div className="md:w-[592px] h-[412px] rounded-xl flex flex-col p-6 gap-4 bg-[#FBFAFC] overflow-hidden">
                             <div className="flex gap-2 ">
-                                <img src={shield} className="size-6"/>
+                                <img src={shield} className="size-6" />
                                 <p className="text-[#0B0D12] font-bold ">
                                     Quests to Earn Tokens
                                 </p>
@@ -290,29 +290,29 @@ export const UnlockExclusiveBenefits = () => {
                             <div className="relative w-[544px] h-[260px] overflow-hidden">
                                 <div className="w-[512px] h-[312px] absolute top-4 left-4 rounded-2xl p-6 gap-4 flex flex-col bg-white border-[16px] border-[#F6F5F7]">
                                     <div className="flex gap-1 items-center">
-                                        <img src={documet} className="size-6"/>
+                                        <img src={documet} className="size-6" />
                                         <p className="text-[#6001D1] font-semibold text-sm ">
                                             Quests
                                         </p>
                                     </div>
-                                    <div className="w-full border border-[#F1F1F1] "/>
+                                    <div className="w-full border border-[#F1F1F1] " />
                                     <div className="flex gap-2 items-center">
                                         <IoMdCheckboxOutline className="text-xl opacity-70" />
-                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg"/>
+                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg" />
                                     </div>
                                     <div className="flex gap-2 items-center">
                                         <IoMdCheckboxOutline className="text-xl opacity-70" />
-                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg"/>
+                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg" />
                                     </div>
                                     <div className="flex gap-2 items-center">
                                         <IoMdCheckboxOutline className="text-xl opacity-70" />
-                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg"/>
+                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg" />
                                     </div>
                                     <div className="flex gap-2 items-center">
                                         <IoMdCheckboxOutline className="text-xl opacity-70" />
-                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg"/>
+                                        <div className="bg-[#F2E8FF] w-full h-[24px] rounded-lg" />
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -320,7 +320,7 @@ export const UnlockExclusiveBenefits = () => {
                 </div>
             </div>
         </div>
-        
+
     )
 }
 
