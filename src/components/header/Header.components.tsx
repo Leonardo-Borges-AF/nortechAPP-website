@@ -23,14 +23,17 @@ export const Header = () => {
       </div>
 
       <div className="flex gap-6 items-center">
-        <button
-          className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
-          style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
-          <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
-          <p className="text-white group-hover:text-black z-10">
-            Join the whitelist
-          </p>
-        </button>
+        <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+          <button
+            className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
+            style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
+            <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
+            <p className="text-white group-hover:text-black z-10">
+              Join the whitelist
+            </p>
+          </button>
+        </a>
+        
         <LuMenu className="text-white size-6" />
       </div>
     </div>

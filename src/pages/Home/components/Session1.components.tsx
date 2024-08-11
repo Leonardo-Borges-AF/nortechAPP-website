@@ -43,14 +43,17 @@ export const Session1 = () => {
                 Complete courses and reach your educational <br /> goals to earn NTH tokens as rewards.
               </p>
               <div className="flex gap-4 ">
-                <button
-                  className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
-                  style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
-                  <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
-                  <p className="text-white group-hover:text-black z-10">
-                    Join the whitelist
-                  </p>
-                </button>
+                <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+                  <button
+                    className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
+                    style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
+                    <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
+                    <p className="text-white group-hover:text-black z-10">
+                      Join the whitelist
+                    </p>
+                  </button>
+                </a>
+                
                 <button className="border border-white px-6 py-4 flex gap-4 items-center bg-white bg-opacity-[0.04] rounded-lg button">
                   <p className="text-[#C594FF]">
                     Read the waithpaper
@@ -224,14 +227,16 @@ export const Session1 = () => {
             Complete courses and reach your educational goals to earn NTH tokens as rewards.
           </p>
           <div className="flex flex-col gap-4 w-full">
-            <button 
-            className="w-full flex items-center border-spacing-1 rounded-lg py-4 px-6 gap-[10px] bg-[#9841FF] border-[#9841FF] border-opacity-25 justify-center"
-            style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
-              <img src={emails} className="size-6" />
-              <p className="text-white font-semibold text-base">
-                Join the whitelist
-              </p>
-            </button>
+            <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+              <button
+                className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
+                style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
+                <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
+                <p className="text-white group-hover:text-black z-10">
+                  Join the whitelist
+                </p>
+              </button>
+            </a>
             <button className="border rounded-lg bg-white bg-opacity-5 py-4 px-6 border-white border-opacity-15 items-center justify-center flex gap-2">
               <p className="text-[#C594FF] font-semibold">
                 Read the waithpaper

@@ -21,8 +21,9 @@ export const JoinWaitlist02 = () => {
             Be the first to access the innovative NortechApp.<br/> Sign up now and secure exclusive benefits and rewards!
             </p>
           </div>
-          <button
-              className="w-fit text-[#1f1e22] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
+          <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+            <button
+              className="w-fit mx-auto text-[#6001D1] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
               style={{
                 boxShadow: "0px 8px 24px 0px #AE6BFF40"
               }}>
@@ -31,6 +32,7 @@ export const JoinWaitlist02 = () => {
                 Join the Waitlist
               </div>
             </button>
+          </a>
         </div>
       </div>
       {/* mobile */}
@@ -50,16 +52,18 @@ export const JoinWaitlist02 = () => {
                 Be the first to access the innovative <br /> NortechApp. Sign up now and <br /> secure exclusive benefits and <br /> rewards!
               </p>
             </div>
-            <button
-              className="w-fit mx-auto text-[#6001D1] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
-              style={{
-                boxShadow: "0px 8px 24px 0px #AE6BFF40"
-              }}>
-              <div className="flex items-center gap-2 bg-white w-full h-full py-4 px-6 rounded-lg">
-                <img src={EmailIcon} />
-                Join the Waitlist
-              </div>
-            </button>
+            <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+              <button
+                className="w-fit mx-auto text-[#6001D1] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
+                style={{
+                  boxShadow: "0px 8px 24px 0px #AE6BFF40"
+                }}>
+                <div className="flex items-center gap-2 bg-white w-full h-full py-4 px-6 rounded-lg">
+                  <img src={EmailIcon} />
+                  Join the Waitlist
+                </div>
+              </button>
+            </a>
           </div>
       </div>
     </div>
