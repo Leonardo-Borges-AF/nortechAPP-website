@@ -1,5 +1,6 @@
 import GridImage from "/images/grid-image.png";
 import EmailIcon from "/images/icons/Mail.svg";
+import "./JoinTheWaitList.css";
 
 export const JoinWaitlist = () => {
   return (
@@ -17,7 +18,7 @@ export const JoinWaitlist = () => {
           </h2>
           <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
             <button
-              className="w-fit mx-auto text-[#6001D1] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
+              className=" w-fit mx-auto text-[#6001D1] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
               style={{
                 boxShadow: "0px 8px 24px 0px #AE6BFF40"
               }}>

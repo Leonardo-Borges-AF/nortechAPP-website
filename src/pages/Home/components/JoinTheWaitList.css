@@ -1,0 +1,30 @@
+.animate-buttona {
+  position: relative;
+  overflow: hidden; /* Ensure content is clipped appropriately */
+  border: 4px solid #9841FF40;
+}
+
+.animate-buttona::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: -1; /* Position behind the content */
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.animate-buttona:hover::before {
+  transform: translateX(0);
+}
+
+.animate-buttona:hover {
+  color: black;
+}
+
+.animate-buttona p {
+  transition: color 0.5s;
+}

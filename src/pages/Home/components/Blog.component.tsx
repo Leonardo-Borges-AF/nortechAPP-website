@@ -79,7 +79,7 @@ const Card = ({
   text3
 }: TCard) => {
   return(
-      <div className="rounded-[4px] p-6 flex flex-col gap-8 w-[392.66px] bg-[#FDFDFD] hidden">
+      <div className="rounded-[4px] p-6 flex flex-col gap-8 w-[392.66px] bg-[#FDFDFD] ">
         <div className="w[342px] h-[202px] rounded-[4px] bg-gray-400"/>
         <div className="pb-4 flex flex-col gap-[18px]">
           <div className="flex flex-col gap-[10xp]">

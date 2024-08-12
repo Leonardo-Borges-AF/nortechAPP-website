@@ -390,7 +390,7 @@ const Div = ({
 }: TDiv) => {
   return (
     <div
-      className="h-[42px] py-2 px-[14px] rounded-full bg-white bg-opacity-5 backdrop-blur-md  border border-white border-opacity-15 flex gap-2 items-center z-20"
+      className="floating h-[42px] py-2 px-[14px] rounded-full bg-white bg-opacity-5 backdrop-blur-md  border border-white border-opacity-15 flex gap-2 items-center z-20"
       style={{
         zIndex: 20,
         position: 'absolute',
