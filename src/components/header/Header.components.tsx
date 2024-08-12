@@ -7,7 +7,7 @@ import "./header.css";
 export const Header = () => {
 
   return (
-    <div className="md:px-28 px-8 py-[18px]  flex justify-between bg-white bg-opacity-[0.04] border-b border-b-white border-opacity-[0.08]">
+    <div className="md:px-28 px-8 py-[18px]  flex justify-between bg-white bg-opacity-[0.04] border-b border-b-white border-opacity-[0.08] absolute w-full z-50">
       <div className="w-[650px] flex gap-6 items-center">
         <img src={LogoNortechApp} alt="logo NortechAPP" className="h-[36px] w-[153px]" />
         <div className="hidden md:flex border w-[22px] bg-white opacity-20 rotate-90 h-[1px]" />

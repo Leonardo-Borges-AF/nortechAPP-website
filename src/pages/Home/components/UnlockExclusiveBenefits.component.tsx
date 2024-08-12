@@ -100,7 +100,7 @@ export const UnlockExclusiveBenefits = () => {
                                     text="Participation in Feedback and Development"
                                     position={{
                                         left: '15%',
-                                        top: '40%',
+                                        top: '45%',
                                     }}
                                     icon={CheckIcon}
                                 />
@@ -108,7 +108,7 @@ export const UnlockExclusiveBenefits = () => {
                                     text="Bonus on NTH Tokens"
                                     position={{
                                         right: '0',
-                                        top: '57%',
+                                        top: '62%',
                                     }}
                                     icon={NortechIcon}
                                 />
@@ -116,7 +116,7 @@ export const UnlockExclusiveBenefits = () => {
                                     text="Achievements and Special Rewards"
                                     position={{
                                         left: '20%',
-                                        bottom: '15%',
+                                        bottom: '10%',
                                     }}
                                     icon={BenefitsIcon}
                                 />
@@ -124,7 +124,7 @@ export const UnlockExclusiveBenefits = () => {
                                     text="First to Test New Features"
                                     position={{
                                         left: '0',
-                                        top: '57%',
+                                        top: '62%',
                                     }}
                                     icon={CryptoCircleIcon}
                                 />
