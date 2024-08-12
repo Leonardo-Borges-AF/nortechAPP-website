@@ -26,7 +26,9 @@ export const Home = () => {
       <Blog />
       <JoinWaitlist />
       <CommonQuestions />
-      <Footer />
+      <div className="relative">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -1,11 +1,18 @@
 import { PiLinkedinLogoThin } from "react-icons/pi";
 import LogoNortechApp from "/images/logo-nortechapp(footer).png";
+import { CiInstagram } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
+
+
+
+
 
 
 export const Footer = () => {
   return (
     <div className="">
-      <div className="px-28 py-20 flex gap-[10px] border-t border-t-white border-opacity-15 bg-white z-0 md:block sm:hidden xs:hidden">
+      <div className="px-28 py-20 flex gap-[10px] border-t border-t-white border-opacity-15 bg-white z-50 md:block sm:hidden xs:hidden">
         <div className="flex flex-col gap-[148px]">
 
           <div className="flex gap-28">
@@ -18,55 +25,16 @@ export const Footer = () => {
               </div>
 
               <div className="flex gap-6">
-                <PiLinkedinLogoThin className="size-[35px] " />
-                <PiLinkedinLogoThin className="size-[35px] " />
-                <PiLinkedinLogoThin className="size-[35px] " />
-                <PiLinkedinLogoThin className="size-[35px] " />
+                <a href="https://www.linkedin.com/company/nortechapp" target="_blank" rel="noopener noreferrer"><PiLinkedinLogoThin className="size-[35px] hover:text-[#6001D1]" /></a>
+                <a href="https://www.instagram.com/nortechapp" target="_blank" rel="noopener noreferrer"><CiInstagram className="size-[35px] hover:text-[#6001D1]" /></a>
+                <a href="https://x.com/NortechApp" target="_blank" rel="noopener noreferrer"><FaXTwitter className="size-[35px] opacity-70 hover:text-[#6001D1]"  /></a>
+                <a href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer"><FaDiscord className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
+                
               </div>
 
             </div>
 
-            <div className="flex gap-[52px]">
-
-              <div className="flex flex-col gap-6">
-                <p className="font-bold text-lg text-[#495057]">Solutions</p>
-                <a href="" className="text-[#212529]">OmniHub</a>
-                <a href="" className="text-[#212529]">Nortech Token</a>
-              </div>
-
-              <div className="flex flex-col gap-6">
-                <p className="font-bold text-lg text-[#495057]">Resource</p>
-                <a href="" className="text-[#212529]">Whitepaper Nortech</a>
-                <a href="" className="text-[#212529]">Whitepaper NTH</a>
-                <a href="" className="text-[#212529]">Pitch Deck</a>
-                <a href="" className="text-[#212529]">Packs</a>
-              </div>
-
-              <div className="flex flex-col gap-6">
-                <p className="font-bold text-lg text-[#495057]">General</p>
-                <a href="" className="text-[#212529]">Community</a>
-                <a href="" className="text-[#212529]">Ecosystem Jobs</a>
-                <a href="" className="text-[#212529]">Pricing</a>
-              </div>
-
-              <div className="flex flex-col gap-8">
-                <p className="font-bold text-lg text-[#495057]">General</p>
-                <a href="" className="text-[#212529]">Subscribe to get update and notify our exchange and products</a>
-
-                <div className="flex gap-[13px] ">
-                  <input
-                    className="border border-[#DEE2E6] text-[#495057] placeholder-[#495057] text-sm flex gap-[10px] rounded-lg px-4 py-2"
-                    type="text"
-                    placeholder="Enter your email address"
-                  />
-                  <button className="px-4 py-3 rounded-lg bg-[#055EFA] text-white">
-                    Enviar
-                  </button>
-                </div>
-
-              </div>
-
-            </div>
+            
           </div>
 
           <div className="flex py-8 border-t border-t-[#DEE2E6] justify-between ">
@@ -93,81 +61,10 @@ export const Footer = () => {
               Your best crypto partner.
             </p>
             <div className="flex gap-6 ">
-              <PiLinkedinLogoThin className="size-[35px] " />
-              <PiLinkedinLogoThin className="size-[35px] " />
-              <PiLinkedinLogoThin className="size-[35px] " />
-              <PiLinkedinLogoThin className="size-[35px] " />
-            </div>
-          </div>
-          <div className="flex flex-col gap-8 py-6">
-            <div className="flex flex-col gap-6">
-              <p className="text-[#495057] text-lg font-bold">
-                Solutions
-              </p>
-              <a href="" className="font-main text-[#212529]">
-                OmniHub
-              </a>
-              <a href="" className="font-main text-[#212529]">
-                Nortech Token
-              </a>
-            </div>
-            <div className="flex flex-col gap-6">
-              <p className="text-[#495057] text-lg font-bold">
-                Resource
-              </p>
-              <a href="" className="font-main text-[#212529]">
-                Whitepaper Nortech
-              </a>
-              <a href="" className="font-main text-[#212529]">
-                Whitepaper NTH
-              </a>
-              <a href="" className="font-main text-[#212529]">
-                Pitch Deck
-              </a>
-              <a href="" className="font-main text-[#212529]">
-                Packs
-              </a>
-            </div>
-            <div className="flex flex-col gap-6">
-              <p className="text-[#495057] text-lg font-bold">
-                General
-              </p>
-              <a href="" className="font-main text-[#212529]">
-                Community
-              </a>
-              <a href="" className="font-main text-[#212529]">
-                Ecosystem Jobs
-              </a>
-              <a href="" className="font-main text-[#212529]">
-                Pricing
-              </a>
-            </div>
-          </div>
-          <div className="flex flex-col gap-8 ">
-            <div className="flex flex-col gap-4 w-full">
-              <p className="text-[#495057] ">
-                General
-              </p>
-              <p className="text-[#212529] font-main">
-                Subscribe to get update and notify our exchange and products
-              </p>
-            </div>
-            <div className="w-full flex flex-col gap-[13px] ">
-              <input
-                className="border w-full border-solid border-[#DEE2E6] py-[18px] px-4 rounded-lg"
-                type="email"
-                id="email"
-                placeholder="Enter Your email address"
-                style={{
-                  color: "#495057",
-                }}
-                autoComplete="offauto"
-                autoCorrect="off"
-              >
-              </input>
-              <button className="py-[18px] px-4 text-bold text-sm rounded-lg w-full bg-[#055EFA] text-[#E7E7EF] font-main ">
-                Enviar
-              </button>
+                <a href="https://www.linkedin.com/company/nortechapp" target="_blank" rel="noopener noreferrer"><PiLinkedinLogoThin className="size-[35px] hover:text-[#6001D1]" /></a>
+                <a href="https://www.instagram.com/nortechapp" target="_blank" rel="noopener noreferrer"><CiInstagram className="size-[35px] hover:text-[#6001D1]" /></a>
+                <a href="https://x.com/NortechApp" target="_blank" rel="noopener noreferrer"><FaXTwitter className="size-[35px] opacity-70 hover:text-[#6001D1]"  /></a>
+                <a href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer"><FaDiscord className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
             </div>
           </div>
           <div className="w-full border-t py-8 flex flex-col gap-6 border-[#DEE2E6]">
