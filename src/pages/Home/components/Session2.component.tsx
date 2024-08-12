@@ -60,19 +60,18 @@ export const Session2 = () => {
                 </h4>
               </div>
               <p className={`font-sans font-semibold leading-[44px] text-4xl ${titleStyle}`}>
-                See how Nortech can <br /> benefit you
+                Experience a New Way <br />to Learn and Grow
+
               </p>
             </div>
             <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
-              Nortech is more than an educational platform; it s a gamified
-              learning experience that encourages your growth. Explore a vast
-              library of high-quality courses and connect with a network of
-              professionals through the Nortech App.
+              Nortech is more than an education platform; it’s a gamified learning experience designed to fuel your
+              growth. Explore a vast library of high-quality courses and connect with a thriving network of professionals,
+              all within the Nortech App
             </p>
             <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
-              Every step you take is rewarded with NTH tokens, which you can
-              use to access exclusive resources and participate in the
-              evolution.
+              With every step you take, you’ll earn NTH tokens, which unlock exclusive resources and opportunities
+              to actively shape the future of education.
             </p>
           </div>
 
@@ -84,7 +83,7 @@ export const Session2 = () => {
                     01
                   </h3>
                   <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle1}`}>
-                    Estudante
+                    Students
                   </h3>
                 </div>
                 {selected === 1 && <ProgresiveBar onComplete={() => handleComplete(2)} selected={selected} />}
@@ -95,7 +94,7 @@ export const Session2 = () => {
                   02
                 </h3>
                 <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle2}`}>
-                  Professor
+                  Educators
                 </h3>
               </div>
               {selected === 2 && <ProgresiveBar onComplete={() => handleComplete(3)} selected={selected} />}
@@ -105,7 +104,7 @@ export const Session2 = () => {
                   03
                 </h3>
                 <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle3}`}>
-                  Afiliado
+                  Affiliates
                 </h3>
               </div>
               {selected === 3 && <ProgresiveBar onComplete={() => handleComplete(1)} selected={selected} />}
@@ -197,20 +196,20 @@ const Component1 = () => {
   return <div className="flex flex-col gap-6 relative h-[750px] w-full md:w-[720px] m-auto px-4 md:px-0">
     <Card
       icon={solar}
-      title="Earn NTH Tokens:"
-      description="Receive tangible rewards for completing courses and participating in educational activities."
+      title="Earn Rewards While Learning"
+      description="Win NTH tokens as you complete courses, turning your educational achievements into tangible rewards."
       className="bg-white md:top-[5%] md:left-[40%] z-30"
     />
     <Card
       icon={solar}
-      title="Gamified Experience:"
-      description="Enjoy an interactive and engaging approach that keeps you motivated and engaged."
+      title="Access Diverse Learning Resources"
+      description="Take advantage of a vast library of courses, e-books, and interactive tools tailored to enhance your learning experience."
       className="bg-white md:top-[30%] md:left-[17%] z-20"
     />
     <Card
       icon={solar}
-      title="Access to Exclusive Resources:"
-      description="Use NTH tokens to unlock premium materials and advanced courses."
+      title="Achieve Your Educational Goals"
+      description="Stay motivated to complete courses and reach your objectives with structured learning paths and proof-of-study incentives."
       className="bg-white md:top-[55%] md:left-[35%] z-30"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed opacity-50 bg-[#E1DCFD] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
@@ -225,25 +224,25 @@ const Component2 = () => {
   return <div className="flex flex-col gap-6 relative h-[750px] w-full md:w-[720px] m-auto px-4 md:px-0">
     <Card
       icon={solar}
-      title="Earn NTH Tokens:"
+      title="Monetize Your Expertise"
       titleClassName="text-white"
-      description="Receive tangible rewards for completing courses and participating in educational activities."
+      description="Create and sell courses on Nortech, earning NTH tokens or cash for every student that enrols and completes your courses."
       descriptionClassName="text-white opacity-60"
       className="md:top-[5%] md:left-[40%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <Card
       icon={solar}
-      title="Gamified Experience:"
+      title="Build Your Professional Network"
       titleClassName="text-white"
-      description="Enjoy an interactive and engaging approach that keeps you motivated and engaged."
+      description="Connect with students and other educators, expanding your influence and fostering collaborative opportunities."
       descriptionClassName="text-white opacity-60"
       className="md:top-[30%] md:left-[17%] z-20 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <Card
       icon={solar}
-      title="Access to Exclusive Resources:"
+      title="Engage Students with Gamified Learning"
       titleClassName="text-white"
-      description="Use NTH tokens to unlock premium materials and advanced courses."
+      description="Use Nortech’s gamified platform to make learning interactive and rewarding while improving student retention and success."
       descriptionClassName="text-white opacity-60"
       className="md:top-[55%] md:left-[35%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
@@ -259,20 +258,20 @@ const Component3 = () => {
   return <div className="flex flex-col gap-6 relative h-[750px] w-full md:w-[720px] m-auto px-4 md:px-0">
     <Card
       icon={solar}
-      title="Earn NTH Tokens:"
-      description="Receive tangible rewards for completing courses and participating in educational activities."
+      title="Earn Commissions by Promoting Courses"
+      description="Leverage your audience to drive traffic to Nortech courses, earning a commission on every qualifying purchase."
       className="bg-white md:top-[5%] md:left-[40%] z-30 bg-opacity-80"
     />
     <Card
       icon={solar}
-      title="Gamified Experience:"
-      description="Enjoy an interactive and engaging approach that keeps you motivated and engaged."
+      title="Expand Your Reach"
+      description="Partner with course creators to promote valuable educational content, increasing your influence and impact in the educational community."
       className="bg-white md:top-[30%] md:left-[17%] z-20 bg-opacity-80"
     />
     <Card
       icon={solar}
-      title="Access to Exclusive Resources:"
-      description="Use NTH tokens to unlock premium materials and advanced courses."
+      title="Easy-to-Use Tools for Monetization:"
+      description="Use Nortech’s user-friendly affiliate tools to create referral links and efficiently monetize your traffic."
       className="bg-white md:top-[55%] md:left-[35%] z-30 bg-opacity-80"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed bg-[#E1DCFD] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 opacity-20" />
@@ -297,7 +296,7 @@ const Card = ({ title, titleClassName, description, descriptionClassName, icon, 
     <div className={`flex flex-col border border-[#F1F1F1] border-solid p-[34.6px] gap-4 rounded-md w-[300px] h-fit absolute bg-opacity-50 backdrop-blur-md ${className} relative md:absolute w-full md:w-[300px]`}>
       <img src={icon} alt="icon" className="w-6 h-6" />
       <div className="flex flex-col gap-2">
-        <h6 className={`text-[#212529] text-sm font-semibold leading-5 ${titleClassName}`}>{title}</h6>
+        <h6 className={`text-[#212529] text-xl font-semibold leading-5 ${titleClassName}`}>{title}</h6>
         <p className={`text-[#495057] text-sm leading-6 ${descriptionClassName}`}>{description}</p>
       </div>
     </div>

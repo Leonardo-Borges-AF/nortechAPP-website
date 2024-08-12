@@ -4,7 +4,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 export const Blog = () => {
 
   return(
-    <div className="md:block sm:hidden xs:hidden">
+    <div className="hidden">
       <div className="bg-white relative w-full items-center justify-center flex ">
         <div className="max-w-[1440px] py-[100px] px-8 gap-[20px] flex flex-col ">
           <div className="flex flex-col gap-[53px]">
@@ -79,7 +79,7 @@ const Card = ({
   text3
 }: TCard) => {
   return(
-      <div className="rounded-[4px] p-6 flex flex-col gap-8 w-[392.66px] bg-[#FDFDFD]">
+      <div className="rounded-[4px] p-6 flex flex-col gap-8 w-[392.66px] bg-[#FDFDFD] hidden">
         <div className="w[342px] h-[202px] rounded-[4px] bg-gray-400"/>
         <div className="pb-4 flex flex-col gap-[18px]">
           <div className="flex flex-col gap-[10xp]">

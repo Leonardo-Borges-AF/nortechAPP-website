@@ -55,10 +55,10 @@ export const UnlockRewardsProofStudy = () => {
                         </label>
                     </div>
                     <h2 className="md:text-4xl  text-[28px] font-bold text-white leading-tight">
-                        Unlock Rewards with Proof of Study
+                        Turn Study Time into Valuable Rewards with Proof of Study
                     </h2>
                     <h5 className="text-[18px] leading-tight text-white opacity-70">
-                        Earn NTH tokens as you learn, completing courses and achieving educational milestones on NortechApp.
+                        Get rewarded with NTH tokens for completing courses and advancing your education on the Nortech App.
                     </h5>
                     <div className="flex flex-col gap-4 relative h-[965px] w-full">
                         <div className="relative h-[47px]">
@@ -74,35 +74,35 @@ export const UnlockRewardsProofStudy = () => {
                         </div>
                         <div className="relative h-[120px]">
                             <div className="absolute left-0">
-                                <Card id={'card1'} title="Start a free course" description="Start your learning with a free course offered by the Nortech platform." icon={<img src={StudyIcon} />} />
+                                <Card id={'card1'} title="Start a free course" description="Kickstart your learning journey with a free course available on the Nortech platform." icon={<img src={StudyIcon} />} />
                             </div>
                             <div id={'line1'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] left-[380px] absolute top-[55px]"></div>
                             <div id={'column1'} className="background__top-bottom h-[80px] w-[1px] right-[190px] absolute top-[56px]"></div>
                         </div>
                         <div className="relative h-[120px]">
                             <div className="absolute right-0">
-                                <Card id={'card2'} title="Get a certificate of completion" description="Get an official certificate upon successful completion of each course." icon={<img src={NortechIcon} />} />
+                                <Card id={'card2'} title="Earn NTH Tokens" description="Unlock rewards by earning NTH Tokens as you complete free courses and advance your skills." icon={<img src={NortechIcon} />} />
                             </div>
                             <div id={'line2'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] right-[380px] absolute top-[55px]"></div>
                             <div id={'column2'} className="background__top-bottom h-[80px] w-[1px] left-[190px] absolute top-[56px]"></div>
                         </div>
                         <div ref={ref} className="relative h-[120px]">
                             <div className="absolute left-0">
-                                <Card id={'card3'} title="Earn NTH Tokens" description="Earn NTH Tokens for completing free courses, rewarding your progress." icon={<img src={CertificateIcon} />} />
+                                <Card id={'card3'} title="Receive a Certificate of Completion" description="Obtain an official certificate to showcase your achievements upon successfully finishing each course." icon={<img src={CertificateIcon} />} />
                             </div>
                             <div id={'line3'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] left-[380px] absolute top-[55px]"></div>
                             <div id={'column3'} className="background__top-bottom h-[80px] w-[1px] right-[190px] absolute top-[56px]"></div>
                         </div>
                         <div className="relative h-[120px]">
                             <div className="absolute right-0">
-                                <Card id={'card4'} title="Get into a consistent study habit" description="Develop a habit of regular and continuous study." icon={<img src={StudyListIcon} />} />
+                                <Card id={'card4'} title="Build a Consistent Study Habit" description="Cultivate a regular and continuous study routine to ensure steady progress in your learning journey." icon={<img src={StudyListIcon} />} />
                             </div>
                             <div id={'line4'} className="background__top-bottom h-[1px] w-[calc(100%-570px)] right-[380px] absolute top-[55px]"></div>
                             <div id={'column4'} className="background__top-bottom h-[80px] w-[1px] left-[190px] absolute top-[56px]"></div>
                         </div>
                         <div className="relative h-[120px]">
                             <div className="absolute lef-0">
-                                <Card id={'card5'} title="Learn to invest" description="Use your NTH Tokens to explore investments and expand your financial knowledge." icon={<img src={DatabaseIcon} />} />
+                                <Card id={'card5'} title="Expand Your Financial Knowledge" description="Leverage your NTH Tokens to explore investment opportunities and deepen your understanding of finance." icon={<img src={DatabaseIcon} />} />
                             </div>
                         </div>
                     </div>
@@ -119,10 +119,10 @@ export const UnlockRewardsProofStudy = () => {
                             </label>
                         </div>
                         <h3 className="text-center text-3xl font-semibold font-sans text-white">
-                            Unlock Rewards with Proof of Study
+                            Turn Study Time into Valuable Rewards with Proof of Study
                         </h3>
                         <p className="text-white opacity-70 text-lg text-center">
-                            Earn NTH tokens as you learn, completing courses and achieving educational milestones on NortechApp.
+                            Get rewarded with NTH tokens for completing courses and advancing your education on the Nortech App.
                         </p>
                     </div>
                     <div className="flex flex-col w-full items-center justify-center">

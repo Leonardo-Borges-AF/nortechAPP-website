@@ -21,21 +21,20 @@ export const UnlockExclusiveBenefits = () => {
                     <div className='flex items-center gap-2'>
                         <img src={BenefitsIcon} className='w-7 h-7' />
                         <label className="text-lg text-[#6001D1] leading-tight uppercase opacity-60">
-                            Benefits Nortech App
+                            NORTECH APP BENEFITS
                         </label>
                     </div>
                     <h2 className="md:text-4xl  text-[28px] font-bold  leading-tight">
-                        Unlock Exclusive Benefits
+                        Gain Access to Exclusive Perks
                     </h2>
                     <div className='flex items-center gap-8 justify-start relative w-full bg-[#FBFAFC] p-6 rounded-xl overflow-hidden'>
                         <div className='flex flex-col gap-4 max-w-[400px] pb-8'>
                             <div className='flex items-center gap-2'>
                                 <img src={NortechIcon} />
-                                <h6 className='font-bold'>Bonus on NTH Tokens</h6>
+                                <h6 className='font-bold'>Earn Extra NTH Tokens</h6>
                             </div>
                             <p className='opacity-60 text-[#33363C]'>
-                                When you sign up for the waitlist, you earn extra NTH tokens. This gives you a head start, letting you access premium features, enroll in exclusive courses, and participate in governance early. <br /><br />
-                                By joining now, you not only secure your spot but also boost your learning experience with added benefits and early access to all our upcoming features.
+                                Sign up for the waitlist and earn bonus NTH tokens, giving you early access to premium features, exclusive courses, and governance participation. Join now to secure your spot and enhance your learning experience with these added perks.
                             </p>
                         </div>
                         <div className='w-full relative h-full'>
@@ -80,10 +79,10 @@ export const UnlockExclusiveBenefits = () => {
                         <div className='flex flex-col items-start gap-8 justify-start w-full bg-[#FBFAFC] p-6 rounded-xl overflow-hidden min-h-[400px] relative'>
                             <div className='flex items-center gap-2'>
                                 <img src={NortechIcon} />
-                                <h6 className='font-bold'>Early Access</h6>
+                                <h6 className='font-bold'>Unlock Early Access Privileges</h6>
                             </div>
                             <p className='opacity-60 text-[#33363C]'>
-                                Have early access to new courses and <br /> platform features.
+                                Gain exclusive early access to the latest courses and cutting-edge platform features before everyone else. Stay ahead with innovative updates, explore new educational opportunities first, and maximize your learning potential from the very start.
                             </p>
                             <div className="flex items-center justify-center h-full w-full absolute left-0 bottom-0 overflow-hidden">
                                 <div className="flex items-center justify-center bg-[#6001D1] rounded-full w-12 h-12 absolute top-[58%]">
@@ -136,10 +135,10 @@ export const UnlockExclusiveBenefits = () => {
                             <div className='flex flex-col gap-4 w-full'>
                                 <div className='flex items-center gap-2'>
                                     <img src={NortechIcon} />
-                                    <h6 className='font-bold'>Quests to Earn Tokens</h6>
+                                    <h6 className='font-bold'>Boost Your Tokens with Challenges</h6>
                                 </div>
                                 <p className='opacity-60 text-[#33363C]'>
-                                    Participate in quests and challenges to earn <br /> even more NTH tokens.
+                                    Take on exciting quests and challenges designed to help you earn even more NTH tokens. By participating, you’ll not only sharpen your skills but also unlock additional rewards, adding a fun and engaging way to boost your token balance.
                                 </p>
                                 <div className='w-full relative h-full'>
                                     <div className='flex flex-col bg-white p-6 rounded-2xl h-fit absolute right-0 top-0 gap-4 border-[10px] border-opacity-15 border-gray-400 w-full'>
@@ -178,11 +177,11 @@ export const UnlockExclusiveBenefits = () => {
                         <div className="flex gap-1 items-center">
                             <img src={BenefitsIcon} className='w-7 h-7' />
                             <label className="text-lg text-[#6001D1] leading-tight uppercase opacity-60">
-                                Benefits Nortech App
+                                NORTECH APP BENEFITS
                             </label>
                         </div>
                         <p className="text-[#0B0D12] font-semibold text-3xl font-sans text-center">
-                            Unlock Exclusive Benefits
+                            Gain Access to Exclusive Perks
                         </p>
                     </div>
                     <div className="flex flex-col gap-4 pt-6 px-6 rounded-xl bg-[#FBFAFC] overflow-hidden">
@@ -190,15 +189,12 @@ export const UnlockExclusiveBenefits = () => {
                             <div className="flex  gap-2">
                                 <img src={NortechIcon} />
                                 <p className="text-[#0B0D12] font-bold">
-                                    Bonus on NTH Tokens
+                                    Earn Extra NTH Tokens
                                 </p>
 
                             </div>
                             <p className="opacity-60 text-[#33363C] ">
-                                When you sign up for the waitlist, you earn extra NTH tokens. This gives you a head start, letting you access premium features, enroll in exclusive courses, and participate in governance early.
-                            </p>
-                            <p className="opacity-60 text-[#33363C] ">
-                                By joining now, you not only secure your spot but also boost your learning experience with added benefits and early access to all our upcoming features.
+                                Sign up for the waitlist and earn bonus NTH tokens, giving you early access to premium features, exclusive courses, and governance participation. Join now to secure your spot and enhance your learning experience with these added perks.
                             </p>
                         </div>
                         <div className="w-[1192px] h-[284px] relative">
@@ -239,7 +235,7 @@ export const UnlockExclusiveBenefits = () => {
                             <div className="flex gap-2">
                                 <img src={NortechIcon} className="size-6" />
                                 <p className="text-[#0B0D12] font-bold">
-                                    Early Access
+                                    Unlock Early Access Privileges
                                 </p>
                             </div>
                             <p className="text-[#33363C] opacity-60">
@@ -280,11 +276,11 @@ export const UnlockExclusiveBenefits = () => {
                             <div className="flex gap-2 ">
                                 <img src={shield} className="size-6" />
                                 <p className="text-[#0B0D12] font-bold ">
-                                    Quests to Earn Tokens
+                                  Boost Your Tokens with Challenges
                                 </p>
                             </div>
                             <p className="text-[#33363C]">
-                                Participate in quests and challenges to <br />earn even more NTH tokens.
+                                Take on exciting quests and challenges designed to help you earn even more NTH tokens. By participating, you’ll not only sharpen your skills but also unlock additional rewards, adding a fun and engaging way to boost your token balance.
                             </p>
                             {/* relative aqasfgdis */}
                             <div className="relative w-[544px] h-[260px] overflow-hidden">

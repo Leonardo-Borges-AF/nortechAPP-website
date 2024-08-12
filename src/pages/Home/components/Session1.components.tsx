@@ -37,10 +37,10 @@ export const Session1 = () => {
                 </p>
               </div>
               <h2 className="text-white font-black text-5xl leading-[60px] font-sans z-10">
-                Revolutionize Your <br /> Experience with the <br /> Nortech App
+                Embrace the Next Generation of Learning with Nortech
               </h2>
               <p className="text-lg leading-7 text-white opacity-65">
-                Complete courses and reach your educational <br /> goals to earn NTH tokens as rewards.
+                Complete courses, achieve your learning goals, and <br />get rewarded with NTH tokens.
               </p>
               <div className="flex gap-4 ">
                 <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
@@ -49,18 +49,20 @@ export const Session1 = () => {
                     style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
                     <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
                     <p className="text-white group-hover:text-black z-10">
-                      Join the whitelist
+                      Join the Waitlist
                     </p>
                   </button>
                 </a>
+                <a href="https://nortech.gitbook.io/nortech-whitepaper" target="_blank" rel="noopener noreferrer">
+                  <button className="border border-white px-6 py-4 flex gap-4 items-center bg-white bg-opacity-[0.04] rounded-lg button">
+                    <p className="text-[#C594FF]">
+                      Read our Whitepaper
+                    </p>
+                    <FaArrowRightLong className="text-[#C594FF] size-4 icon1" />
+                    <FaArrowRightLong className="text-[#C594FF] size-4 icon2" />
+                  </button>
+                </a>
                 
-                <button className="border border-white px-6 py-4 flex gap-4 items-center bg-white bg-opacity-[0.04] rounded-lg button">
-                  <p className="text-[#C594FF]">
-                    Read the waithpaper
-                  </p>
-                  <FaArrowRightLong className="text-[#C594FF] size-4 icon1" />
-                  <FaArrowRightLong className="text-[#C594FF] size-4 icon2" />
-                </button>
               </div>
             </div>
             <div className="w-[1218px] h-[720px] relative">

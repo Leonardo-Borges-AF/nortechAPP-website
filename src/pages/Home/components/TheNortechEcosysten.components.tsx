@@ -259,7 +259,7 @@ export const TheNortechEcosystem = () => {
                                     </h5>
                                 </div>
                                 <p className="text-[#33363C] leading-6 text-opacity-60 w-full">
-                                    O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                                    Access a vibrant marketplace where educators and learners connect. Find high-quality courses, resources, and tools for every need.
                                 </p>
                             </div>
 
@@ -315,7 +315,7 @@ export const TheNortechEcosystem = () => {
                                     </h5>
                                 </div>
                                 <p className="text-[#33363C] leading-6 text-opacity-60 w-full">
-                                    As aulas são melhoradas utilizando inteligência artificial para uma experiência de aprendizado mais personalizada.
+                                    Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
                                 </p>
                             </div>
 
@@ -439,7 +439,7 @@ export const TheNortechEcosystem = () => {
                                     </h5>
                                 </div>
                                 <p className="text-[#33363C] leading-6 text-opacity-60 w-full">
-                                    O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                                    Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
                                 </p>
                             </div>
 
@@ -501,7 +501,7 @@ export const TheNortechEcosystem = () => {
                                     </h5>
                                 </div>
                                 <p className="w-[328px] opacity-60 text-[#33363C]">
-                                    O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                                    Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
                                 </p>
                             </div>
                             <div className="w-[592px] h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-[#FBFAFC]"
@@ -529,7 +529,7 @@ export const TheNortechEcosystem = () => {
                                     </h5>
                                 </div>
                                 <p className="w-[328px] opacity-60 text-[#33363C]">
-                                    O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                                    Embrace the future with seamless Web 3 integration. Benefit from secure, decentralized interactions that empower you in the digital economy.
                                 </p>
                             </div>
                         </div>
@@ -650,7 +650,7 @@ export const TheNortechEcosystem = () => {
                                 </p>
                             </div>
                             <p className="text-[#33363C] opacity-60 ">
-                                O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                                Access a vibrant marketplace where educators and learners connect. Find high-quality courses, resources, and tools for every need.
                             </p>
                         </div>
                     </div>
@@ -705,7 +705,7 @@ export const TheNortechEcosystem = () => {
                             </h4>
                         </div>
                         <p className="text-[#33363C] opacity-60">
-                            As aulas são melhoradas utilizando inteligência artificial para uma experiência de aprendizado mais personalizada.
+                            Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
                         </p>
                     </div>
 
@@ -806,7 +806,7 @@ export const TheNortechEcosystem = () => {
                             </h5>
                         </div>
                         <p className="w-full opacity-60 text-[#33363C] ">
-                            O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                            Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
                         </p>
                     </div>
                     {/* relative */}
@@ -851,7 +851,7 @@ export const TheNortechEcosystem = () => {
                             </p>
                         </div>
                         <p className="opacity-60 text-[#33363C]">
-                            O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                            Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
                         </p>
                     </div>
                     {/* relative */}
@@ -876,7 +876,7 @@ export const TheNortechEcosystem = () => {
                             </p>
                         </div>
                         <p className="text-[#33363C] opacity-60">
-                            O aplicativo Nortech é uma plataforma onde você pode comprar e vender cursos, utilizando o Token NTH.
+                            Embrace the future with seamless Web 3 integration. Benefit from secure, decentralized interactions that empower you in the digital economy.
                         </p>
                     </div>
                     <div className="flex items-center gap-2 mb-8 mx-auto">

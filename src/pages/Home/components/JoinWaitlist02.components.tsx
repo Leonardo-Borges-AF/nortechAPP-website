@@ -15,10 +15,10 @@ export const JoinWaitlist02 = () => {
         <div className="flex flex-row items-center justify-between gap-6 max-w-[1184px] mx-auto">
           <div className="flex flex-col gap-3">
             <h3 className="font-sans font-semibold text-4xl leading-[44px] text-white">
-              Join the Waitlist
+              Get Early Access to Nortech
             </h3>
             <p className="text-lg leading-7w-[486px] text-white opacity-70">
-            Be the first to access the innovative NortechApp.<br/> Sign up now and secure exclusive benefits and rewards!
+              Be among the first to experience the <br /> groundbreaking Nortech App. Sign <br /> up now and unlock exclusive <br /> benefits and rewards!
             </p>
           </div>
           <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
@@ -29,7 +29,7 @@ export const JoinWaitlist02 = () => {
               }}>
               <div className="flex items-center gap-2 bg-white w-full h-full py-4 px-6 rounded-lg">
                 <img src={EmailIcon} />
-                Join the Waitlist
+                Secure your Spot
               </div>
             </button>
           </a>

@@ -13,7 +13,7 @@ export const JoinWaitlist = () => {
         />
         <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8 text-center">
           <h2 className="md:text-4xl text-[28px] font-bold text-white leading-tight">
-            Join the Waitlist
+            Be the First to Experience Nortech
           </h2>
           <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
             <button

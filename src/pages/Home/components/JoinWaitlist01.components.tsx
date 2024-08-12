@@ -18,7 +18,7 @@ export const JoinWaitlist01 = () => {
               Join the Waitlist
             </h3>
             <p className="text-lg leading-7 text-center w-[486px] text-white opacity-70">
-              Be the first to access the innovative NortechApp. Sign up now and secure exclusive benefits and rewards!
+              Be among the first to experience the groundbreaking Nortech App. Sign up now and unlock exclusive benefits and rewards!
             </p>
           </div>
           <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
@@ -50,7 +50,7 @@ export const JoinWaitlist01 = () => {
                 Join the Waitlist
               </h3>
               <p className="text-lg leading-7 text-center text-white opacity-70 font-semibold">
-                Be the first to access the innovative NortechApp. Sign up now and secure exclusive benefits and rewards!
+                Be among the first to experience the groundbreaking Nortech App. Sign up now and unlock exclusive benefits and rewards!
               </p>
             </div>
             <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
