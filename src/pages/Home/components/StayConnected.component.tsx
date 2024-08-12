@@ -17,23 +17,24 @@ export const StayConnected = () => {
                         Stay Connected
                     </h2>
 
-                    <span className="text-[#505358] leading-7 text-lg font-normal">Earn NTH tokens as you learn, completing courses and achieving educational milestones on NortechApp.</span>
+                    <span className="text-[#505358] leading-7 text-lg font-normal">Follow us on social media to stay updated with the latest news, tips, and community highlights from Nortech.</span>
 
                     <div className='flex gap-4 w-full'>
-                        <div className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white'>
+                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-70 transition duration-700' target="_blank" rel="noopener noreferrer">
                             <img src={DiscordIcon} className='m-auto h-full w-[325px]' />
                             <div className='flex flex-col gap-4 mt-auto'>
                                 <label className='font-bold text-3xl'>Join Our <span className='text-[#6001D1]'>Discord</span> Community</label>
                                 <p className='opacity-60'>Engage with fellow learners, get real-time support, and access exclusive content on our vibrant Discord server.</p>
                             </div>
-                        </div>
-                        <div className='flex flex-col p-6 rounded-xl w-full  min-w-[270px] bg-white'>
+                        </a>
+                        
+                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-70 transition duration-700' target="_blank" rel="noopener noreferrer">
                             <img src={XIcon} className='mx-auto py-28' />
                             <div className='flex flex-col gap-4 mt-auto'>
                                 <label className='font-bold text-3xl'>Follow Us on <span className='text-[#6001D1]'>X</span></label>
                                 <p className='opacity-60'>Stay updated with the latest news, insights, and opportunities by following us on X.</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                 </div>
@@ -56,12 +57,12 @@ export const StayConnected = () => {
                             
                         </div>
                         <p className='text-[#505358] text-lg text-center'>
-                            Earn NTH tokens as you learn, completing courses and achieving educational milestones on NortechApp.
+                            Follow us on social media to stay updated with the latest news, tips, and community highlights from Nortech.
                         </p>
 
                     </div>
                     <div className=' flex flex-col gap-8 w-full '>
-                        <div className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col justify-center items-center '>
+                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col justify-center items-center hover:bg-[#6001D1] hover:bg-opacity-70' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
                             <div className='w-full h-[235px] flex justify-center'>
                                 <img src={DiscordIcon} className='w-[186.28px] h-[211.12px]' />
                             </div>
@@ -74,8 +75,8 @@ export const StayConnected = () => {
                                 </p>
                             </div>
 
-                        </div>
-                        <div className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col'>
+                        </a>
+                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col hover:bg-[#6001D1] hover:bg-opacity-70' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
                             <div className='w-full flex justify-center'>
                                 <img src={XIcon} className='w-[198.36px] h-[267px]' />
                             </div>
@@ -83,7 +84,7 @@ export const StayConnected = () => {
                                 <label className='font-bold text-3xl font-sans'>Follow Us on <span className='text-[#6001D1]'>X</span></label>
                                 <p className='opacity-60 text-center text-lg text-black'>Stay updated with the latest news, insights, and opportunities by following us on X.</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
