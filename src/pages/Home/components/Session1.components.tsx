@@ -1,6 +1,5 @@
 
 import { FaArrowRightLong } from "react-icons/fa6";
-import { Header } from "~/components/header/Header.components";
 import "./Session1.css";
 import arrow from "/images/arrow right.png";
 import Background from "/images/background-1.png";
@@ -13,10 +12,10 @@ import settings from "/images/icons/Settings.png";
 import star from "/images/icons/star.png";
 import stars from "/images/icons/Stars.png";
 import imageInterface from "/images/imageInterface.png";
+import login from "/images/login.png";
 import logoInterface from "/images/logoInterface.png";
 import nortechBadge from "/images/nortech-badge.png";
 import pay from "/images/pay to learn.png";
-import login from "/images/login.png";
 
 
 
@@ -24,9 +23,8 @@ export const Session1 = () => {
   return (
     <div className="">
       <div className="bg-[#120D17] relative h-[924px] w-full overflow-hidden z-10 md:block sm:hidden xs:hidden">
-        <img src={Background} className="absolute opacity-10 w-[2471px] h-[2340px] top-[-500px] rotate-45" />
-        <Header />
-        <div className="relative pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px]">
+        <img src={Background} className="absolute opacity-10 w-[2471px] h-[1340px] top-[-500px] rotate-45" />
+        <div className="relative pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px] mt-16">
           <div className=" h-[720px] flex gap-8 items-center">
             <div className="pl-28 flex flex-col gap-6 w-[578px]">
               <div className="flex gap-3 items-center">
@@ -62,7 +60,7 @@ export const Session1 = () => {
                     <FaArrowRightLong className="text-[#C594FF] size-4 icon2" />
                   </button>
                 </a>
-                
+
               </div>
             </div>
             <div className="w-[1218px] h-[720px] relative">
@@ -131,10 +129,10 @@ export const Session1 = () => {
 
 
 
-              <div className="opacity-10 size-[739px] absolute top-[-170px] left-[-46px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
-              <div className="opacity-10 size-[903px] absolute top-[-258px] left-[-128px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
-              <div className="opacity-10 size-[1148px] absolute top-[-380px] left-[-250px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
-              <div className="opacity-5 size-[1357px] absolute top-[-485px] left-[-355px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+                <div className="opacity-10 size-[739px] absolute top-[-170px] left-[-46px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+                <div className="opacity-10 size-[903px] absolute top-[-258px] left-[-128px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+                <div className="opacity-10 size-[1148px] absolute top-[-380px] left-[-250px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
+                <div className="opacity-5 size-[1357px] absolute top-[-485px] left-[-355px] border-[1.39] border-[#AE6BFF] bg-[#AE6BFF] border-solid border bg-opacity-30 rounded-full z-0 animate-pulse" />
 
 
                 <div className="h-[588.32px] w-[791.5px] absolute top-[-100px] left-[-93px] rounded-2xl border border-[#FFFFFF1F] bg-[#19191E]">
@@ -211,82 +209,82 @@ export const Session1 = () => {
         </div>
       </div>
 
-      <div className="sm:block md:hidden lg:hidden xl:hidden flex flex-col w-full bg-[#120D17] ">
-        <Header />
+      {/* MOBILE */}
+      <div className="sm:block md:hidden lg:hidden xl:hidden flex flex-col w-full bg-[#120D17] mt-24">
         <div className="flex flex-col max-w-[375px] mx-auto gap-8 overflow-hidden">
-        <div className="flex flex-col px-8 gap-6 w-full items-center">
-          <div className="flex gap-3 items-center">
-            <img src={pay} alt="" className="w-[123px] h-[32px]" />
-            <img src={arrow} alt="" className="w-12 h-3" />
-            <p className="text-lg text-[#AE6BFF] font-sans font-normal leading-7">
-              Learn to Earn
+          <div className="flex flex-col px-8 gap-6 w-full items-center">
+            <div className="flex gap-3 items-center">
+              <img src={pay} alt="" className="w-[123px] h-[32px]" />
+              <img src={arrow} alt="" className="w-12 h-3" />
+              <p className="text-lg text-[#AE6BFF] font-sans font-normal leading-7">
+                Learn to Earn
+              </p>
+            </div>
+            <h3 className="font-bold text-[30px] leading-[38px] text-center text-white font-sans">
+              Revolutionize Your Experience with the Nortech App
+            </h3>
+            <p className="text-white opacity-70 text-center">
+              Complete courses and reach your educational goals to earn NTH tokens as rewards.
             </p>
-          </div>
-          <h3 className="font-bold text-[30px] leading-[38px] text-center text-white font-sans">
-            Revolutionize Your Experience with the Nortech App
-          </h3>
-          <p className="text-white opacity-70 text-center">
-            Complete courses and reach your educational goals to earn NTH tokens as rewards.
-          </p>
-          <div className="flex flex-col gap-4 w-full">
-            <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
-              <button
-                className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
-                style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
-                <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
-                <p className="text-white group-hover:text-black z-10">
-                  Join the whitelist
+            <div className="flex flex-col gap-4 w-full">
+              <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+                <button
+                  className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
+                  style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
+                  <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
+                  <p className="text-white group-hover:text-black z-10">
+                    Join the whitelist
+                  </p>
+                </button>
+              </a>
+              <button className="border rounded-lg bg-white bg-opacity-5 py-4 px-6 border-white border-opacity-15 items-center justify-center flex gap-2">
+                <p className="text-[#C594FF] font-semibold">
+                  Read the waithpaper
                 </p>
+                <FaArrowRightLong className="text-[#C594FF] size-4 " />
               </button>
-            </a>
-            <button className="border rounded-lg bg-white bg-opacity-5 py-4 px-6 border-white border-opacity-15 items-center justify-center flex gap-2">
-              <p className="text-[#C594FF] font-semibold">
-                Read the waithpaper
-              </p>
-              <FaArrowRightLong className="text-[#C594FF] size-4 " />
-            </button>
+            </div>
           </div>
-        </div>
-        <div className="w-full h-[305.79px] flex">
-          <div className=" w-[517.29px] h-[305.79px] relative">
-            <div className="items-center absolute flex top-[226.79px] left-[210.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-              <img src={coin} className="size-[10.6px]"/>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
+          <div className="w-full h-[305.79px] flex">
+            <div className=" w-[517.29px] h-[305.79px] relative">
+              <div className="items-center absolute flex top-[226.79px] left-[210.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+                <img src={coin} className="size-[10.6px]" />
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
                   + 5%
-              </p>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                More experiments
-              </p>
-            </div>
-            <div className="items-center absolute flex top-[183.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-              <img src={coin} className="size-[10.6px]"/>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                + 25%
-              </p>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                Free developer time per month
-              </p>
-            </div>
-            <div className="items-center absolute flex top-[140.79px] left-[175.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-              <img src={coin} className="size-[10.6px]"/>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                + 39%
-              </p>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                Average conversion rate uplift
-              </p>
-            </div>
-            <div className="items-center absolute flex top-[97.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-              <img src={coin} className="size-[10.6px]"/>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                + 60%
-              </p>
-              <p className="text-[9.28px] leading-[13.25px] text-white ">
-                Average ARPU increase
-              </p>
-            </div>
-            <div className="absolute top-[72.73px] left-[53.14px] w-[301.12px] h-[160.11px] z-10 ">
-              <div className="h-[249.86px] absolute top-[-44px] left-[-34px] border border-[white] border-opacity-[0.12] bg-[#19191E] flex flex-col rounded-[7.59px]  ">
+                </p>
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  More experiments
+                </p>
+              </div>
+              <div className="items-center absolute flex top-[183.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+                <img src={coin} className="size-[10.6px]" />
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  + 25%
+                </p>
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  Free developer time per month
+                </p>
+              </div>
+              <div className="items-center absolute flex top-[140.79px] left-[175.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+                <img src={coin} className="size-[10.6px]" />
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  + 39%
+                </p>
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  Average conversion rate uplift
+                </p>
+              </div>
+              <div className="items-center absolute flex top-[97.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+                <img src={coin} className="size-[10.6px]" />
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  + 60%
+                </p>
+                <p className="text-[9.28px] leading-[13.25px] text-white ">
+                  Average ARPU increase
+                </p>
+              </div>
+              <div className="absolute top-[72.73px] left-[53.14px] w-[301.12px] h-[160.11px] z-10 ">
+                <div className="h-[249.86px] absolute top-[-44px] left-[-34px] border border-[white] border-opacity-[0.12] bg-[#19191E] flex flex-col rounded-[7.59px]  ">
                   <div className="w-[336.15px] flex border-b-[0.37px] gap-[11.82px] px-[5.91px] py-[8.87px] border-white border-opacity-5 items-center">
                     <img src={logoInterface} className="w-[44.84px] h-fit" />
                     <div className="h-[16.37px] flex w-[163.81px] rounded-[3.4px] border-[0.37px] justify-between items-center py-[3.7px] px-[5.91px] border-white border-opacity-5 ">
@@ -295,7 +293,7 @@ export const Session1 = () => {
                       </p>
                       <img src={searchInterface} className="size-[7.65px]" />
                     </div>
-                    
+
                     <div className="flex gap-[5.91px] items-center">
                       <div className="flex gap-[2.96px] py-[2.96px] px-[5.91px] h-fit rounded-[3.4px] bg-white bg-opacity-5 items-center">
                         <img src={add} className="size-[7.91px]" />
@@ -304,7 +302,7 @@ export const Session1 = () => {
                         </p>
                       </div>
                       <div className="h-fit rounded-[3.4px] border-[0.37px] py-[2.96px] px-[5.91px] flex items-center gap-[2.96px] border-[#AE6BFF] border-opacity-40">
-                        <img src={login} className="size-[7.65px]"/>
+                        <img src={login} className="size-[7.65px]" />
                         <p className="text-[#AE6BFF] text-[4.41px] leading-[5.18px] font-medium">
                           Login
                         </p>
@@ -315,16 +313,16 @@ export const Session1 = () => {
                   <div className="h-[215.73px] flex">
                     <div className="w-[62.45px] h-[144.85px] border-r-[0.37px] p-[5.91px] flex flex-col gap-[5.91px] border-white border-opacity-5">
                       <div className="rounded-[3.4px] w-full flex items-center p-[2.96px] gap-[2.96px] bg-[#AE6BFF] bg-opacity-[0.08]">
-                        <img src={house} className="size-[7.61px]"/>
+                        <img src={house} className="size-[7.61px]" />
                         <p className="text-[#AE6BFF] text-[5.17px] leading-[7.39px]">
                           Marketplace
                         </p>
                       </div>
-                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]"/>
-                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]"/>
-                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]"/>
-                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]"/>
-                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]"/>
+                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]" />
+                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]" />
+                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]" />
+                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]" />
+                      <div className="bg-white bg-opacity-[0.06] rounded-[3.4px] opacity-50 w-full h-[9.61px]" />
                     </div>
                     <div className="flex flex-col gap-[2.96px] p-[8.87px] ">
                       <div className="flex items-center gap-[2.96px]">
@@ -334,7 +332,7 @@ export const Session1 = () => {
                         </p>
                       </div>
                       <div className="w-full flex gap-[11.82px]">
-                        <img src={imageInterface} className="w-[159.26px]"/>
+                        <img src={imageInterface} className="w-[159.26px]" />
                         <div className="flex flex-col gap-[5.91px] ">
                           <div className="flex flex-col gap-[2.96px]">
                             <p className="opacity-60 text-[5.17px] leading-[7.39px] text-white ">
@@ -348,7 +346,7 @@ export const Session1 = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum neque at ultrices placerat. Cras maximus ipsum ex, in pellentesque magna tincidunt in.
                           </p>
                           <div className="h-[16.52px] rounded-[3.4px] py-[2.96px] px-[5.91px] flex gap-[2.96px] bg-[#9841FF] items-center w-fit">
-                            <img src={add} className="size-[7.91px]"/>
+                            <img src={add} className="size-[7.91px]" />
                             <p className="text-white text-[4.41px] leading-[5.18px] font-medium">
                               Creat account
                             </p>
@@ -357,19 +355,19 @@ export const Session1 = () => {
                       </div>
                     </div>
                   </div>
+                </div>
               </div>
+              <div className="absolute size-[487px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[-85px] left-[-50px] z-0" />
+              <div className="absolute size-[383px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[-40px] left-[-0px] z-0" />
+              <div className="absolute size-[313px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[5px] left-[35px] z-0" />
+              <div className="absolute size-[313px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[5px] left-[35px] z-0" />
             </div>
-            <div className="absolute size-[487px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[-85px] left-[-50px] z-0"/>
-            <div className="absolute size-[383px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[-40px] left-[-0px] z-0"/>
-            <div className="absolute size-[313px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[5px] left-[35px] z-0"/>
-            <div className="absolute size-[313px] opacity-10 bg-[#AE6BFF] bg-opacity-30 border-[0.59px] border-[#AE6BFF] rounded-full top-[5px] left-[35px] z-0"/>
           </div>
         </div>
-        </div>
-        
+
       </div>
     </div>
-    
+
 
   );
 

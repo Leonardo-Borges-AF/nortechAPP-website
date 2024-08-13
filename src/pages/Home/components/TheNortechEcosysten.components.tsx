@@ -17,6 +17,7 @@ import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { CardFloating } from "~/components/CardFloating.componen";
 import "./TheNortech.css";
@@ -42,7 +43,7 @@ export const TheNortechEcosystem = () => {
             height: 40,
             top: 32,
             left: 31,
-            duration: 1.5,
+            duration: 3,
             ease: 'power2.inOut',
             scrollTrigger: {
                 trigger: ".trigger",
@@ -50,7 +51,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-11", {
             height: 22,
-            duration: 1.5,
+            duration: 3,
             top: 50,
             left: 48,
             ease: 'power2.inOut',
@@ -60,7 +61,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-12", {
             height: 33,
-            duration: 1.5,
+            duration: 3,
             top: 39,
             left: 67,
             ease: 'power2.inOut',
@@ -70,7 +71,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-13", {
             height: 48,
-            duration: 1.5,
+            duration: 3,
             top: 24,
             left: 85,
             ease: 'power2.inOut',
@@ -80,7 +81,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-14", {
             height: 11,
-            duration: 1.5,
+            duration: 3,
             top: 61,
             left: 103,
             ease: 'power2.inOut',
@@ -90,7 +91,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-16", {
             height: 35,
-            duration: 1.5,
+            duration: 3,
             top: 36,
             ease: 'power2.inOut',
             scrollTrigger: {
@@ -99,7 +100,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-17", {
             height: 28,
-            duration: 1.5,
+            duration: 3,
             top: 43,
             ease: 'power2.inOut',
             scrollTrigger: {
@@ -108,7 +109,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-18", {
             height: 31,
-            duration: 1.5,
+            duration: 3,
             top: 40,
             ease: 'power2.inOut',
             scrollTrigger: {
@@ -117,7 +118,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-19", {
             height: 17,
-            duration: 1.5,
+            duration: 3,
             top: 54,
             ease: 'power2.inOut',
             scrollTrigger: {
@@ -126,7 +127,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-20", {
             height: 40,
-            duration: 1.5,
+            duration: 3,
             top: 31,
             ease: 'power2.inOut',
             scrollTrigger: {
@@ -135,7 +136,7 @@ export const TheNortechEcosystem = () => {
         });
         gsap.to(".bar-21", {
             height: 22,
-            duration: 1.5,
+            duration: 3,
             top: 49,
             ease: 'power2.inOut',
             scrollTrigger: {
@@ -268,62 +269,6 @@ export const TheNortechEcosystem = () => {
 
                                 <div className="w-full relative h-[286px] overflow-hidden">
 
-                                    <div className="p-6  rounded-2xl flex flex-col absolute top-[27px] gap-4 items-center border-x-[10px] border-t-[10px] border-[#F6F5F7] w-full">
-                                        <div className="flex gap-1 w-full">
-                                            <img src={arrow} alt="" className="size-6" />
-                                            <h5 className="text-[#6001D1] font-semibold text-sm ">
-                                                IA Learning
-                                            </h5>
-                                        </div>
-                                        <div className="w-full border border-[#F1F1F1]" />
-                                        <div className="flex">
-                                            <div className="relative overflow-hidden">
-                                                <div className="flex gap-4">
-                                                    <Course
-                                                        text1="Course 01"
-                                                        text2="Course Python"
-                                                    />
-                                                    <Course
-                                                        text1="Course 02"
-                                                        text2="Course Java"
-                                                    />
-                                                    <Course
-                                                        text1="Course 03"
-                                                        text2="Course CSS"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="rounded-lg border p-2 gap-[10px] bg-[#FDFDFD] border-[#F5F6F6] flex flex-col w-full">
-                                            <h5 className="font-semibold text-xs leading-[18px] text-[#505358] w-full">
-                                                Progress
-                                            </h5>
-                                            <div className="w-full border border-[#F1F1F1] rounded-full relative h-[26px] overflow-hidden">
-                                                <p className="font-semibold absolute text-xs text-[#505358] py-1 left-1/2 ">
-                                                    43%
-                                                </p>
-                                                <div className="progress-43" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div className="flex gap-2">
-                                    <img src={chip} alt="" className="size-6" />
-                                    <h5 className="font-bold">
-                                        AI-Driven Learning
-                                    </h5>
-                                </div>
-                                <p className="text-[#33363C] leading-6 text-opacity-60 w-full">
-                                    Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
-                                </p>
-                            </div>
-
-                            {/* card 3 */}
-                            <div className="flex flex-col gap-4 p-6 rounded-xl bg-gradient-to-b from-[rgba(251,250,252,0)] to-[#FBFAFC] w-[384px]">
-
-                                <div className="w-full relative h-[286px] overflow-hidden">
-
                                     {/* mobile */}
                                     <div className="flex flex-col bg-white border-[5px] absolute border-[#F6F5F7] p-2 w-[150px] h-[284px] rounded-3xl top-[79px] left-[20px] gap-4 z-20">
                                         <div className="flex rounded-lg justify-between p-2 bg-[#F9F5FD]">
@@ -443,6 +388,63 @@ export const TheNortechEcosystem = () => {
                                 </p>
                             </div>
 
+
+                            {/* card 3 */}
+                            <div className="flex flex-col gap-4 p-6 rounded-xl bg-gradient-to-b from-[rgba(251,250,252,0)] to-[#FBFAFC] w-[384px]">
+
+                                <div className="w-full relative h-[286px] overflow-hidden">
+
+                                    <div className="p-6  rounded-2xl flex flex-col absolute top-[27px] gap-4 items-center border-x-[10px] border-t-[10px] border-[#F6F5F7] w-full">
+                                        <div className="flex gap-1 w-full">
+                                            <img src={arrow} alt="" className="size-6" />
+                                            <h5 className="text-[#6001D1] font-semibold text-sm ">
+                                                IA Learning
+                                            </h5>
+                                        </div>
+                                        <div className="w-full border border-[#F1F1F1]" />
+                                        <div className="flex">
+                                            <div className="relative overflow-hidden">
+                                                <div className="flex gap-4">
+                                                    <Course
+                                                        text1="Course 01"
+                                                        text2="Course Python"
+                                                    />
+                                                    <Course
+                                                        text1="Course 02"
+                                                        text2="Course Java"
+                                                    />
+                                                    <Course
+                                                        text1="Course 03"
+                                                        text2="Course CSS"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="rounded-lg border p-2 gap-[10px] bg-[#FDFDFD] border-[#F5F6F6] flex flex-col w-full">
+                                            <h5 className="font-semibold text-xs leading-[18px] text-[#505358] w-full">
+                                                Progress
+                                            </h5>
+                                            <div className="w-full border border-[#F1F1F1] rounded-full relative h-[26px] overflow-hidden">
+                                                <p className="font-semibold absolute text-xs text-[#505358] py-1 left-1/2 ">
+                                                    43%
+                                                </p>
+                                                <div className="progress-43" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div className="flex gap-2">
+                                    <img src={chip} alt="" className="size-6" />
+                                    <h5 className="font-bold">
+                                        AI-Driven Learning
+                                    </h5>
+                                </div>
+                                <p className="text-[#33363C] leading-6 text-opacity-60 w-full">
+                                    Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
+                                </p>
+                            </div>
+
                         </div>
                         <div className="flex gap-8 items-center justify-center">
                             <div className="w-[592px] h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-white"
@@ -536,13 +538,16 @@ export const TheNortechEcosystem = () => {
 
                     </div>
                 </div>
-                <div className="flex gap-2 items-center justify-center mt-8">
-                    <p className="text-2xl font-normal text-[#6001D1]">
-                        Read the whitepaper
-                    </p>
-                    <div className="items-center rounded-full p-3 bg-[#6001D1]">
-                        <BsArrowRight className="size-5 text-white" />
-                    </div>
+                <div className="flex gap-2 items-center justify-center mt-24">
+                    <a href="https://nortech.gitbook.io/nortech-whitepaper" target="_blank" rel="noopener noreferrer">
+                        <button className=" px-6 py-4 flex gap-4 items-center bg-[#6001D1] rounded-lg button-whitepaper-purple">
+                            <p className="text-white">
+                                Read our Whitepaper
+                            </p>
+                            <FaArrowRightLong className="text-[#C594FF] size-4 icon1" />
+                            <FaArrowRightLong className="text-[#C594FF] size-4 icon2" />
+                        </button>
+                    </a>
                 </div>
             </div>
 
@@ -654,60 +659,6 @@ export const TheNortechEcosystem = () => {
                             </p>
                         </div>
                     </div>
-                    {/* relative */}
-                    <div className="h-[462px] w-full gap-4 p-6 rounded-xl bg-[#FBFAFC] items-center">
-                        <div className="size-[263px] relative overflow-hidden">
-                            <div className="absolute border-[#F6F5F7] border-[8px] flex flex-col w-[316px] h-[312px] top-[10px] left-[10px] rounded-2xl p-6 gap-4 bg-white">
-                                <div className="flex gap-1 ">
-                                    <img src={arrow} alt="" className="size-6" />
-                                    <h4 className="text-[#6001D1] text-sm font-semibold">
-                                        IA Learning
-                                    </h4>
-                                </div>
-                                <div className="w-full border border-[#F1F1F1]" />
-                                <div className="flex gap-4 ">
-                                    <Course
-                                        text1="Course 01"
-                                        text2="Course Python"
-                                    />
-                                    <div className="relative w-[73px] flex flex-col rounded-lg border border-[#DCBEFF] bg-[#F2E8FF] gap-[10px] p-2 items-center">
-                                        <div className="rounded-full p-[6px] gap-[10px] bg-[#F2E8FF] bg-opacity-35">
-                                            <img src={video} alt="" className="size-[18px]" />
-                                        </div>
-                                        <div className="flex flex-col items-center">
-                                            <h6 className="text-xs leading-[18px] font-semibold text-[#9841FF]">Course 02</h6>
-                                            <h6 className="text-[8px] leading-[18px] font-medium text-[#AE6BFF]">Course Java</h6>
-                                        </div>
-                                        <img src={mao} className="absolute top-[80px] left-[60px] w-[14.4px] h-[20px]" />
-                                    </div>
-                                    <Course
-                                        text1="Course 01"
-                                        text2="Course Python"
-                                    />
-                                </div>
-                                <div className="flex flex-col gap-[10px] border border-[#F5F6F6] p-2 w-full rounded-lg bg-[#FDFDFD]">
-                                    <p className="text-[#505358] text-xs font-semibold">
-                                        Progress
-                                    </p>
-                                    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-full">
-                                        <p className="text-[#505358] text-xs font-semibold">
-                                            43%
-                                        </p>
-                                        <div className="absolute w-[100px] h-[100px] left-0 bg-[#6001D1]" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex gap-2 ">
-                            <img src={chip} alt="" className="size-6" />
-                            <h4 className="font-bold text-[#0B0D12] ">
-                                AI-Driven Learning
-                            </h4>
-                        </div>
-                        <p className="text-[#33363C] opacity-60">
-                            Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
-                        </p>
-                    </div>
 
                     {/* relative */}
                     <div className="h-[462px] w-full rounded-xl bg-[#FBFAFC] flex flex-col gap-4 p-6 items-center">
@@ -809,6 +760,62 @@ export const TheNortechEcosystem = () => {
                             Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
                         </p>
                     </div>
+
+                    {/* relative */}
+                    <div className="h-[462px] w-full gap-4 p-6 rounded-xl bg-[#FBFAFC] items-center">
+                        <div className="size-[263px] relative overflow-hidden">
+                            <div className="absolute border-[#F6F5F7] border-[8px] flex flex-col w-[316px] h-[312px] top-[10px] left-[10px] rounded-2xl p-6 gap-4 bg-white">
+                                <div className="flex gap-1 ">
+                                    <img src={arrow} alt="" className="size-6" />
+                                    <h4 className="text-[#6001D1] text-sm font-semibold">
+                                        IA Learning
+                                    </h4>
+                                </div>
+                                <div className="w-full border border-[#F1F1F1]" />
+                                <div className="flex gap-4 ">
+                                    <Course
+                                        text1="Course 01"
+                                        text2="Course Python"
+                                    />
+                                    <div className="relative w-[73px] flex flex-col rounded-lg border border-[#DCBEFF] bg-[#F2E8FF] gap-[10px] p-2 items-center">
+                                        <div className="rounded-full p-[6px] gap-[10px] bg-[#F2E8FF] bg-opacity-35">
+                                            <img src={video} alt="" className="size-[18px]" />
+                                        </div>
+                                        <div className="flex flex-col items-center">
+                                            <h6 className="text-xs leading-[18px] font-semibold text-[#9841FF]">Course 02</h6>
+                                            <h6 className="text-[8px] leading-[18px] font-medium text-[#AE6BFF]">Course Java</h6>
+                                        </div>
+                                        <img src={mao} className="absolute top-[80px] left-[60px] w-[14.4px] h-[20px]" />
+                                    </div>
+                                    <Course
+                                        text1="Course 01"
+                                        text2="Course Python"
+                                    />
+                                </div>
+                                <div className="flex flex-col gap-[10px] border border-[#F5F6F6] p-2 w-full rounded-lg bg-[#FDFDFD]">
+                                    <p className="text-[#505358] text-xs font-semibold">
+                                        Progress
+                                    </p>
+                                    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-full">
+                                        <p className="text-[#505358] text-xs font-semibold">
+                                            43%
+                                        </p>
+                                        <div className="absolute w-[100px] h-[100px] left-0 bg-[#6001D1]" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex gap-2 mb-2 mt-2">
+                            <img src={chip} alt="" className="size-6" />
+                            <h4 className="font-bold text-[#0B0D12] ">
+                                AI-Driven Learning
+                            </h4>
+                        </div>
+                        <p className="text-[#33363C] opacity-60">
+                            Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
+                        </p>
+                    </div>
+
                     {/* relative */}
                     <div className="h-[412px] w-full flex flex-col gap-4 p-6 rounded-xl bg-[#FBFAFC] items-center">
                         <div className="relative h-[212px] w-[263px] overflow-hidden">

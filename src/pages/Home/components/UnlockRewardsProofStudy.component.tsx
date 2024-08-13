@@ -4,9 +4,9 @@ import BenefitsIcon from '/images/icons/Benefits.svg';
 import CertificateIcon from '/images/icons/certificate-light.svg';
 import DatabaseIcon from '/images/icons/database-light.svg';
 import NortechIcon from '/images/icons/nortech-light.svg';
+import solar from "/images/icons/solar-system01.png";
 import StudyIcon from '/images/icons/study-light.svg';
 import StudyListIcon from '/images/icons/study-list-light.svg';
-import solar from "/images/icons/solar-system01.png";
 import UserIcon from '/images/icons/user-light.svg';
 
 export const UnlockRewardsProofStudy = () => {
@@ -115,7 +115,7 @@ export const UnlockRewardsProofStudy = () => {
                         <div className="flex gap-1 items-center">
                             <img src={solar} className='size-6 mr-4' />
                             <label className="text-lg text-[#AE6BFF] leading-tight  ">
-                                Study habits                            
+                                Study habits
                             </label>
                         </div>
                         <h3 className="text-center text-3xl font-semibold font-sans text-white">
@@ -127,12 +127,12 @@ export const UnlockRewardsProofStudy = () => {
                     </div>
                     <div className="flex flex-col w-full items-center justify-center">
                         <div className="flex gap-2 items-center">
-                            <img src={UserIcon} className="size-[42px]"/>
+                            <img src={UserIcon} className="size-[42px]" />
                             <p className="text-[#AE6BFF] text-lg">
                                 You
                             </p>
                         </div>
-                        <div className="h-[68px] border border-white opacity-20"/>
+                        <div className="h-[68px] border border-white opacity-20" />
                         <div className="w-full rounded-xl flex flex-col border p-6 gap-4 border-white border-opacity-20 bg-white bg-opacity-[0.02]">
                             <img src={StudyIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
@@ -143,70 +143,70 @@ export const UnlockRewardsProofStudy = () => {
                                     Start your learning with a free <br /> course offered by the Nortech platform.
                                 </p>
                             </div>
-                            
+
                         </div>
 
-                        <div className="h-[68px] border border-white opacity-20"/>
+                        <div className="h-[68px] border border-white opacity-20" />
 
                         <div className="w-full rounded-xl flex flex-col border p-6 gap-4 border-white border-opacity-20 bg-white bg-opacity-[0.02]">
                             <img src={CertificateIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Get a certificate of completion                            
+                                    Get a certificate of completion
                                 </p>
                                 <p className="opacity-70 text-white">
                                     Get an official certificate upon successful completion of each course.
                                 </p>
                             </div>
-                            
+
                         </div>
-                        <div className="h-[68px] border border-white opacity-20"/>
+                        <div className="h-[68px] border border-white opacity-20" />
 
                         <div className="w-full rounded-xl flex flex-col border p-6 gap-4 border-white border-opacity-20 bg-white bg-opacity-[0.02]">
                             <img src={NortechIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Earn NTH Tokens                         
+                                    Earn NTH Tokens
                                 </p>
                                 <p className="opacity-70 text-white">
                                     Earn NTH Tokens for completing <br /> free courses, rewarding your progress.
                                 </p>
                             </div>
-                            
+
                         </div>
-                        <div className="h-[68px] border border-white opacity-20"/>
+                        <div className="h-[68px] border border-white opacity-20" />
 
                         <div className="w-full rounded-xl flex flex-col border p-6 gap-4 border-white border-opacity-20 bg-white bg-opacity-[0.02]">
                             <img src={StudyListIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Get into a consistent <br /> study habit                       
+                                    Get into a consistent <br /> study habit
                                 </p>
                                 <p className="opacity-70 text-white">
                                     Develop a habit of regular and continuous study.
                                 </p>
                             </div>
-                           
+
                         </div>
-                        <div className="h-[68px] border border-white opacity-20"/>
+                        <div className="h-[68px] border border-white opacity-20" />
 
                         <div className="w-full rounded-xl flex flex-col border p-6 gap-4 border-white border-opacity-20 bg-white bg-opacity-[0.02]">
                             <img src={StudyListIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Learn to invest                       
+                                    Learn to invest
                                 </p>
                                 <p className="opacity-70 text-white">
                                     Use your NTH Tokens to explore investments and expand your financial knowledge.
                                 </p>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     )
 }
 

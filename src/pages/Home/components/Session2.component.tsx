@@ -198,19 +198,19 @@ const Component1 = () => {
       icon={solar}
       title="Earn Rewards While Learning"
       description="Win NTH tokens as you complete courses, turning your educational achievements into tangible rewards."
-      className="bg-white md:top-[5%] md:left-[40%] z-30"
+      className="bg-white md:top-[0%] md:left-[40%] z-30"
     />
     <Card
       icon={solar}
       title="Access Diverse Learning Resources"
       description="Take advantage of a vast library of courses, e-books, and interactive tools tailored to enhance your learning experience."
-      className="bg-white md:top-[30%] md:left-[17%] z-20"
+      className="bg-white md:top-[27%] md:left-[17%] z-20"
     />
     <Card
       icon={solar}
       title="Achieve Your Educational Goals"
       description="Stay motivated to complete courses and reach your objectives with structured learning paths and proof-of-study incentives."
-      className="bg-white md:top-[55%] md:left-[35%] z-30"
+      className="bg-white md:top-[57%] md:left-[35%] z-30"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed opacity-50 bg-[#E1DCFD] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
     <div className="w-[659px] h-[659px] border border-[#6001D1] border-opacity-30 border-dotted rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-0"
@@ -228,7 +228,7 @@ const Component2 = () => {
       titleClassName="text-white"
       description="Create and sell courses on Nortech, earning NTH tokens or cash for every student that enrols and completes your courses."
       descriptionClassName="text-white opacity-60"
-      className="md:top-[5%] md:left-[40%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
+      className="md:top-[0%] md:left-[40%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <Card
       icon={solar}
@@ -236,7 +236,7 @@ const Component2 = () => {
       titleClassName="text-white"
       description="Connect with students and other educators, expanding your influence and fostering collaborative opportunities."
       descriptionClassName="text-white opacity-60"
-      className="md:top-[30%] md:left-[17%] z-20 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
+      className="md:top-[25%] md:left-[17%] z-20 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <Card
       icon={solar}
@@ -244,7 +244,7 @@ const Component2 = () => {
       titleClassName="text-white"
       description="Use Nortech’s gamified platform to make learning interactive and rewarding while improving student retention and success."
       descriptionClassName="text-white opacity-60"
-      className="md:top-[55%] md:left-[35%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
+      className="md:top-[57%] md:left-[35%] z-30 bg-[#141414] bg-opacity-70 border-[#FFFFFF] border-opacity-5"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed opacity-50 bg-[#161327] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10" />
     <div className="w-[659px] h-[659px] border border-[#6001D1] border-opacity-30 border-dotted rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-0"
@@ -260,19 +260,19 @@ const Component3 = () => {
       icon={solar}
       title="Earn Commissions by Promoting Courses"
       description="Leverage your audience to drive traffic to Nortech courses, earning a commission on every qualifying purchase."
-      className="bg-white md:top-[5%] md:left-[40%] z-30 bg-opacity-80"
+      className="bg-white md:top-[0%] md:left-[40%] z-30 bg-opacity-80"
     />
     <Card
       icon={solar}
       title="Expand Your Reach"
       description="Partner with course creators to promote valuable educational content, increasing your influence and impact in the educational community."
-      className="bg-white md:top-[30%] md:left-[17%] z-20 bg-opacity-80"
+      className="bg-white md:top-[27%] md:left-[17%] z-20 bg-opacity-80"
     />
     <Card
       icon={solar}
       title="Easy-to-Use Tools for Monetization:"
       description="Use Nortech’s user-friendly affiliate tools to create referral links and efficiently monetize your traffic."
-      className="bg-white md:top-[55%] md:left-[35%] z-30 bg-opacity-80"
+      className="bg-white md:top-[57%] md:left-[35%] z-30 bg-opacity-80"
     />
     <div className="w-[500px] h-[500px] border border-[#6001D1] border-opacity-30 border-dashed bg-[#E1DCFD] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 opacity-20" />
     <div className="w-[659px] h-[659px] border border-[#6001D1] border-opacity-30 border-dotted rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-0 opacity-10"

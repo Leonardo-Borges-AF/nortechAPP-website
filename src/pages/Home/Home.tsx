@@ -1,5 +1,6 @@
 import { Footer } from "~/components/footer/Footer.component";
 
+import { Header } from "~/components/header/Header.components";
 import { JoinWaitlist, Session2 } from "./components";
 import { Blog } from "./components/Blog.component";
 import { CommonQuestions } from "./components/CommonQuestions.component";
@@ -15,6 +16,7 @@ import { UnlockRewardsProofStudy } from "./components/UnlockRewardsProofStudy.co
 export const Home = () => {
   return (
     <div className="w-full relative overflow-hidden">
+      <Header />
       <Session1 />
       <Session2 />
       <JoinWaitlist01 />

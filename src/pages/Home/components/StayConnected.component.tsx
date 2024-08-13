@@ -20,15 +20,15 @@ export const StayConnected = () => {
                     <span className="text-[#505358] leading-7 text-lg font-normal">Follow us on social media to stay updated with the latest news, tips, and community highlights from Nortech.</span>
 
                     <div className='flex gap-4 w-full'>
-                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-70 transition duration-700' target="_blank" rel="noopener noreferrer">
+                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' target="_blank" rel="noopener noreferrer">
                             <img src={DiscordIcon} className='m-auto h-full w-[325px]' />
                             <div className='flex flex-col gap-4 mt-auto'>
                                 <label className='font-bold text-3xl'>Join Our <span className='text-[#6001D1]'>Discord</span> Community</label>
                                 <p className='opacity-60'>Engage with fellow learners, get real-time support, and access exclusive content on our vibrant Discord server.</p>
                             </div>
                         </a>
-                        
-                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-70 transition duration-700' target="_blank" rel="noopener noreferrer">
+
+                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' target="_blank" rel="noopener noreferrer">
                             <img src={XIcon} className='mx-auto py-28' />
                             <div className='flex flex-col gap-4 mt-auto'>
                                 <label className='font-bold text-3xl'>Follow Us on <span className='text-[#6001D1]'>X</span></label>
@@ -46,7 +46,7 @@ export const StayConnected = () => {
                     <div className='flex flex-col gap-4 w-full '>
                         <div className='flex flex-col gap-2 items-center'>
                             <div className='flex gap-3  items-center'>
-                                <img src={GroupIcon} className='size-6'/>
+                                <img src={GroupIcon} className='size-6' />
                                 <h4 className='text-[#6001D1] text-lg '>
                                     Community
                                 </h4>
@@ -54,7 +54,7 @@ export const StayConnected = () => {
                             <h4 className='text-[#0B0D12] text-3xl leading-9 font-semibold font-sans'>
                                 Stay Connected
                             </h4>
-                            
+
                         </div>
                         <p className='text-[#505358] text-lg text-center'>
                             Follow us on social media to stay updated with the latest news, tips, and community highlights from Nortech.
@@ -90,6 +90,6 @@ export const StayConnected = () => {
             </div>
 
         </div>
-        
+
     )
 }

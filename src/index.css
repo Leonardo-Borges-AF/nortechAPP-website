@@ -535,7 +535,7 @@ h1 {
     background-size: 100% 200%;
     background-position: bottom;
     transition: all .4s ease-out;
-    opacity: 50%;
+    opacity: 70%;
 }
 
 .background__top-bottom-active {

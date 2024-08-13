@@ -1,8 +1,8 @@
+import { CiInstagram } from "react-icons/ci";
+import { FaDiscord } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { PiLinkedinLogoThin } from "react-icons/pi";
 import LogoNortechApp from "/images/logo-nortechapp(footer).png";
-import { CiInstagram } from "react-icons/ci";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaDiscord } from "react-icons/fa";
 
 
 
@@ -13,8 +13,7 @@ export const Footer = () => {
   return (
     <div className="">
       <div className="px-28 py-20 flex gap-[10px] border-t border-t-white border-opacity-15 bg-white z-50 md:block sm:hidden xs:hidden">
-        <div className="flex flex-col gap-[148px]">
-
+        <div className="flex flex-col gap-[148px] max-w-[1440px] mx-auto">
           <div className="flex gap-28">
             <div className="flex flex-col gap-10">
               <div className="flex flex-col gap-6">
