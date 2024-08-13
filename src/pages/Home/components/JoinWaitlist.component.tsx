@@ -1,5 +1,7 @@
 import GridImage from "/images/grid-image.png";
 import EmailIcon from "/images/icons/Mail.svg";
+import emails from "/images/icons/emails.png";
+
 import "./JoinTheWaitList.css";
 
 export const JoinWaitlist = () => {
@@ -16,16 +18,15 @@ export const JoinWaitlist = () => {
           <h2 className="md:text-4xl text-[28px] font-bold text-white leading-tight">
             Be the First to Experience Nortech
           </h2>
-          <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
+          <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer" className="mx-auto">
             <button
-              className=" w-fit mx-auto text-[#6001D1] border-4 border-white border-opacity-20 border-solid bg-transparent relative p-0 rounded-xl"
-              style={{
-                boxShadow: "0px 8px 24px 0px #AE6BFF40"
-              }}>
-              <div className="flex items-center gap-2 bg-white w-full h-full py-4 px-6 rounded-lg">
-                <img src={EmailIcon} />
-                Join the Waitlist
-              </div>
+              className="flex gap-[10px] py-4 bg-white border-[4px] border-[#6001D1] border-opacity-70 rounded-lg group hover-button"
+              style={{ boxShadow: "0px 8px 24px 0px #AE6BFF" }}>
+              <img src={EmailIcon} className="size-6 group-hover:hidden" />
+              <img src={emails} className="size-6 hidden group-hover:block relative z-10" />
+              <p className="text-[#6001D1] group-hover:text-white z-10">
+                Join the whitelist
+              </p>
             </button>
           </a>
           
