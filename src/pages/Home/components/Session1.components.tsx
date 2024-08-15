@@ -27,7 +27,7 @@ export const Session1 = () => {
     <div id="session-1" className="" >
       <div className="bg-[#120D17] relative h-[924px] w-full overflow-hidden z-10 md:block sm:hidden xs:hidden">
         <img src={Background} className="absolute opacity-10 w-[2471px] h-[1340px] top-[-500px] rotate-45" />
-        <div className="relative pb-[82px] flex w-full mx-auto max-w-[1440px]">
+        <div className="relative pb-[82px] flex w-full mx-auto max-w-[1440px] mt-16">
           <div className=" h-[720px] flex gap-8 items-center">
             <div className="pl-28 flex flex-col gap-6 w-[578px]">
               <div className="flex gap-3 items-center">
