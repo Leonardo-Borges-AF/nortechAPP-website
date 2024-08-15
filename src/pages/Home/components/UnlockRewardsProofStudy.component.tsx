@@ -41,8 +41,8 @@ export const UnlockRewardsProofStudy = () => {
     });
 
     return (
-        <div className="">
-            <div id="blog-session" className="bg-[#120d17] text-black px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
+        <div id="habits" className="">
+            <div className="bg-[#120d17] text-black px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
                 <img
                     src={Background}
                     className="absolute w-[200%] h-[200%] right-0 -top-52 opacity-10 -z-50"

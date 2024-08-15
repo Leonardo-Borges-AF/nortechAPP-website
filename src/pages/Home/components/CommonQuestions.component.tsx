@@ -1,12 +1,12 @@
+import { useState } from 'react';
 import { FiArrowDownCircle } from "react-icons/fi";
 import Background from "/images/background-1.png";
 import arrow from "/images/icons/Arrow-down.png";
-import { useState } from 'react';
 
 export const CommonQuestions = () => {
   return (
-    <div className="">
-      <div id="blog-session" className="bg-[#120D17] px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
+    <div id="questions" className="">
+      <div className="bg-[#120D17] px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
         <img
           src={Background}
           className="absolute opacity-10 right-0"
@@ -53,7 +53,7 @@ export const CommonQuestions = () => {
         </div>
       </div>
       {/* mobile */}
-      <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-[#120D17] items-center relative justify-center flex flex-col"> 
+      <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-[#120D17] items-center relative justify-center flex flex-col">
         <div className="max-w-[375px] p-8 mx-auto">
           <div className="w-full flex flex-col py-8 gap-6">
             <div className="w-full items-center flex flex-col gap-2">
@@ -76,7 +76,7 @@ export const CommonQuestions = () => {
           <div className="py-8 w-full flex flex-col gap-6">
             <CardM
               title="What is Nortech App? "
-              
+
             />
             <CardM
               title="How do I earn rewards on Nortech App?"
@@ -97,7 +97,7 @@ export const CommonQuestions = () => {
         </div>
       </div>
     </div>
-    
+
   );
 };
 
@@ -142,7 +142,7 @@ const CardM = ({ title }: TCardMProps) => {
   return (
     <div className="bg-[#F1F7F9] bg-opacity-5 p-8 rounded-lg flex gap-6 items-center">
       <label className="text-white opacity-80 font-medium text-[17.3px] leading-[28.8px] tracking-[-0.09px]">{title}</label>
-      <img src={arrow}  className="size-6"/>
+      <img src={arrow} className="size-6" />
     </div>
   )
 }

@@ -4,8 +4,8 @@ import XIcon from '/images/icons/X.svg';
 
 export const StayConnected = () => {
     return (
-        <div className="">
-            <div id="blog-session" className="bg-[#f9f9f3] text-black px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
+        <div id="community" className="">
+            <div className="bg-[#f9f9f3] text-black px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
                 <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8 justify-center items-center">
                     <div className='flex items-center gap-2'>
                         <img src={GroupIcon} className='w-7 h-7' />
