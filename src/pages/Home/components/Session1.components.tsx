@@ -220,7 +220,7 @@ export const Session1 = () => {
 
       {/* MOBILE */}
       <div className="sm:block md:hidden lg:hidden xl:hidden flex flex-col w-full bg-[#120D17] mt-24">
-        <div className="flex flex-col max-w-[375px] mx-auto gap-8 overflow-hidden">
+        <div className="flex flex-col max-w-[375px] mx-auto gap-8 ">
           <div className="flex flex-col px-8 gap-6 w-full items-center">
             <div className="flex gap-3 items-center">
               <img src={pay} alt="" className="w-[123px] h-[32px]" />
