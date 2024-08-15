@@ -27,11 +27,11 @@ export const Session2 = () => {
 
   useEffect(() => {
     if (selected === 1) {
-      (document.getElementById('session-about-nortech')?.style as any).backgroundColor = '#F1F1F1';
+      (document.getElementById('session-2')?.style as any).backgroundColor = '#F1F1F1';
     } else if (selected === 2) {
-      (document.getElementById('session-about-nortech')?.style as any).backgroundColor = '#090A0B';
+      (document.getElementById('session-2')?.style as any).backgroundColor = '#090A0B';
     } else {
-      (document.getElementById('session-about-nortech')?.style as any).backgroundColor = '#6338F4';
+      (document.getElementById('session-2')?.style as any).backgroundColor = '#6338F4';
     }
     setRotation(prev => prev + 60);
   }, [selected])
@@ -45,7 +45,7 @@ export const Session2 = () => {
   const aboutStyle = selected === 1 ? 'text-[#6001D1]' : selected === 2 ? 'text-[#6001D1]' : 'text-[#fff]'
 
   return (
-    <div id="session-about-nortech" className='bg-white relative overflow-hidden'>
+    <div id="session-2" className='bg-white relative overflow-hidden'>
       <div className="pt-20 md:pb-32 flex gap-3 transition-all duration-300 relative max-w-[1184px] mx-auto flex-col md:flex-row">
         <div id="background-image" className="absolute top-[200px] left-[-800px] w-full h-full bg-cover bg-center transition-all duration-700 selectDisable" style={{ transform: `rotate(${rotation}deg)` }}>
           <img id="background-image" src={Background} className='absolute opacity-15 top-[-900px] left-[-200px] rotate-10 w-[3322px] h-[3147px] selectDisable -z-50' />

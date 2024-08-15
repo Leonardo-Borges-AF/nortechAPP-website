@@ -161,7 +161,7 @@ export const TheNortechEcosystem = () => {
     }, []);
 
     return (
-        <div>
+        <div id="nth-learning">
             <div className="px-28 py-[82px] flex flex-col gap-12 bg-white items-center md:block sm:hidden xs:hidden">
                 <div className="flex flex-col gap-12 justify-center items-center max-w-[1184px] mx-auto">
                     <div className="flex flex-col gap-4 items-center">

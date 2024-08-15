@@ -1,5 +1,7 @@
 
-import { FaArrowRightLong } from "react-icons/fa6";
+import { ReactNode } from 'react';
+import { FaArrowRightLong, FaArrowTrendDown, FaArrowTrendUp } from "react-icons/fa6";
+import { PiStudentFill } from "react-icons/pi";
 import "./Session1.css";
 import arrow from "/images/arrow right.png";
 import Background from "/images/background-1.png";
@@ -13,23 +15,19 @@ import star from "/images/icons/star.png";
 import stars from "/images/icons/Stars.png";
 import imageInterface from "/images/imageInterface.png";
 import login from "/images/login.png";
+import NTH from "/images/Logo_NTH_Token.png";
 import logoInterface from "/images/logoInterface.png";
 import nortechBadge from "/images/nortech-badge.png";
 import pay from "/images/pay to learn.png";
-import NTH from "/images/Logo_NTH_Token.png";
-import { ReactNode } from 'react';
-import { PiStudentFill } from "react-icons/pi";
-import { FaArrowTrendUp } from "react-icons/fa6";
-import { FaArrowTrendDown } from "react-icons/fa6";
 
 
 
 export const Session1 = () => {
   return (
-    <div className="" id="session1">
+    <div id="session-1" className="" >
       <div className="bg-[#120D17] relative h-[924px] w-full overflow-hidden z-10 md:block sm:hidden xs:hidden">
         <img src={Background} className="absolute opacity-10 w-[2471px] h-[1340px] top-[-500px] rotate-45" />
-        <div className="relative pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px] mt-16">
+        <div className="relative pb-[82px] flex w-full mx-auto max-w-[1440px]">
           <div className=" h-[720px] flex gap-8 items-center">
             <div className="pl-28 flex flex-col gap-6 w-[578px]">
               <div className="flex gap-3 items-center">
@@ -68,7 +66,7 @@ export const Session1 = () => {
 
               </div>
             </div>
-            
+
             <div className="w-[1218px] h-[720px] relative">
               <div className="w-[693px] h-[283px] absolute top-[195px] left-[175px]">
                 <Div
@@ -78,9 +76,9 @@ export const Session1 = () => {
                     left: "0px",
                     top: "0px",
                   }}
-                  icon={<img src={NTH} className="size-6" />} 
+                  icon={<img src={NTH} className="size-6" />}
                 />
-                
+
                 <Div
                   text1="Higher Course Completion Rates"
                   text2=""
@@ -88,7 +86,7 @@ export const Session1 = () => {
                     left: "13px",
                     top: "212px",
                   }}
-                  icon={<FaArrowTrendUp className="text-[#7e62d3] text-2xl" />} 
+                  icon={<FaArrowTrendUp className="text-[#7e62d3] text-2xl" />}
                 />
                 <Div
                   text1="Increased Student Retention"

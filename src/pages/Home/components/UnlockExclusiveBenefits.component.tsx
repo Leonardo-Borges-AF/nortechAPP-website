@@ -15,8 +15,8 @@ import Nnortech from '/images/N.png';
 export const UnlockExclusiveBenefits = () => {
 
     return (
-        <div className="">
-            <div id="blog-session" className="bg-[#ffff] text-black px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
+        <div id="benefits" className="">
+            <div className="bg-[#ffff] text-black px-4 py-16 md:p-20 relative md:block sm:hidden xs:hidden">
                 <div className="relative z-20 max-w-[1184px] mx-auto flex flex-col gap-8 justify-center items-center">
                     <div className='flex items-center gap-2'>
                         <img src={BenefitsIcon} className='w-7 h-7' />
@@ -276,7 +276,7 @@ export const UnlockExclusiveBenefits = () => {
                             <div className="flex gap-2 ">
                                 <img src={shield} className="size-6" />
                                 <p className="text-[#0B0D12] font-bold ">
-                                  Boost Your Tokens with Challenges
+                                    Boost Your Tokens with Challenges
                                 </p>
                             </div>
                             <p className="text-[#33363C]">

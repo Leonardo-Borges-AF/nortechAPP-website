@@ -7,7 +7,7 @@ import "./JoinTheWaitList.css";
 export const JoinWaitlist = () => {
   return (
     <div className="">
-      <div id="blog-session" className="bg-[#6001D1] px-4 py-16 md:p-20 relative ">
+      <div className="bg-[#6001D1] px-4 py-16 md:p-20 relative ">
         <div
           className="absolute w-full h-full right-0 top-0 opacity-60"
           style={{
@@ -29,12 +29,12 @@ export const JoinWaitlist = () => {
               </p>
             </button>
           </a>
-          
+
 
         </div>
       </div>
-      
+
     </div>
-    
+
   );
 };
