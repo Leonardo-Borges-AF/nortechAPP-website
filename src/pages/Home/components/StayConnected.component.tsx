@@ -62,7 +62,7 @@ export const StayConnected = () => {
 
                     </div>
                     <div className=' flex flex-col gap-8 w-full '>
-                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col justify-center items-center hover:bg-[#6001D1] hover:bg-opacity-70' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
+                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col justify-center items-center hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
                             <div className='w-full h-[235px] flex justify-center'>
                                 <img src={DiscordIcon} className='w-[186.28px] h-[211.12px]' />
                             </div>
@@ -76,12 +76,12 @@ export const StayConnected = () => {
                             </div>
 
                         </a>
-                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col hover:bg-[#6001D1] hover:bg-opacity-70' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
+                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
                             <div className='w-full flex justify-center'>
                                 <img src={XIcon} className='w-[198.36px] h-[267px]' />
                             </div>
                             <div className='w-full flex flex-col gap-4'>
-                                <label className='font-bold text-3xl font-sans'>Follow Us on <span className='text-[#6001D1]'>X</span></label>
+                                <label className='font-bold text-3xl font-sans mx-auto'>Follow Us on <span className='text-[#6001D1]'>X</span></label>
                                 <p className='opacity-60 text-center text-lg text-black'>Stay updated with the latest news, insights, and opportunities by following us on X.</p>
                             </div>
                         </a>

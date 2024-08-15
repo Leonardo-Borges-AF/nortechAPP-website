@@ -152,10 +152,10 @@ export const UnlockRewardsProofStudy = () => {
                             <img src={CertificateIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Get a certificate of completion
+                                    Receive a Certificate of Completion
                                 </p>
                                 <p className="opacity-70 text-white">
-                                    Get an official certificate upon successful completion of each course.
+                                    Obtain an official certificate to showcase your achievements upon successfully finishing each course
                                 </p>
                             </div>
 
@@ -169,7 +169,7 @@ export const UnlockRewardsProofStudy = () => {
                                     Earn NTH Tokens
                                 </p>
                                 <p className="opacity-70 text-white">
-                                    Earn NTH Tokens for completing <br /> free courses, rewarding your progress.
+                                    Unlock rewards by earning NTH Tokens as you complete free courses and advance your skills.
                                 </p>
                             </div>
 
@@ -180,10 +180,10 @@ export const UnlockRewardsProofStudy = () => {
                             <img src={StudyListIcon} className="size-8" />
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Get into a consistent <br /> study habit
+                                    Build a Consistent Study Habit
                                 </p>
                                 <p className="opacity-70 text-white">
-                                    Develop a habit of regular and continuous study.
+                                    Cultivate a regular and continuous study routine to ensure steady progress in your learning journey.
                                 </p>
                             </div>
 
@@ -191,13 +191,13 @@ export const UnlockRewardsProofStudy = () => {
                         <div className="h-[68px] border border-white opacity-20" />
 
                         <div className="w-full rounded-xl flex flex-col border p-6 gap-4 border-white border-opacity-20 bg-white bg-opacity-[0.02]">
-                            <img src={StudyListIcon} className="size-8" />
+                            <img src={DatabaseIcon} className="size-8"/>
                             <div className="flex flex-col gap-1">
                                 <p className="text-white text-lg font-semibold">
-                                    Learn to invest
+                                    Expand Your Financial Knowledge
                                 </p>
                                 <p className="opacity-70 text-white">
-                                    Use your NTH Tokens to explore investments and expand your financial knowledge.
+                                    Leverage your NTH Tokens to explore investment opportunities and deepen your understanding of finance.
                                 </p>
                             </div>
 

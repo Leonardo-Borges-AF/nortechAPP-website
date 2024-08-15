@@ -270,7 +270,7 @@ const Component3 = () => {
     />
     <Card
       icon={solar}
-      title="Easy-to-Use Tools for Monetization:"
+      title="Easy-to-Use Tools for Monetization"
       description="Use Nortech’s user-friendly affiliate tools to create referral links and efficiently monetize your traffic."
       className="bg-white md:top-[57%] md:left-[35%] z-30 bg-opacity-80"
     />

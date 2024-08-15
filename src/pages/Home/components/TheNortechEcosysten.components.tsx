@@ -868,7 +868,7 @@ export const TheNortechEcosystem = () => {
                             </p>
                         </div>
                         <p className="opacity-60 text-[#33363C]">
-                            Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
+                            Earn rewards as you learn! Our Proof of Study system incentivizes consistent engagement, turning your educational progress into NTH tokens.
                         </p>
                     </div>
                     {/* relative */}
@@ -896,11 +896,16 @@ export const TheNortechEcosystem = () => {
                             Embrace the future with seamless Web 3 integration. Benefit from secure, decentralized interactions that empower you in the digital economy.
                         </p>
                     </div>
-                    <div className="flex items-center gap-2 mb-8 mx-auto">
-                        <p className="text-[#6001D1] text-2xl font-sans">
-                            Read the whitepaper
-                        </p>
-                        <div className="bg-[#6001D1] p-3 rounded-full"><BsArrowRight className="size-5 text-white" /></div>
+                    <div className="flex gap-2 items-center justify-center">
+                        <a href="https://nortech.gitbook.io/nortech-whitepaper" target="_blank" rel="noopener noreferrer">
+                            <button className=" px-6 py-4 flex gap-4 items-center bg-[#6001D1] rounded-lg button-whitepaper-purple">
+                                <p className="text-white">
+                                    Read our Whitepaper
+                                </p>
+                                <FaArrowRightLong className="text-[#C594FF] size-4 icon1" />
+                                <FaArrowRightLong className="text-[#C594FF] size-4 icon2" />
+                            </button>
+                        </a>
                     </div>
                     
                 </div>

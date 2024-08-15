@@ -230,19 +230,19 @@ export const Session1 = () => {
               </p>
             </div>
             <h3 className="font-bold text-[30px] leading-[38px] text-center text-white font-sans">
-              Revolutionize Your Experience with the Nortech App
+              Embrace the Next Generation of Learning with Nortech
             </h3>
             <p className="text-white opacity-70 text-center">
-              Complete courses and reach your educational goals to earn NTH tokens as rewards.
+              Complete courses, achieve your learning goals, and get rewarded with NTH tokens.
             </p>
             <div className="flex flex-col gap-4 w-full">
               <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">
                 <button
-                  className="hidden md:flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button"
+                  className="flex gap-[10px] py-4 bg-[#9841FF] border-0 rounded-lg group animate-button w-full items-center justify-center"
                   style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
                   <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
                   <p className="text-white group-hover:text-black z-10">
-                    Join the whitelist
+                    Be First in Line
                   </p>
                 </button>
               </a>
@@ -257,39 +257,27 @@ export const Session1 = () => {
           <div className="w-full h-[305.79px] flex">
             <div className=" w-[517.29px] h-[305.79px] relative">
               <div className="items-center absolute flex top-[226.79px] left-[210.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-                <img src={coin} className="size-[10.6px]" />
+                <img src={NTH} className="size-5" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  + 5%
-                </p>
-                <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  More experiments
+                  Earn Rewards for Learning
                 </p>
               </div>
               <div className="items-center absolute flex top-[183.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-                <img src={coin} className="size-[10.6px]" />
+                <FaArrowTrendUp className="text-[#7e62d3] text-lg" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  + 25%
-                </p>
-                <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  Free developer time per month
+                  Higher Course Completion Rates
                 </p>
               </div>
               <div className="items-center absolute flex top-[140.79px] left-[175.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-                <img src={coin} className="size-[10.6px]" />
+                <PiStudentFill className="text-[#7e62d3] text-lg" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  + 39%
-                </p>
-                <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  Average conversion rate uplift
+                  Increased Student Retention
                 </p>
               </div>
               <div className="items-center absolute flex top-[97.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-                <img src={coin} className="size-[10.6px]" />
+                <FaArrowTrendDown className="text-[#7e62d3] text-lg" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  + 60%
-                </p>
-                <p className="text-[9.28px] leading-[13.25px] text-white ">
-                  Average ARPU increase
+                  Low Fees for Content Creators
                 </p>
               </div>
               <div className="absolute top-[72.73px] left-[53.14px] w-[301.12px] h-[160.11px] z-10 ">

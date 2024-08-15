@@ -171,8 +171,8 @@ export const UnlockExclusiveBenefits = () => {
                 </div>
             </div>
             {/* mobile */}
-            <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-white items-center relative flex flex-col">
-                <div className="flex flex-col max-w-[375px] mx-auto py-[82px] px-8 gap-8">
+            <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-white items-center relative flex flex-col h-fit">
+                <div className="flex flex-col max-w-[375px] mx-auto py-[82px] px-8 gap-8 h-fit">
                     <div className="flex flex-col gap-2 items-center w-full">
                         <div className="flex gap-1 items-center">
                             <img src={BenefitsIcon} className='w-7 h-7' />
@@ -272,7 +272,7 @@ export const UnlockExclusiveBenefits = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="md:w-[592px] h-[412px] rounded-xl flex flex-col p-6 gap-4 bg-[#FBFAFC] overflow-hidden">
+                        <div className="md:w-[592px] h-[520px] rounded-xl flex flex-col p-6 gap-4 bg-[#FBFAFC] overflow-hidden">
                             <div className="flex gap-2 ">
                                 <img src={shield} className="size-6" />
                                 <p className="text-[#0B0D12] font-bold ">

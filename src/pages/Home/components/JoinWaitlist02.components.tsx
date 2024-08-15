@@ -46,10 +46,10 @@ export const JoinWaitlist02 = () => {
           <div className="flex flex-col p-8 gap-6 max-w-[375px] mx-auto items-center">
             <div className="flex flex-col gap-3  items-center">
               <h3 className="font-sans font-semibold text-3xl leading-[44px] text-white text-center">
-                Join the Waitlist
+                Get Early Access to Nortech
               </h3>
               <p className="text-lg leading-7 text-center text-white opacity-70 font-semibold">
-                Be the first to access the innovative <br /> NortechApp. Sign up now and <br /> secure exclusive benefits and <br /> rewards!
+                Be among the first to experience the cutting-edge Nortech App. Sign up today to unlock exclusive perks and rewards!
               </p>
             </div>
             <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer">

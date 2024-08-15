@@ -74,24 +74,29 @@ export const CommonQuestions = () => {
             </div>
           </div>
           <div className="py-8 w-full flex flex-col gap-6">
-            <CardM
+            <Card
               title="What is Nortech App? "
-
+              content="Nortech App is a decentralized educational platform where you can buy, sell, and trade educational content. Users can earn rewards, receive verifiable NFT certificates, access courses, and benefit from additional features designed to enhance the learning experience."
             />
-            <CardM
+            <Card
               title="How do I earn rewards on Nortech App?"
+              content="Through the “Proof of Study” mechanism, you will be rewarded with NTH tokens for completion of courses. Upon completion, you also receive an NFT certificate that is secure and verifiable."
             />
-            <CardM
+            <Card
               title="What are NTH tokens and how are they used? "
+              content="NTH tokens are the currency of the Nortech App. Think of them as digital points or credits that you can use for everything on the platform. You can buy tokens within the platform or earn them by completing courses. You can then use these tokens to access more courses, vote on important decisions for the platform, stake for benefits, all while ensuring efficient and secure platform transactions."
             />
-            <CardM
+            <Card
               title="Who can participate in the Nortech App?"
+              content="Anyone interested in learning, teaching, or earning rewards through educational activities can use the Nortech App."
             />
-            <CardM
+            <Card
               title="How does integration with the blockchain make the platform secure?"
+              content="The integration makes the platform secure by ensuring that all transactions and data, including your course certificates, are stored on the blockchain, making them safe, easy to verify and impossible to fake."
             />
-            <CardM
+            <Card
               title="How do I become a content creator (Builder) on Nortech App?"
+              content="Create an account, sign up as a Builder, and start sharing your content. The more NTH tokens you stake, the more benefits you unlock, reflecting your commitment to the platform. You can receive payments for your courses in NTH tokens or cash"
             />
           </div>
         </div>
@@ -118,7 +123,9 @@ const Card = ({ title, content }: TCardProps) => {
     <div className="bg-[#F1F7F9] bg-opacity-5 p-8 rounded-lg h-fit">
       <div className="flex justify-between items-center cursor-pointer" onClick={toggleContent}>
         <label className="text-white">{title}</label>
-        <FiArrowDownCircle className={`text-white text-2xl transition-transform duration-500 ${isOpen ? 'rotate-180' : ''}`} />
+        <div className='size-5'>
+          <FiArrowDownCircle className={`text-white text-2xl transition-transform duration-500 ${isOpen ? 'rotate-180' : ''}`} />
+        </div>
       </div>
       <div
         className={` text-gray-400 overflow-hidden transition-all duration-500 ${isOpen ? 'max-h-screen' : 'max-h-0'}`}
@@ -133,16 +140,3 @@ const Card = ({ title, content }: TCardProps) => {
     </div>
   );
 };
-
-type TCardMProps = {
-  title: string
-}
-
-const CardM = ({ title }: TCardMProps) => {
-  return (
-    <div className="bg-[#F1F7F9] bg-opacity-5 p-8 rounded-lg flex gap-6 items-center">
-      <label className="text-white opacity-80 font-medium text-[17.3px] leading-[28.8px] tracking-[-0.09px]">{title}</label>
-      <img src={arrow} className="size-6" />
-    </div>
-  )
-}
