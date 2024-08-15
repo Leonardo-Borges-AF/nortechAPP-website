@@ -16,7 +16,11 @@ import login from "/images/login.png";
 import logoInterface from "/images/logoInterface.png";
 import nortechBadge from "/images/nortech-badge.png";
 import pay from "/images/pay to learn.png";
-
+import { ReactNode } from 'react';
+import { RiEmotionHappyFill } from "react-icons/ri";
+import { PiStudentFill } from "react-icons/pi";
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { FaArrowTrendDown } from "react-icons/fa6";
 
 
 export const Session1 = () => {
@@ -72,6 +76,7 @@ export const Session1 = () => {
                     left: "0px",
                     top: "0px",
                   }}
+                  icon={<RiEmotionHappyFill className="text-[#AE6BFF] text-2xl" />} 
                 />
                 
                 <Div
@@ -81,6 +86,7 @@ export const Session1 = () => {
                     left: "13px",
                     top: "212px",
                   }}
+                  icon={<FaArrowTrendUp className="text-[#AE6BFF] text-2xl" />} 
                 />
                 <Div
                   text1="Increased Student Retention"
@@ -89,6 +95,7 @@ export const Session1 = () => {
                     left: "321px",
                     top: "76px",
                   }}
+                  icon={<PiStudentFill className="text-[#AE6BFF] text-2xl" />}
                 />
                 <Div
                   text1="Low Fees for Content Creators"
@@ -97,6 +104,7 @@ export const Session1 = () => {
                     left: "380px",
                     top: "241px",
                   }}
+                  icon={<FaArrowTrendDown className="text-[#AE6BFF] text-2xl" />}
                 />
               </div>
               <div className="absolute w-[709px] h-[377px] top-[171px] left-[297px]">
@@ -374,18 +382,22 @@ export const Session1 = () => {
 
 };
 
+
 type TDiv = {
-  text1: string
-  text2: string
+  text1: string;
+  text2: string;
   position: {
     left: string;
     top: string;
   };
+  icon: ReactNode; // Adicionando uma nova propriedade para o ícone
 };
+
 const Div = ({
   text1,
   text2,
   position,
+  icon,
 }: TDiv) => {
   return (
     <div
@@ -396,9 +408,10 @@ const Div = ({
         left: position.left,
         top: position.top,
       }}>
-      <img src={coin} alt="" className="size-6 text-[#AE6BFF] " />
+      {icon} {/* Renderizando o ícone passado como propriedade */}
       <p className="text-white leading-7 font-main text-base">{text1}</p>
       <p className="text-white leading-7 font-main text-base">{text2}</p>
     </div>
   );
 };
+
