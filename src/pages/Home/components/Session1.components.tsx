@@ -66,34 +66,35 @@ export const Session1 = () => {
             <div className="w-[1218px] h-[720px] relative">
               <div className="w-[693px] h-[283px] absolute top-[195px] left-[175px]">
                 <Div
-                  text1="+ 60%"
-                  text2="Average ARPU increase"
+                  text1="Earn Rewards for Learning"
+                  text2=""
                   position={{
                     left: "0px",
                     top: "0px",
                   }}
                 />
+                
                 <Div
-                  text1="+ 25%"
-                  text2="Free developer time per month"
+                  text1="Higher Course Completion Rates"
+                  text2=""
                   position={{
                     left: "13px",
                     top: "212px",
                   }}
                 />
                 <Div
-                  text1="+ 39%"
-                  text2="Average conversion rate uplift"
+                  text1="Increased Student Retention"
+                  text2=""
                   position={{
                     left: "321px",
                     top: "76px",
                   }}
                 />
                 <Div
-                  text1="+5%"
-                  text2="More experiments"
+                  text1="Low Fees for Content Creators"
+                  text2=""
                   position={{
-                    left: "435px",
+                    left: "380px",
                     top: "241px",
                   }}
                 />
