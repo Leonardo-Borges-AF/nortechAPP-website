@@ -12,14 +12,15 @@ import LogoNortechApp from "/images/logo-nortechapp(footer).png";
 export const Footer = () => {
   return (
     <div className="">
-      <div className="px-28 py-20 flex gap-[10px] border-t border-t-white border-opacity-15 bg-white z-50 md:block sm:hidden xs:hidden">
+      <div className="px-28 py-20 flex gap-[100px] border-t border-t-white border-opacity-15 bg-white z-50 md:block sm:hidden xs:hidden">
+
         <div className="flex flex-col gap-[148px] max-w-[1440px] mx-auto">
-          <div className="flex gap-28">
+          <div className="flex justify-between">
             <div className="flex flex-col gap-10">
               <div className="flex flex-col gap-6">
                 <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 " />
                 <p className="text-[#212529]">
-                  Your best crypto partner.
+                  Open Educational Hub in Web 3.0
                 </p>
               </div>
 
@@ -33,7 +34,35 @@ export const Footer = () => {
 
             </div>
 
-            
+            <div className="flex flex-col gap-1">
+              <p className="text-black font-bold text-lg">
+                Sessions
+              </p>
+              <a href="" className="text-black ">
+                Community
+              </a>
+              <div className="w-full border border-[#DEE2E6]"/>
+              <a href="" className="text-black ">
+                NORTECH APP BENEFITS
+              </a>
+              <div className="w-full border border-[#DEE2E6]"/>
+              <a href="" className="text-black ">
+                Study habits
+              </a>
+              <div className="w-full border border-[#DEE2E6]"/>
+              <a href="" className="text-black ">
+                Earn NTH for Learning
+              </a>
+              <div className="w-full border border-[#DEE2E6]"/>
+              <a href="" className="text-black ">
+                About NORTECH
+              </a>
+              <div className="w-full border border-[#DEE2E6]"/>
+              <a href="" className="text-black ">
+                Frequently Asked Questions
+              </a>
+
+            </div>
           </div>
 
           <div className="flex py-8 border-t border-t-[#DEE2E6] justify-between ">
@@ -49,7 +78,9 @@ export const Footer = () => {
           </div>
 
         </div>
+        
       </div>
+      
 
       {/* mobile */}
       <div className="sm:block md:hidden lg:hidden xl:hidden w-full bg-white items-center">
@@ -57,7 +88,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-6 ">
             <img src={LogoNortechApp} alt="logo" className="w-[169px] h-10 z-10 " />
             <p className="text-[#212529] ">
-              Your best crypto partner.
+              Open Educational Hub in Web 3.0
             </p>
             <div className="flex gap-6 ">
                 <a href="https://www.linkedin.com/company/nortechapp" target="_blank" rel="noopener noreferrer"><PiLinkedinLogoThin className="size-[35px] hover:text-[#6001D1]" /></a>

@@ -21,7 +21,7 @@ export const CommonQuestions = () => {
               Frequently Asked Questions
             </h2>
             <label className="text-sm text-white text-end ">
-              <span className="opacity-60">The FAQ didn't help? Send an email to <br /> </span> <b className="underline text-white">contactnortech@gmail.com</b>
+              <span className="opacity-60">The FAQ didn't help? Send an email to <br /> </span> <b className="underline text-white">support@nortech.app</b>
             </label>
           </div>
           <div className="grid grid-cols-2 gap-6 py-8">
@@ -118,13 +118,18 @@ const Card = ({ title, content }: TCardProps) => {
     <div className="bg-[#F1F7F9] bg-opacity-5 p-8 rounded-lg">
       <div className="flex justify-between items-center cursor-pointer" onClick={toggleContent}>
         <label className="text-white">{title}</label>
-        <FiArrowDownCircle className="text-white text-2xl" />
+        <FiArrowDownCircle className={`text-white text-2xl transition-transform duration-500 ${isOpen ? 'rotate-180' : ''}`} />
       </div>
-      {isOpen && (
-        <div className="mt-4 text-white">
-          {content}
-        </div>
-      )}
+      <div
+        className={` text-gray-400 overflow-hidden transition-all duration-500 ${isOpen ? 'max-h-screen' : 'max-h-0'}`}
+        style={{ transitionDuration: '500ms' }}
+      >
+        {isOpen && (
+          <div className="py-4">
+            {content}
+          </div>
+        )}
+      </div>
     </div>
   );
 };
