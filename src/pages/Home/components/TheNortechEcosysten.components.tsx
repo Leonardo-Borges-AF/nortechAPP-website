@@ -395,12 +395,20 @@ export const TheNortechEcosystem = () => {
                                 <div className="w-full relative h-[286px] overflow-hidden">
 
                                     <div className="p-6  rounded-2xl flex flex-col absolute top-[27px] gap-4 items-center border-x-[10px] border-t-[10px] border-[#F6F5F7] w-full">
-                                        <div className="flex gap-1 w-full">
-                                            <img src={arrow} alt="" className="size-6" />
-                                            <h5 className="text-[#6001D1] font-semibold text-sm ">
-                                                IA Learning
-                                            </h5>
+                                        <div className="flex justify-between w-full">
+                                            <div className="flex gap-1 items-center">
+                                                <img src={arrow} alt="" className="size-6" />
+                                                <h5 className="text-[#6001D1] font-semibold text-sm ">
+                                                    AI Learning
+                                                </h5>
+                                            </div>
+                                            <div className="w-fit rounded-full  bg-[#6001D1] px-3 py-2 shadow-md hover:">
+                                                <p className="text-white text-xs font-medium">
+                                                    Coming Soon
+                                                </p>
+                                            </div>
                                         </div>
+                                        
                                         <div className="w-full border border-[#F1F1F1]" />
                                         <div className="flex">
                                             <div className="relative overflow-hidden">
@@ -434,11 +442,12 @@ export const TheNortechEcosystem = () => {
                                     </div>
 
                                 </div>
-                                <div className="flex gap-2">
+                                <div className="flex gap-2 items-center">
                                     <img src={chip} alt="" className="size-6" />
                                     <h5 className="font-bold">
                                         AI-Driven Learning
                                     </h5>
+                                    
                                 </div>
                                 <p className="text-[#33363C] leading-6 text-opacity-60 w-full">
                                     Experience personalized education with AI that adapts to your learning style. It optimizes your journey for maximum growth and success.
@@ -506,7 +515,7 @@ export const TheNortechEcosystem = () => {
                                     Navigate with ease through an intuitive interface designed to enhance your learning experience. Education couldn’t be more accessible and enjoyable.
                                 </p>
                             </div>
-                            <div className="w-[592px] h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-[#FBFAFC]"
+                            <div className="w-[592px] h-[425px] rounded-xl pt-6 px-6 flex flex-col gap-4 bg-[#FBFAFC] "
                                 style={{
                                     backgroundImage: `url(${"grade"})`,
                                 }}
@@ -530,7 +539,7 @@ export const TheNortechEcosystem = () => {
                                         Web 3 Integration
                                     </h5>
                                 </div>
-                                <p className="w-[328px] opacity-60 text-[#33363C]">
+                                <p className="w-[328px] opacity-60 text-[#33363C] mb-2">
                                     Embrace the future with seamless Web 3 integration. Benefit from secure, decentralized interactions that empower you in the digital economy.
                                 </p>
                             </div>
@@ -768,8 +777,9 @@ export const TheNortechEcosystem = () => {
                                 <div className="flex gap-1 ">
                                     <img src={arrow} alt="" className="size-6" />
                                     <h4 className="text-[#6001D1] text-sm font-semibold">
-                                        IA Learning
+                                        AI Learning
                                     </h4>
+                                    
                                 </div>
                                 <div className="w-full border border-[#F1F1F1]" />
                                 <div className="flex gap-4 ">
@@ -862,7 +872,7 @@ export const TheNortechEcosystem = () => {
                         </p>
                     </div>
                     {/* relative */}
-                    <div className="w-full h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-[#FBFAFC] items-center ">
+                    <div className="w-full h-[412px] rounded-xl p-6 flex flex-col gap-4 bg-[#FBFAFC] items-center pb-">
                         <div className="w-[263px] h-[212px] relative overflow-hidden">
                             <div className="absolute bg-white drop-shadow-md size-[56px] rounded-full top-[-3px] left-[188px]"></div>
                             <div className="absolute bg-white drop-shadow-md size-[56px] rounded-full top-[141px] left-[18px]"></div>
@@ -892,6 +902,7 @@ export const TheNortechEcosystem = () => {
                         </p>
                         <div className="bg-[#6001D1] p-3 rounded-full"><BsArrowRight className="size-5 text-white" /></div>
                     </div>
+                    
                 </div>
 
             </div>

@@ -59,7 +59,7 @@ export const Community = () => {
   // }, []);
 
   return (
-    <div id="community-session" className="overflow-x-hidden">
+    <div id="comm" className="overflow-x-hidden">
       <div className="bg-background-primary px-4 py-16 pb-0 md:p-20 md:pb-0 w-full">
         <div className="relative z-20 flex flex-col gap-8 max-w-[1184px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">

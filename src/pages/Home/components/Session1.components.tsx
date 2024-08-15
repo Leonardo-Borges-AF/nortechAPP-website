@@ -16,16 +16,17 @@ import login from "/images/login.png";
 import logoInterface from "/images/logoInterface.png";
 import nortechBadge from "/images/nortech-badge.png";
 import pay from "/images/pay to learn.png";
+import NTH from "/images/Logo_NTH_Token.png";
 import { ReactNode } from 'react';
-import { RiEmotionHappyFill } from "react-icons/ri";
 import { PiStudentFill } from "react-icons/pi";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaArrowTrendDown } from "react-icons/fa6";
 
 
+
 export const Session1 = () => {
   return (
-    <div className="">
+    <div className="" id="session1">
       <div className="bg-[#120D17] relative h-[924px] w-full overflow-hidden z-10 md:block sm:hidden xs:hidden">
         <img src={Background} className="absolute opacity-10 w-[2471px] h-[1340px] top-[-500px] rotate-45" />
         <div className="relative pb-[82px] pt-[20px] flex w-full mx-auto max-w-[1440px] mt-16">
@@ -67,6 +68,7 @@ export const Session1 = () => {
 
               </div>
             </div>
+            
             <div className="w-[1218px] h-[720px] relative">
               <div className="w-[693px] h-[283px] absolute top-[195px] left-[175px]">
                 <Div
@@ -76,7 +78,7 @@ export const Session1 = () => {
                     left: "0px",
                     top: "0px",
                   }}
-                  icon={<RiEmotionHappyFill className="text-[#AE6BFF] text-2xl" />} 
+                  icon={<img src={NTH} className="size-6" />} 
                 />
                 
                 <Div
@@ -86,7 +88,7 @@ export const Session1 = () => {
                     left: "13px",
                     top: "212px",
                   }}
-                  icon={<FaArrowTrendUp className="text-[#AE6BFF] text-2xl" />} 
+                  icon={<FaArrowTrendUp className="text-[#7e62d3] text-2xl" />} 
                 />
                 <Div
                   text1="Increased Student Retention"
@@ -95,7 +97,7 @@ export const Session1 = () => {
                     left: "321px",
                     top: "76px",
                   }}
-                  icon={<PiStudentFill className="text-[#AE6BFF] text-2xl" />}
+                  icon={<PiStudentFill className="text-[#7e62d3] text-2xl" />}
                 />
                 <Div
                   text1="Low Fees for Content Creators"
@@ -104,7 +106,7 @@ export const Session1 = () => {
                     left: "380px",
                     top: "241px",
                   }}
-                  icon={<FaArrowTrendDown className="text-[#AE6BFF] text-2xl" />}
+                  icon={<FaArrowTrendDown className="text-[#7e62d3] text-2xl" />}
                 />
               </div>
               <div className="absolute w-[709px] h-[377px] top-[171px] left-[297px]">
@@ -195,7 +197,7 @@ export const Session1 = () => {
                             </h5>
                           </div>
                           <p className="text-[#9B9B9B] text-xs ">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum neque at ultrices placerat. Cras maximus ipsum ex, in pellentesque magna tincidunt in.
+                            Learn how blockchain is transforming industries, explore the mechanics of cryptocurrencies, and discover the impact of smart contracts. Ideal for professionals looking to deepen their knowledge and leverage blockchain for future opportunities.
                           </p>
                           <div className="flex rounded-lg px-[14px] py-[7px] gap-[7px] bg-[#9841FF] items-center">
                             <img src={add} alt="" className="size-[18.62px] " />

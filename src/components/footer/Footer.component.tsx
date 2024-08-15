@@ -14,7 +14,7 @@ export const Footer = () => {
     <div className="">
       <div className="px-28 py-20 flex gap-[100px] border-t border-t-white border-opacity-15 bg-white z-50 md:block sm:hidden xs:hidden">
 
-        <div className="flex flex-col gap-[148px] max-w-[1440px] mx-auto">
+        <div className="flex flex-col gap-[90px] max-w-[1440px] mx-auto">
           <div className="flex justify-between">
             <div className="flex flex-col gap-10">
               <div className="flex flex-col gap-6">
@@ -34,46 +34,43 @@ export const Footer = () => {
 
             </div>
 
-            <div className="flex flex-col gap-1">
-              <p className="text-black font-bold text-lg">
-                Sessions
-              </p>
-              <a href="" className="text-black ">
-                Community
-              </a>
-              <div className="w-full border border-[#DEE2E6]"/>
-              <a href="" className="text-black ">
-                NORTECH APP BENEFITS
-              </a>
-              <div className="w-full border border-[#DEE2E6]"/>
-              <a href="" className="text-black ">
-                Study habits
-              </a>
-              <div className="w-full border border-[#DEE2E6]"/>
-              <a href="" className="text-black ">
-                Earn NTH for Learning
-              </a>
-              <div className="w-full border border-[#DEE2E6]"/>
-              <a href="" className="text-black ">
-                About NORTECH
-              </a>
-              <div className="w-full border border-[#DEE2E6]"/>
-              <a href="" className="text-black ">
-                Frequently Asked Questions
-              </a>
-
+            <div className="flex gap-[130px]">
+              <div className="flex flex-col gap-8">
+                <a href="#comm" className="text-black font-medium hover:text-[#6001D1]">
+                  Community
+                </a>
+                <a href="#benefits" className="text-black font-medium hover:text-[#6001D1]">
+                  Nortech APP benefits
+                </a>
+                <a href="#study" className="text-black font-medium hover:text-[#6001D1]">
+                  Study habits
+                </a>
+                
+              </div>
+              <div className="flex flex-col gap-8">
+                <a href="" className="text-black font-medium hover:text-[#6001D1]">
+                  Earn NTH for Learning
+                </a>
+                <a href="" className="text-black font-medium hover:text-[#6001D1]">
+                  About Nortech
+                </a>
+                <a href="" className="text-black font-medium hover:text-[#6001D1]">
+                  Frequently asked questions
+                </a>
+              </div>
             </div>
+            
           </div>
 
           <div className="flex py-8 border-t border-t-[#DEE2E6] justify-between ">
             <p className="font-main text-[#212529]">
-              © 2024 Nortech Api Solutions | All rights reserved
+              © 2024 Nortech Protocol DAO LLC | All rights reserved
             </p>
 
             <div className="flex gap-5 ">
-              <a href="" className="text-[#212529]">Term of Service</a>
+              <a href="" className="text-[#212529] hover:text-[#6001D1]">Term of Service</a>
               <div className="h-6 border border-[#DEE2E6]" />
-              <a href="" className="text-[#212529]">Privacy Policy</a>
+              <a href="" className="text-[#212529] hover:text-[#6001D1]">Privacy Policy</a>
             </div>
           </div>
 

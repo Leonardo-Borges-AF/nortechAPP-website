@@ -21,7 +21,7 @@ export const CommonQuestions = () => {
               Frequently Asked Questions
             </h2>
             <label className="text-sm text-white text-end ">
-              <span className="opacity-60">The FAQ didn't help? Send an email to <br /> </span> <b className="underline text-white">support@nortech.app</b>
+              <span className="opacity-60">The FAQ didn't help? Send an email to <br /> </span> <a href="mailto:support@nortech.app"><b className="underline text-white">support@nortech.app</b></a>
             </label>
           </div>
           <div className="grid grid-cols-2 gap-6 py-8">
@@ -66,10 +66,10 @@ export const CommonQuestions = () => {
             </div>
             <div className="w-full text-center">
               <p className="text-white opacity-60 font-main text-[19.22px] leading-8">
-                FAQ não te ajudou? <br />Envie um e-mail para contato
+                The FAQ didn't help? <br />Send an email to
               </p>
-              <a href="" className="text-white text-[19.22px] leading-8 underline font-semibold">
-                nortech@gmail.com
+              <a href="mailto:support@nortech.app" className="text-white text-[19.22px] leading-8 underline font-semibold">
+                support@nortech.app
               </a>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Card = ({ title, content }: TCardProps) => {
   };
 
   return (
-    <div className="bg-[#F1F7F9] bg-opacity-5 p-8 rounded-lg">
+    <div className="bg-[#F1F7F9] bg-opacity-5 p-8 rounded-lg h-fit">
       <div className="flex justify-between items-center cursor-pointer" onClick={toggleContent}>
         <label className="text-white">{title}</label>
         <FiArrowDownCircle className={`text-white text-2xl transition-transform duration-500 ${isOpen ? 'rotate-180' : ''}`} />
