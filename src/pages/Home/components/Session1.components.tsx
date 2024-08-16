@@ -257,7 +257,7 @@ export const Session1 = () => {
           <div className="w-full h-[305.79px] flex">
             <div className=" w-[517.29px] h-[305.79px] relative">
               <div className="floating items-center absolute flex top-[226.79px] left-[210.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-                <img src={NTH} className="size-5 w-fit" />
+                <img src={NTH} className="size-5" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
                   Earn Rewards for Learning
                 </p>
