@@ -243,7 +243,7 @@ export const UnlockExclusiveBenefits = () => {
                             </p>
                             <div className="w-[544px] h-[260px] relative ">
                                 {/* relative ta aquiiiiiiiiiiiii */}
-                                <div className="bg-[#6001D1] rounded-full p-4 absolute top-[112.82px] left-[104.6px] drop-shadow h-fit w-fit z-10">
+                                <div className="bg-[#6001D1] rounded-full p-4 absolute top-[112.82px] left-[104.6px] drop-shadow h-fit w-fit z-0">
                                     <img src={Nnortech} className="size-18px" />
                                 </div>
                                 <div className="floating absolute bg-white rounded-full top-[18px] left-[-29px] flex gap-1 py-2 px-3 drop-shadow-lg items-center">
@@ -252,19 +252,19 @@ export const UnlockExclusiveBenefits = () => {
                                         Participation in Feedback and Development
                                     </p>
                                 </div>
-                                <div className="floating absolute bg-white rounded-full top-[77px] left-[-3px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-0">
+                                <div className="floating absolute bg-white rounded-full top-[77px] left-[-3px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-10">
                                     <img src={CryptoCircleIcon} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         First to Test New Features
                                     </p>
                                 </div>
-                                <div className="floating absolute bg-white rounded-full top-[161px] left-[77px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-0">
+                                <div className="floating absolute bg-white rounded-full top-[161px] left-[77px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-10">
                                     <img src={NortechIcon} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         Bonus on NTH Tokens
                                     </p>
                                 </div>
-                                <div className="floating absolute bg-white rounded-full top-[221px] left-[-17px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-0">
+                                <div className="floating absolute bg-white rounded-full top-[221px] left-[-17px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-10">
                                     <img src={cointGrowth} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         Achievements and Special Rewards
