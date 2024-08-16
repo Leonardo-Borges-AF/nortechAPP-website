@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { FiArrowDownCircle } from "react-icons/fi";
 import Background from "/images/background-1.png";
-import arrow from "/images/icons/Arrow-down.png";
 
 export const CommonQuestions = () => {
   return (
@@ -60,7 +59,7 @@ export const CommonQuestions = () => {
               <p className="opacity-60 text-white font-medium">
                 CLEAR YOUR DOUBTS
               </p>
-              <p className="text-white font-semibold text-3xl font-sans">
+              <p className="text-white font-semibold text-3xl font-sans text-center">
                 Frequently Asked Questions
               </p>
             </div>

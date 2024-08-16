@@ -209,19 +209,19 @@ export const UnlockExclusiveBenefits = () => {
                                     Email received
                                 </p>
                                 <div className="w-[330px] h-[196px] rounded-lg bg-[#F2E8FF]" />
-                                <div className="absolute rounded-full top-[105px] left-[15px] py-2 px-3 flex gap-1 bg-white drop-shadow-md">
+                                <div className="absolute rounded-full top-[105px] left-[15px] py-2 px-3 flex gap-1 bg-white drop-shadow-lg">
                                     <img src={NortechIcon} />
                                     <p className="text-[#3A3D43] text-sm">
                                         +200 NTH Tokens
                                     </p>
                                 </div>
-                                <div className="absolute rounded-full top-[155px] left-[90px] py-2 px-3 flex gap-1 bg-white drop-shadow-md">
+                                <div className="absolute rounded-full top-[155px] left-[90px] py-2 px-3 flex gap-1 bg-white drop-shadow-lgd">
                                     <img src={CertificateIcon} />
                                     <p className="text-[#3A3D43] text-sm">
                                         Certificate received
                                     </p>
                                 </div>
-                                <div className="absolute rounded-full top-[205px] left-[15px] py-2 px-3 flex gap-1 bg-white drop-shadow-md">
+                                <div className="absolute rounded-full top-[205px] left-[15px] py-2 px-3 flex gap-1 bg-white drop-shadow-lg">
                                     <img src={CryptoCircleIcon} />
                                     <p className="text-[#3A3D43] text-sm">
                                         Congratulations on signing up
@@ -246,25 +246,25 @@ export const UnlockExclusiveBenefits = () => {
                                 <div className="bg-[#6001D1] rounded-full p-4 absolute top-[112.82px] left-[104.6px] drop-shadow h-fit w-fit z-10">
                                     <img src={Nnortech} className="size-18px" />
                                 </div>
-                                <div className="absolute bg-white rounded-full top-[18px] left-[-29px] flex gap-1 py-2 px-3 drop-shadow-md items-center">
+                                <div className="absolute bg-white rounded-full top-[18px] left-[-29px] flex gap-1 py-2 px-3 drop-shadow-lg items-center">
                                     <img src={list} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         Participation in Feedback and Development
                                     </p>
                                 </div>
-                                <div className="absolute bg-white rounded-full top-[77px] left-[-3px] flex gap-1 py-2 px-3 drop-shadow-md items-center z-0">
+                                <div className="absolute bg-white rounded-full top-[77px] left-[-3px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-0">
                                     <img src={CryptoCircleIcon} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         First to Test New Features
                                     </p>
                                 </div>
-                                <div className="absolute bg-white rounded-full top-[161px] left-[77px] flex gap-1 py-2 px-3 drop-shadow-md items-center z-0">
+                                <div className="absolute bg-white rounded-full top-[161px] left-[77px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-0">
                                     <img src={NortechIcon} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         Bonus on NTH Tokens
                                     </p>
                                 </div>
-                                <div className="absolute bg-white rounded-full top-[221px] left-[-17px] flex gap-1 py-2 px-3 drop-shadow-md items-center z-0">
+                                <div className="absolute bg-white rounded-full top-[221px] left-[-17px] flex gap-1 py-2 px-3 drop-shadow-lg items-center z-0">
                                     <img src={cointGrowth} className="size-5" />
                                     <p className="text-[#3A3D43] text-xs">
                                         Achievements and Special Rewards
