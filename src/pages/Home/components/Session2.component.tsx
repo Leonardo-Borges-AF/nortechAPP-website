@@ -59,17 +59,17 @@ export const Session2 = () => {
                   ABOUT NORTECH
                 </h4>
               </div>
-              <p className={`font-sans font-semibold leading-[44px] text-4xl ${titleStyle}`}>
+              <p className={`font-sans font-semibold leading-[44px] md:text-4xl text-3xl ${titleStyle}`}>
                 Experience a New Way <br />to Learn and Grow
 
               </p>
             </div>
-            <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
+            <p className={`font-main font-normal md:text-[19.22px] text-base leading-8 ${descriptionStyle} tracking-[-0.1]`}>
               Nortech is more than an education platform; it’s a gamified learning experience designed to fuel your
               growth. Explore a vast library of high-quality courses and connect with a thriving network of professionals,
               all within the Nortech App
             </p>
-            <p className={`font-main font-normal text-[19.22px] leading-8 ${descriptionStyle} tracking-[-0.1]`}>
+            <p className={`font-main font-normal md:text-[19.22px] text-bas leading-8 ${descriptionStyle} tracking-[-0.1]`}>
               With every step you take, you’ll earn NTH tokens, which unlock exclusive resources and opportunities
               to actively shape the future of education.
             </p>
@@ -79,10 +79,10 @@ export const Session2 = () => {
             <div className="flex flex-col gap-[27.5px] ">
               <div className="flex flex-col gap-8 ">
                 <div className="flex gap-4 hover:cursor-pointer" onClick={handleEstudante}>
-                  <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle1}`}>
+                  <h3 className={`font-main font-medium leading-10 md:text-[32px] text-2xl ${optionStyle1}`}>
                     01
                   </h3>
-                  <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle1}`}>
+                  <h3 className={`font-main font-medium leading-10 md:text-[31.38px] text-2xl ${optionStyle1}`}>
                     Students
                   </h3>
                 </div>
@@ -90,20 +90,20 @@ export const Session2 = () => {
 
               </div>
               <div className="flex gap-4 hover:cursor-pointer" onClick={handleProfessor}>
-                <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle2}`}>
+                <h3 className={`font-main font-medium leading-10 md:text-[32px] text-2xl ${optionStyle2}`}>
                   02
                 </h3>
-                <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle2}`}>
+                <h3 className={`font-main font-medium leading-10 md:text-[31.38px] text-2xl ${optionStyle2}`}>
                   Educators
                 </h3>
               </div>
               {selected === 2 && <ProgresiveBar onComplete={() => handleComplete(3)} selected={selected} />}
 
               <div className="flex gap-4 hover:cursor-pointer" onClick={handleAfiliado}>
-                <h3 className={`font-main font-medium leading-10 text-[32px] ${optionStyle3}`}>
+                <h3 className={`font-main font-medium leading-10 md:text-[32px] text-2xl ${optionStyle3}`}>
                   03
                 </h3>
-                <h3 className={`font-main font-medium leading-10 text-[31.38px] ${optionStyle3}`}>
+                <h3 className={`font-main font-medium leading-10 md:text-[31.38px] text-2xl ${optionStyle3}`}>
                   Affiliates
                 </h3>
               </div>

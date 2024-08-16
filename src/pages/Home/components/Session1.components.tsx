@@ -242,13 +242,13 @@ export const Session1 = () => {
                   style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
                   <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
                   <p className="text-white group-hover:text-black z-10">
-                    Be First in Line
+                    Join the Waitlist
                   </p>
                 </button>
               </a>
               <button className="border rounded-lg bg-white bg-opacity-5 py-4 px-6 border-white border-opacity-15 items-center justify-center flex gap-2">
                 <p className="text-[#C594FF] font-semibold">
-                  Read the waithpaper
+                  Read the whitepaper
                 </p>
                 <FaArrowRightLong className="text-[#C594FF] size-4 " />
               </button>
@@ -256,25 +256,25 @@ export const Session1 = () => {
           </div>
           <div className="w-full h-[305.79px] flex">
             <div className=" w-[517.29px] h-[305.79px] relative">
-              <div className="items-center absolute flex top-[226.79px] left-[210.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
-                <img src={NTH} className="size-5" />
+              <div className="floating items-center absolute flex top-[226.79px] left-[210.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+                <img src={NTH} className="size-5 w-fit" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
                   Earn Rewards for Learning
                 </p>
               </div>
-              <div className="items-center absolute flex top-[183.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+              <div className="floating items-center absolute flex top-[183.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
                 <FaArrowTrendUp className="text-[#7e62d3] text-lg" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
                   Higher Course Completion Rates
                 </p>
               </div>
-              <div className="items-center absolute flex top-[140.79px] left-[175.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+              <div className=" floating items-center absolute flex top-[140.79px] left-[175.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
                 <PiStudentFill className="text-[#7e62d3] text-lg" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
                   Increased Student Retention
                 </p>
               </div>
-              <div className="items-center absolute flex top-[97.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
+              <div className="floating items-center absolute flex top-[97.79px] left-[20.14px] rounded-[59.64px] border-[0.66px] px-[9.28px] py-[5.3px] gap-[5.3px] bg-white bg-opacity-5 border-white border-opacity-10 z-20">
                 <FaArrowTrendDown className="text-[#7e62d3] text-lg" />
                 <p className="text-[9.28px] leading-[13.25px] text-white ">
                   Low Fees for Content Creators
@@ -283,7 +283,7 @@ export const Session1 = () => {
               <div className="absolute top-[72.73px] left-[53.14px] w-[301.12px] h-[160.11px] z-10 ">
                 <div className="h-[249.86px] absolute top-[-44px] left-[-34px] border border-[white] border-opacity-[0.12] bg-[#19191E] flex flex-col rounded-[7.59px]  ">
                   <div className="w-[336.15px] flex border-b-[0.37px] gap-[11.82px] px-[5.91px] py-[8.87px] border-white border-opacity-5 items-center">
-                    <img src={logoInterface} className="w-[44.84px] h-fit" />
+                    <img src={logoInterface} className="w-[44.84px] h-[11.96px]" />
                     <div className="h-[16.37px] flex w-[163.81px] rounded-[3.4px] border-[0.37px] justify-between items-center py-[3.7px] px-[5.91px] border-white border-opacity-5 ">
                       <p className="text-[5.17px] leading-[7.39px] text-white opacity-80">
                         Search here

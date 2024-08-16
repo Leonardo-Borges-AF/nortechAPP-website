@@ -848,13 +848,13 @@ export const TheNortechEcosystem = () => {
                                 </div>
                                 <div className="bg-[#F2E8FF] w-[454px] h-[100px] rounded-lg" />
                             </div>
-                            <div className="absolute top-[55px] left-[90px] rounded-full py-2 px-3 bg-white flex gap-1 drop-shadow-md">
+                            <div className="floating absolute top-[55px] left-[90px] rounded-full py-2 px-3 bg-white flex gap-1 drop-shadow-md">
                                 <img src={cent} className="size-6" />
                                 <p className="text-[#3A3D43] text-sm ">
                                     +200 NTH Tokens
                                 </p>
                             </div>
-                            <div className="absolute top-[150px] left-[40px] rounded-full py-2 px-3 bg-white flex gap-1 drop-shadow-md">
+                            <div className="floating absolute top-[150px] left-[40px] rounded-full py-2 px-3 bg-white flex gap-1 drop-shadow-md">
                                 <img src={CertificateIcon} className="size-6" />
                                 <p className="text-[#3A3D43] text-sm ">
                                     Certificate received
