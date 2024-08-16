@@ -171,7 +171,7 @@ export const TheNortechEcosystem = () => {
                                 Earn NTH for Learning
                             </h4>
                         </div>
-                        <p className="font-sans font-semibold text-4xl leading-[44px] text-[#0B0D12] mx-auto text-center">
+                        <p className="font-sans font-semibold text-4xl leading-[44px] text-[#0B0D12] ">
                             The Nortech Ecosysten
                         </p>
                     </div>
@@ -573,7 +573,7 @@ export const TheNortechEcosystem = () => {
                                 Earn NTH for Learning
                             </p>
                         </div>
-                        <h3 className="text-[#0B0D12] text-3xl font-semibold font-sans">
+                        <h3 className="text-[#0B0D12] text-3xl font-semibold font-sans text-center mx-auto">
                             The Nortech Ecosysten
                         </h3>
                     </div>
