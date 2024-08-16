@@ -11,7 +11,7 @@ export const Header = () => {
       zIndex: 1000,
     }}>
       <div className="w-[650px] flex gap-6 items-center">
-        <img src={LogoNortechApp} alt="logo NortechAPP" className="h-[36px] w-[153px]" />
+        <img src={LogoNortechApp} alt="logo NortechAPP" className="h-[40px] w-[153px]" />
         <div className="hidden md:flex border w-[22px] bg-white opacity-20 rotate-90 h-[1px]" />
         <div className="hidden md:flex gap-2">
           <h3 className=" text-white text-base">
