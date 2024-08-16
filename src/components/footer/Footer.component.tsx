@@ -96,7 +96,7 @@ export const Footer = () => {
           </div>
           <div className="w-full border-t py-8 flex flex-col gap-6 border-[#DEE2E6]">
             <p className="text-[#212529] font-main leading-6">
-              © 2024 Nortech Api Solutions | All rights reserved
+              © 2024 Nortech Protocol DAO LLC | All rights reserved
             </p>
           </div>
           <div className="flex gap-5 ">
