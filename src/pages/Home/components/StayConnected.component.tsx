@@ -20,7 +20,7 @@ export const StayConnected = () => {
                     <span className="text-[#505358] leading-7 text-lg font-normal">Follow us on social media to stay updated with the latest news, tips, and community highlights from Nortech.</span>
 
                     <div className='flex gap-4 w-full'>
-                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' target="_blank" rel="noopener noreferrer">
+                        <a href="https://discord.com/invite/K8kMCSE6K6" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' target="_blank" rel="noopener noreferrer">
                             <img src={DiscordIcon} className='m-auto h-full w-[325px]' />
                             <div className='flex flex-col gap-4 mt-auto'>
                                 <label className='font-bold text-3xl'>Join Our <span className='text-[#6001D1]'>Discord</span> Community</label>
@@ -28,7 +28,7 @@ export const StayConnected = () => {
                             </div>
                         </a>
 
-                        <a href="https://discord.gg/Uxb3qkhd" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' target="_blank" rel="noopener noreferrer">
+                        <a href="https://x.com/NortechApp" className='flex flex-col p-6 rounded-xl w-full min-w-[270px] bg-white hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' target="_blank" rel="noopener noreferrer">
                             <img src={XIcon} className='mx-auto py-28' />
                             <div className='flex flex-col gap-4 mt-auto'>
                                 <label className='font-bold text-3xl'>Follow Us on <span className='text-[#6001D1]'>X</span></label>
@@ -62,7 +62,7 @@ export const StayConnected = () => {
 
                     </div>
                     <div className=' flex flex-col gap-8 w-full '>
-                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col justify-center items-center hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
+                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col justify-center items-center hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' href="https://discord.com/invite/K8kMCSE6K6" target="_blank" rel="noopener noreferrer">
                             <div className='w-full h-[235px] flex justify-center'>
                                 <img src={DiscordIcon} className='w-[186.28px] h-[211.12px]' />
                             </div>
@@ -76,7 +76,7 @@ export const StayConnected = () => {
                             </div>
 
                         </a>
-                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer">
+                        <a className='w-full rounded-xl p-6 gap-6 bg-white flex flex-col hover:bg-[#6001D1] hover:bg-opacity-5 hover:shadow-lg transition duration-700' href="https://x.com/NortechApp" target="_blank" rel="noopener noreferrer">
                             <div className='w-full flex justify-center'>
                                 <img src={XIcon} className='w-[198.36px] h-[267px]' />
                             </div>

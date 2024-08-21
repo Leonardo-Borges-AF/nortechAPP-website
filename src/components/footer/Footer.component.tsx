@@ -28,7 +28,7 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/company/nortechapp" target="_blank" rel="noopener noreferrer"><PiLinkedinLogoThin className="size-[35px] hover:text-[#6001D1]" /></a>
                 <a href="https://www.instagram.com/nortechapp" target="_blank" rel="noopener noreferrer"><CiInstagram className="size-[35px] hover:text-[#6001D1]" /></a>
                 <a href="https://x.com/NortechApp" target="_blank" rel="noopener noreferrer"><FaXTwitter className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
-                <a href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer"><FaDiscord className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
+                <a href="https://discord.com/invite/K8kMCSE6K6" target="_blank" rel="noopener noreferrer"><FaDiscord className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
 
               </div>
 
@@ -91,7 +91,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/company/nortechapp" target="_blank" rel="noopener noreferrer"><PiLinkedinLogoThin className="size-[35px] hover:text-[#6001D1]" /></a>
               <a href="https://www.instagram.com/nortechapp" target="_blank" rel="noopener noreferrer"><CiInstagram className="size-[35px] hover:text-[#6001D1]" /></a>
               <a href="https://x.com/NortechApp" target="_blank" rel="noopener noreferrer"><FaXTwitter className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
-              <a href="https://discord.gg/Uxb3qkhd" target="_blank" rel="noopener noreferrer"><FaDiscord className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
+              <a href="https://discord.com/invite/K8kMCSE6K6" target="_blank" rel="noopener noreferrer"><FaDiscord className="size-[35px] opacity-70 hover:text-[#6001D1]" /></a>
             </div>
           </div>
           <div className="w-full border-t py-8 flex flex-col gap-6 border-[#DEE2E6]">
