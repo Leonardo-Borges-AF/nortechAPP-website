@@ -172,7 +172,7 @@ export const TheNortechEcosystem = () => {
                             </h4>
                         </div>
                         <p className="font-sans font-semibold text-4xl leading-[44px] text-[#0B0D12] ">
-                            The Nortech Ecosysten
+                            The Nortech Ecosystem
                         </p>
                     </div>
 
@@ -574,7 +574,7 @@ export const TheNortechEcosystem = () => {
                             </p>
                         </div>
                         <h3 className="text-[#0B0D12] text-3xl font-semibold font-sans text-center mx-auto">
-                            The Nortech Ecosysten
+                            The Nortech Ecosystem
                         </h3>
                     </div>
                     <div className="flex flex-col gap-8">
