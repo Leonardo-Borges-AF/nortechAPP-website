@@ -1,4 +1,3 @@
-import { LuMenu } from "react-icons/lu";
 import emails from "/images/icons/emails.png";
 import LogoNortechApp from "/images/logo-nortechapp.png";
 
@@ -35,8 +34,6 @@ export const Header = () => {
             </p>
           </button>
         </a>
-
-        <LuMenu className="text-white size-6" />
       </div>
     </div>
   );
