@@ -34,7 +34,7 @@ export const Session1 = () => {
                 <img src={pay} alt="" className="w-[123px] h-[32px]" />
                 <img src={arrow} alt="" className="w-12 h-3" />
                 <p className="text-2xl text-[#AE6BFF] font-sans font-normal leading-8">
-                  Learn to Earn
+                  Earn to Learn
                 </p>
               </div>
               <h2 className="text-white font-black text-5xl leading-[60px] font-sans z-10">
@@ -226,7 +226,7 @@ export const Session1 = () => {
               <img src={pay} alt="" className="w-[123px] h-[32px]" />
               <img src={arrow} alt="" className="w-12 h-3" />
               <p className="text-lg text-[#AE6BFF] font-sans font-normal leading-7">
-                Learn to Earn
+              Earn to Learn
               </p>
             </div>
             <h3 className="font-bold text-[30px] leading-[38px] text-center text-white font-sans">
