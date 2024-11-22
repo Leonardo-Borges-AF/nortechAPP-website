@@ -29,7 +29,7 @@ export const JoinWaitlist01 = () => {
               <img src={EmailIcon} className="size-6 group-hover:hidden" />
               <img src={emails} className="size-6 hidden group-hover:block relative z-10" />
               <p className="text-[#6001D1] group-hover:text-white z-10">
-                Join the whitelist
+                Join the waitlist
               </p>
             </button>
           </a>

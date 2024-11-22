@@ -30,7 +30,7 @@ export const Header = () => {
             style={{ boxShadow: "0px 8px 24px 0px #AE6BFF40" }}>
             <img src={emails} className="size-6 group-hover:filter group-hover:brightness-0 " />
             <p className="text-white group-hover:text-black z-10">
-              Join the whitelist
+              Join the waitlist
             </p>
           </button>
         </a>
